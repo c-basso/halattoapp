@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8f8a80"/>
+      <stop offset="0.25" stop-color="#ebe7de"/>
+      <stop offset="0.4" stop-color="#f9f7f1"/>
+      <stop offset="0.75" stop-color="#cfc9bd"/>
+      <stop offset="1" stop-color="#7b766c"/>
+    </linearGradient>
+    <linearGradient id="leather" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a3836"/>
+      <stop offset="1" stop-color="#1b1a19"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000" stop-opacity="0.3"/>
+      <stop offset="0.1" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#fff" stop-opacity="0.06"/>
+      <stop offset="0.9" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#faf8f2"/>
+      <stop offset="0.5" stop-color="#d4cfc4"/>
+      <stop offset="1" stop-color="#8f8a80"/>
+    </linearGradient>
+    <radialGradient id="barrel" cx="0.5" cy="0.45" r="0.55">
+      <stop offset="0.6" stop-color="#222120"/>
+      <stop offset="1" stop-color="#0d0d0c"/>
+    </radialGradient>
+    <radialGradient id="glass" cx="0.45" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#d9f06a"/>
+      <stop offset="0.35" stop-color="#3fb59a"/>
+      <stop offset="0.7" stop-color="#2b3c8a"/>
+      <stop offset="0.9" stop-color="#7a2a74"/>
+      <stop offset="1" stop-color="#0c0b14"/>
+    </radialGradient>
+    <linearGradient id="finder" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7d8ea8"/>
+      <stop offset="0.5" stop-color="#262d3c"/>
+      <stop offset="1" stop-color="#12151d"/>
+    </linearGradient>
+    <linearGradient id="meter" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b9bcc0"/>
+      <stop offset="1" stop-color="#6c7076"/>
+    </linearGradient>
+  </defs>
+
+  <!-- shutter button -->
+  <circle cx="404" cy="104" r="22" fill="url(#metal)"/>
+
+  <!-- body: metal top plate, leatherette front -->
+  <rect x="20" y="104" width="472" height="320" rx="26" fill="url(#leather)"/>
+  <rect x="20" y="104" width="472" height="92" rx="26" fill="url(#metal)"/>
+  <rect x="20" y="170" width="472" height="26" fill="url(#metal)"/>
+  <rect x="20" y="194" width="472" height="5" fill="#000" fill-opacity="0.3"/>
+  <rect x="20" y="104" width="472" height="320" rx="26" fill="url(#sheen)"/>
+  <rect x="22" y="106" width="468" height="316" rx="24" fill="none" stroke="#a49e92" stroke-opacity="0.6" stroke-width="4"/>
+
+  <!-- viewfinder and meter window in the top plate -->
+  <rect x="52" y="126" width="80" height="48" rx="10" fill="url(#finder)"/>
+  <rect x="60" y="132" width="28" height="7" rx="3.5" fill="#fff" fill-opacity="0.35"/>
+  <rect x="160" y="132" width="56" height="36" rx="8" fill="url(#meter)"/>
+  <rect x="160" y="132" width="56" height="36" rx="8" fill="none" stroke="#3a3836" stroke-opacity="0.6" stroke-width="3"/>
+
+  <!-- lens -->
+  <circle cx="256" cy="304" r="114" fill="#121110"/>
+  <circle cx="256" cy="304" r="108" fill="url(#ring)"/>
+  <circle cx="256" cy="304" r="90" fill="url(#barrel)"/>
+  <circle cx="256" cy="304" r="58" fill="url(#glass)"/>
+  <circle cx="256" cy="304" r="58" fill="none" stroke="#000" stroke-opacity="0.65" stroke-width="7"/>
+  <ellipse cx="236" cy="282" rx="18" ry="11" fill="#fff" fill-opacity="0.7" transform="rotate(-30 236 282)"/>
+</svg>
