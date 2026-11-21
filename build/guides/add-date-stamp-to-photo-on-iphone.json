@@ -1,10 +1,10 @@
 {
   "priority": 5,
   "keyword": "add date stamp to photo iphone",
-  "keywords": "add date stamp to photo iphone, orange date stamp, timestamp on photo iphone, date on photo like old camera, 90s date stamp, retro date stamp",
-  "title": "How to Add a Date Stamp to a Photo on iPhone (Retro Orange)",
+  "keywords": "add date stamp to photo iphone, orange date stamp, timestamp on photo iphone, date on photo like old camera, 90s date stamp, retro date stamp, add date to photo already taken, how to date stamp a photo on iphone, add date to photo iphone",
+  "title": "Add a Date Stamp to a Photo Already Taken on iPhone",
   "description": "iPhone can't print the date on a photo. Here's how to add the orange, old-camera date stamp using the day the photo was taken, plus corner, color and size tips.",
-  "h1": "How to add a date stamp to a photo on iPhone",
+  "h1": "How to add a date stamp to a photo on iPhone, even one already taken",
   "eyebrow": "Date stamp",
   "card_title": "Add the orange date stamp",
   "card_summary": "The glowing orange date of 90s film cameras, taken from the day the photo was shot.",
@@ -73,6 +73,10 @@
     ]
   },
   "faq": [
+    {
+      "question": "Can I add a date stamp to a photo already taken?",
+      "answer": "Yes. Open any photo from your library in Halatto and tap Date stamp. The date comes from the day the photo was taken, so a picture from last summer gets last summer's date, not today's."
+    },
     {
       "question": "Which date does Halatto use?",
       "answer": "The day the photo was taken, read from the photo's information."

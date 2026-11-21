@@ -1,6 +1,6 @@
 # Halatto
 
-> Halatto makes the photos you already have look shot on film: disposable, instant, toy camera, 90s point-and-shoot or Y2K digicam. Grain, leaks, date stamp.
+> Vintage camera filter for iPhone: make photos you already took look shot on film, a disposable, instant, 90s or digital camera, with grain and a date stamp.
 
 ## Entity snapshot
 - Name: Halatto (App Store title: "Vintage Photo Filter – Halatto", subtitle "Film Grain & Old Camera Editor")
@@ -35,17 +35,19 @@
 - [All guides](https://halatto.app/guides/)
 - [How to make your iPhone photos look like film](https://halatto.app/guides/make-photos-look-like-film-on-iphone/): Make iPhone photos look like film: what a film look really is (color, grain, lens, light), the free Photos-app method, and a one-tap way with old-camera looks.
 - [Disposable camera filter for iPhone photos you already took](https://halatto.app/guides/disposable-camera-filter-on-iphone/): Get the disposable camera look on iPhone photos you already took: warm color, grain, a soft plastic lens, harsh flash and the orange date. Steps inside.
-- [Digicam filter: the Y2K digital camera look on iPhone](https://halatto.app/guides/digicam-filter-y2k-photos-on-iphone/): Make iPhone photos look shot on a 2000s digicam: CCD color, sensor noise, cool whites and a hard flash. Three Y2K looks, flash settings and steps that work.
+- [Digital camera filter: the old Y2K digicam look on iPhone](https://halatto.app/guides/digicam-filter-y2k-photos-on-iphone/): Get the old digital camera look on iPhone photos: CCD color, sensor noise, cool whites and a hard flash of a 2000s digicam. Three looks, flash and steps.
 - [How to make a photo look old on iPhone](https://halatto.app/guides/make-a-photo-look-old-on-iphone/): Make a photo look old on iPhone: fade, yellowing, dust, stains, creases and light leaks that make a new picture look like a print kept in a shoebox for years.
-- [How to add a date stamp to a photo on iPhone](https://halatto.app/guides/add-date-stamp-to-photo-on-iphone/): iPhone can't print the date on a photo. Here's how to add the orange, old-camera date stamp using the day the photo was taken, plus corner, color and size tips.
-- [How to get a Polaroid-style instant photo look on iPhone](https://halatto.app/guides/instant-photo-effect-on-iphone/): Give iPhone photos the instant-film look: soft color, glassy shadows and pastel highlights of folding, square and mini instant cameras. Steps and tips.
+- [How to add a date stamp to a photo on iPhone, even one already taken](https://halatto.app/guides/add-date-stamp-to-photo-on-iphone/): iPhone can't print the date on a photo. Here's how to add the orange, old-camera date stamp using the day the photo was taken, plus corner, color and size tips.
+- [Polaroid-style filter for iPhone: the instant photo look](https://halatto.app/guides/instant-photo-effect-on-iphone/): Give iPhone photos the instant-film look: soft color, glassy shadows and pastel highlights of folding, square and mini instant cameras. Steps and tips.
 - [How to add film grain to a photo on iPhone](https://halatto.app/guides/add-film-grain-to-a-photo-on-iphone/): Add realistic film grain to iPhone photos: why Photos has no grain slider, how much grain suits portraits, street and night shots, and the fastest way.
 - [90s photo filter: the point-and-shoot film look on iPhone](https://halatto.app/guides/90s-photo-filter-on-iphone/): Make iPhone photos look like a 90s point-and-shoot: 35mm film color, flash, grain and the orange date stamp. Which looks to use and how to apply them.
 - [How to add a light leak effect to a photo on iPhone](https://halatto.app/guides/add-light-leaks-to-a-photo-on-iphone/): Add film light leaks to iPhone photos: edge, window and burn leaks in soft red, orange or golden, plus toy cameras that leak by design. Settings inside.
 - [How to apply the same filter to multiple photos on iPhone](https://halatto.app/guides/apply-the-same-filter-to-multiple-photos-on-iphone/): Batch edit on iPhone: Copy and Paste Edits in Photos, and how to put one film look on a whole trip at once with saved recipes and Develop the Roll in Halatto.
 - [Best vintage and film camera apps for iPhone](https://halatto.app/guides/best-vintage-camera-apps-for-iphone/): Huji, Dazz, Dispo, VSCO or Halatto? How vintage camera apps differ: camera-first vs editor, film vs digicam, privacy and price, and who each one fits.
 - [How to make a before and after photo video on iPhone](https://halatto.app/guides/make-a-before-and-after-photo-video-on-iphone/): Turn a photo edit into a before-and-after reveal video on iPhone, sized for Stories, Reels and TikTok (9:16, 4:5, 1:1). The fastest way and tips that get views.
-- [Halation effect: the cinematic night film glow on iPhone](https://halatto.app/guides/night-film-halation-glow-on-iphone/): Get the red halation glow around lights that night cinema film gives, on iPhone photos: what causes it, which night photos suit it, and how to add it.
+- [Halation effect: what it is and how to get the film glow on iPhone](https://halatto.app/guides/night-film-halation-glow-on-iphone/): Get the red halation glow around lights that night cinema film gives, on iPhone photos: what causes it, which night photos suit it, and how to add it.
+- [Apps like Dazz Cam for iPhone, for photos you already took](https://halatto.app/guides/apps-like-dazz-cam-for-iphone/): Looking for apps like Dazz Cam on iPhone? How camera-first apps differ from editors, which fits photos you already took, and how to get the old-camera look.
+- [How to make iPhone photos look like film without an app](https://halatto.app/guides/make-iphone-photos-look-like-film-without-an-app/): Make iPhone photos look like film in the built-in Photos app: slider settings for warm film, disposable and faded-print looks, plus what Photos cannot do.
 
 ## Language pages
 - [en](https://halatto.app/)

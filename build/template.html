@@ -12,8 +12,7 @@
         <div class="hero-flash" aria-hidden="true"></div>
         <div class="hero-inner">
           <div class="hero-copy">
-            <p class="eyebrow hero-eyebrow">{{hero.eyebrow}}</p>
-            <h1 id="hero-heading"><span class="hero-line">{{hero.title_prefix}}</span> <span class="hero-line hero-line-accent">{{hero.title_highlight}}</span></h1>
+            <h1 id="hero-heading"><span class="hero-kicker">{{hero.title_prefix}}</span> <span class="hero-title">{{hero.title_highlight}}</span></h1>
             <p class="hero-sub">{{hero.subtitle}}</p>
             <div class="hero-actions">
 {{> appstore-button}}
@@ -56,18 +55,27 @@
       <section class="block download" id="download" aria-labelledby="download-heading">
         <div class="download-card">
           <div class="download-main">
-            <img class="download-icon" src="/img/app-icon.webp" alt="{{header.logo_alt}}" width="120" height="120" loading="lazy" decoding="async" />
+            <div class="download-app">
+              <img class="download-icon" src="/img/app-icon.webp" alt="{{header.logo_alt}}" width="64" height="64" loading="lazy" decoding="async" />
+              <div>
+                <p class="download-app-name">{{download.app_name}}</p>
+                <p class="download-app-sub">{{download.app_sub}}</p>
+              </div>
+            </div>
             <h2 id="download-heading">{{download.title}}</h2>
-            <p class="download-sub">{{download.subtitle}}</p>
-            <p class="download-price"><strong>{{download.price}}</strong>, {{download.price_note}}</p>
+            <p class="download-price"><strong>{{download.price}}</strong> {{download.price_note}}</p>
             <div class="download-actions">
 {{> appstore-button}}
               <figure class="qr">
-                <img src="/img/app-store-qr.png" alt="{{download.qr_alt}}" width="96" height="96" loading="lazy" decoding="async" />
+                <span class="qr-tile"><img src="/img/app-store-qr.png" alt="{{download.qr_alt}}" width="84" height="84" loading="lazy" decoding="async" /></span>
                 <figcaption>{{download.qr_label}}</figcaption>
               </figure>
             </div>
-            <p class="download-req">{{download.requirements}}</p>
+            <ul class="download-meta" aria-label="{{download.meta_aria}}">
+              {{#each download.meta as |item|}}
+              <li>{{item}}</li>
+              {{/each}}
+            </ul>
           </div>
           <div class="download-facts">
             <h3>{{geo.stats_title}}</h3>
@@ -165,6 +173,7 @@
             <p>{{geo.compare_intro}}</p>
             <div class="table-wrap">
               <table class="scoreboard">
+                <colgroup><col class="c-topic" /><col class="c-a" />{{#if geo.compare_col_b}}<col class="c-b" />{{/if}}<col class="c-app" /></colgroup>
                 <thead>
                   <tr>
                     <th scope="col">{{geo.compare_col_topic}}</th>

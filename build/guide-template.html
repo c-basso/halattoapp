@@ -36,7 +36,7 @@
           {{#if guide.figure}}
           <figure class="guide-figure">
             <img src="{{guide.figure.src}}" alt="{{guide.figure.alt}}" width="460" height="995" loading="lazy" decoding="async" />
-            <figcaption>{{guide.figure.caption}}</figcaption>
+            <figcaption><span class="guide-figure-label">{{guides.labels.figure}}</span>{{guide.figure.caption}}</figcaption>
           </figure>
           {{/if}}
           {{#if guide.callout}}
@@ -135,26 +135,35 @@
       </article>
 
       <aside class="guide-aside">
-        <div class="app-card">
-          <img src="/img/app-icon.webp" alt="{{header.logo_alt}}" width="80" height="80" loading="lazy" decoding="async" />
-          <p class="app-card-name">{{header.app_name}}</p>
-          <p class="app-card-sub">{{download.subtitle}}</p>
-          {{#if download.rating_line}}<p class="app-card-sub">{{download.rating_line}}</p>{{/if}}
+        <div class="aside-stack">
+          <div class="app-card">
+            <div class="app-card-head">
+              <img src="/img/app-icon.webp" alt="{{header.logo_alt}}" width="56" height="56" loading="lazy" decoding="async" />
+              <div>
+                <p class="app-card-name">{{header.app_name}}</p>
+                <p class="app-card-sub">{{download.card_sub}}</p>
+              </div>
+            </div>
+            {{#if download.rating_line}}<p class="app-card-rating">{{download.rating_line}}</p>{{/if}}
 {{> appstore-button}}
-          <p class="app-card-note">{{download.price}}, {{download.price_note}}</p>
-          <img class="app-card-qr" src="/img/app-store-qr.png" alt="{{download.qr_alt}}" width="96" height="96" loading="lazy" decoding="async" />
+            <p class="app-card-note"><strong>{{download.price}}</strong> {{download.price_note}}</p>
+            <figure class="app-card-qr">
+              <span class="qr-tile"><img src="/img/app-store-qr.png" alt="{{download.qr_alt}}" width="56" height="56" loading="lazy" decoding="async" /></span>
+              <figcaption>{{download.qr_label}}</figcaption>
+            </figure>
+          </div>
+          {{#if guide.related}}
+          <nav class="related" aria-label="{{guides.labels.related}}">
+            <p class="related-title">{{guides.labels.related}}</p>
+            <ul>
+              {{#each guide.related as |link|}}
+              <li><a href="{{link.url}}"><span class="related-tag">{{link.eyebrow}}</span>{{link.title}}</a></li>
+              {{/each}}
+            </ul>
+            <a class="pill-link" href="{{guides.hub_url}}">{{guides.labels.all_guides}}</a>
+          </nav>
+          {{/if}}
         </div>
-        {{#if guide.related}}
-        <nav class="related" aria-label="{{guides.labels.related}}">
-          <p class="related-title">{{guides.labels.related}}</p>
-          <ul>
-            {{#each guide.related as |link|}}
-            <li><a href="{{link.url}}"><span class="related-tag">{{link.eyebrow}}</span>{{link.title}}</a></li>
-            {{/each}}
-          </ul>
-          <a class="pill-link" href="{{guides.hub_url}}">{{guides.labels.all_guides}}</a>
-        </nav>
-        {{/if}}
       </aside>
     </main>
 

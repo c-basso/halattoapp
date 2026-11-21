@@ -1,7 +1,7 @@
 {
   "priority": 4,
   "keyword": "how to make a photo look old on iphone",
-  "keywords": "make photo look old, make photo look vintage iphone, old photo effect, aged photo filter, vintage photo effect, faded photo effect",
+  "keywords": "make photo look old, make photo look vintage iphone, old photo effect, aged photo filter, vintage photo effect, faded photo effect, make photo look old and scratched, old photo filter",
   "title": "How to Make a Photo Look Old on iPhone (Faded, Aged Print)",
   "description": "Make a photo look old on iPhone: fade, yellowing, dust, stains, creases and light leaks that make a new picture look like a print kept in a shoebox for years.",
   "h1": "How to make a photo look old on iPhone",
@@ -33,12 +33,32 @@
     {
       "heading": "Pick the decade first",
       "table": {
-        "head": ["Era", "Start with", "Then"],
+        "head": [
+          "Era",
+          "Start with",
+          "Then"
+        ],
         "rows": [
-          ["1970s family album", "Snap Gold or Square 600", "the 70s Aging preset, strong Yellowing."],
-          ["1980s–90s snapshots", "Titan 38 or Snap 400", "Aging preset Shoebox, a date stamp."],
-          ["Black and white archive", "Mju 35", "Fade, dust and creases, no yellowing."],
-          ["Washed-out instant print", "SX Fold", "Aging preset Faded print, light Sunlight."]
+          [
+            "1970s family album",
+            "Snap Gold or Square 600",
+            "the 70s Aging preset, strong Yellowing."
+          ],
+          [
+            "1980s–90s snapshots",
+            "Titan 38 or Snap 400",
+            "Aging preset Shoebox, a date stamp."
+          ],
+          [
+            "Black and white archive",
+            "Mju 35",
+            "Fade, dust and creases, no yellowing."
+          ],
+          [
+            "Washed-out instant print",
+            "SX Fold",
+            "Aging preset Faded print, light Sunlight."
+          ]
         ]
       }
     },
@@ -54,11 +74,26 @@
     "intro": "About two minutes.",
     "total_time": "PT2M",
     "items": [
-      { "name": "Open the photo and pick a look", "text": "Choose a warm film look (Snap Gold, Titan 38) or Mju 35 for black and white." },
-      { "name": "Age the print", "text": "Open Aging, tap Shoebox, Faded print or the 70s preset, then fine-tune Fade, Sunlight, Yellowing and Unevenness." },
-      { "name": "Add wear", "text": "Add film grain, dust, stains and creases until the print looks handled." },
-      { "name": "Add a light leak", "text": "Open Light Leak, choose Edge and Orange or Golden, keep Amount low." },
-      { "name": "Save", "text": "Save the photo, or save the edit as a recipe for a whole album." }
+      {
+        "name": "Open the photo and pick a look",
+        "text": "Choose a warm film look (Snap Gold, Titan 38) or Mju 35 for black and white."
+      },
+      {
+        "name": "Age the print",
+        "text": "Open Aging, tap Shoebox, Faded print or the 70s preset, then fine-tune Fade, Sunlight, Yellowing and Unevenness."
+      },
+      {
+        "name": "Add wear",
+        "text": "Add film grain, dust, stains and creases until the print looks handled."
+      },
+      {
+        "name": "Add a light leak",
+        "text": "Open Light Leak, choose Edge and Orange or Golden, keep Amount low."
+      },
+      {
+        "name": "Save",
+        "text": "Save the photo, or save the edit as a recipe for a whole album."
+      }
     ]
   },
   "tips": {
@@ -71,11 +106,28 @@
     ]
   },
   "faq": [
-    { "question": "How do I make a picture look 100 years old?", "answer": "Use a black and white look like Mju 35, raise Fade and Yellowing for a sepia tone, add dust, stains and creases, and drop the date stamp." },
-    { "question": "Can I undo the aging later?", "answer": "Yes. Halatto keeps your edits, so you can reopen the photo and change or remove any effect." },
-    { "question": "Does this damage the original photo?", "answer": "No. The edited version is saved; the original stays in your library." }
+    {
+      "question": "How do I make a picture look 100 years old?",
+      "answer": "Use a black and white look like Mju 35, raise Fade and Yellowing for a sepia tone, add dust, stains and creases, and drop the date stamp."
+    },
+    {
+      "question": "Can I make a photo look old and scratched?",
+      "answer": "Halatto has no separate scratch tool. For a worn, handled print, use Aging with dust, creases and stains, raise Fade and Yellowing, and add a light leak. Together they give the marks and wear of an old print."
+    },
+    {
+      "question": "Can I undo the aging later?",
+      "answer": "Yes. Halatto keeps your edits, so you can reopen the photo and change or remove any effect."
+    },
+    {
+      "question": "Does this damage the original photo?",
+      "answer": "No. The edited version is saved; the original stays in your library."
+    }
   ],
-  "related": ["add-light-leaks-to-a-photo-on-iphone", "add-film-grain-to-a-photo-on-iphone", "90s-photo-filter-on-iphone"],
+  "related": [
+    "add-light-leaks-to-a-photo-on-iphone",
+    "add-film-grain-to-a-photo-on-iphone",
+    "90s-photo-filter-on-iphone"
+  ],
   "published": "2026-11-21",
   "updated": "2026-11-21"
 }

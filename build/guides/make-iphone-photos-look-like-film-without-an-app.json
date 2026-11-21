@@ -1,0 +1,184 @@
+{
+  "priority": 15,
+  "keyword": "make iphone photos look like film without app",
+  "keywords": "make iphone photos look like film without app, film look iphone photos app settings, iphone photo edit settings for film look, make iphone photos look like film free, vintage edit iphone photos app, film filter iphone free",
+  "title": "Make iPhone Photos Look Like Film Without an App (Settings)",
+  "description": "Make iPhone photos look like film in the built-in Photos app: slider settings for warm film, disposable and faded-print looks, plus what Photos cannot do.",
+  "h1": "How to make iPhone photos look like film without an app",
+  "eyebrow": "Free, built-in",
+  "card_title": "Film look without an app",
+  "card_summary": "Photos-app slider settings for warm film, disposable and faded looks, and their limits.",
+  "quick_answer": "Open the photo in Photos, tap Edit, then Adjust. For a film look, lower Contrast and Highlights, raise Warmth, add a little Vignette and lower Saturation slightly. Below are starting values for three looks. Photos cannot add grain, light leaks or lens softness, so the result is a warm, soft photo rather than a true film print.",
+  "intro": [
+    "You do not need to install anything to get closer to film on iPhone. The Photos app has enough sliders to change the color and contrast the way film does.",
+    "Here are slider settings that work as starting points, how to copy them to other photos, and where the built-in editor stops."
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/1.webp",
+    "alt": "Halatto before and after divider on a photo of two friends with the Snap Gold film look applied",
+    "caption": "Tip: start from a photo with soft light, such as shade, golden hour or indoor window light. Harsh midday sun is the hardest photo to make look like film.",
+    "hide_in_article": true
+  },
+  "sections": [
+    {
+      "heading": "Where the film controls are",
+      "list": [
+        "Open the photo in Photos and tap Edit.",
+        "Tap Adjust. Swipe the row of tools to find each slider by name.",
+        "Move a slider, and tap its icon to compare with the original.",
+        "Tap Done. You can return to the original any time with Revert."
+      ],
+      "ordered": true
+    },
+    {
+      "heading": "Slider settings for three film looks",
+      "table": {
+        "head": [
+          "Slider",
+          "Warm 35mm film",
+          "Disposable with flash",
+          "Faded old print"
+        ],
+        "rows": [
+          [
+            "Exposure",
+            "+10",
+            "+15",
+            "+10"
+          ],
+          [
+            "Brilliance",
+            "-20",
+            "0",
+            "-30"
+          ],
+          [
+            "Highlights",
+            "-40",
+            "-25",
+            "-50"
+          ],
+          [
+            "Shadows",
+            "+20",
+            "+10",
+            "+30"
+          ],
+          [
+            "Contrast",
+            "-20",
+            "+15",
+            "-35"
+          ],
+          [
+            "Black Point",
+            "-10",
+            "+5",
+            "-25"
+          ],
+          [
+            "Saturation",
+            "-10",
+            "+15",
+            "-30"
+          ],
+          [
+            "Warmth",
+            "+25",
+            "+30",
+            "+40"
+          ],
+          [
+            "Tint",
+            "+5",
+            "-10",
+            "+10"
+          ],
+          [
+            "Vignette",
+            "+30",
+            "+40",
+            "+20"
+          ]
+        ]
+      },
+      "note": "These are starting points, not fixed values. Every photo is different: adjust Exposure and Warmth until skin looks natural. A negative Black Point lifts the blacks, which gives the faded look of old prints."
+    },
+    {
+      "heading": "Apply the same settings to many photos",
+      "paragraphs": [
+        "After editing one photo, tap the More button (three dots) and choose Copy Edits. Select other photos in the library, tap More again and choose Paste Edits. Every selected photo gets the same slider values, so a set looks consistent."
+      ]
+    },
+    {
+      "heading": "What the Photos app cannot do",
+      "list": [
+        "Film grain: Photos has no grain slider, so the picture stays digitally clean.",
+        "Lens softness and flare: old lenses blur toward the edges and glow in backlight; Photos only sharpens or reduces noise.",
+        "Light leaks and halation: there is no way to add the red or orange glow of film.",
+        "Date stamp: Photos cannot print the date on the picture.",
+        "Aging: no dust, creases or yellowed paper."
+      ],
+      "ordered": false
+    },
+    {
+      "heading": "When to use an editor instead",
+      "paragraphs": [
+        "If the warm, soft result is enough, you are done, and it costs nothing. If you want the photo to look like an actual print, with grain, lens softness, a leak or the orange date, use a film editor. Halatto does those on photos already in your library and is free to try up to a daily limit."
+      ]
+    }
+  ],
+  "steps": {
+    "heading": "The one-minute version in Halatto",
+    "intro": "For grain, leaks and a date stamp the Photos app cannot add.",
+    "total_time": "PT1M",
+    "items": [
+      {
+        "name": "Open a photo",
+        "text": "Open Halatto and pick the same photo from your library."
+      },
+      {
+        "name": "Pick a film camera",
+        "text": "Choose Titan 38 for 35mm, Snap 400 or Snap Gold for a disposable."
+      },
+      {
+        "name": "Add grain and age",
+        "text": "Set grain and film age; add a light leak or the date stamp if you like."
+      },
+      {
+        "name": "Save",
+        "text": "Save the photo or share it."
+      }
+    ]
+  },
+  "tips": {
+    "heading": "Tips for a film look in Photos",
+    "items": [
+      "Lower Highlights before anything else: bright, clipped skies are the clearest sign of a phone photo.",
+      "Keep Saturation slightly negative; film is rarely as saturated as the iPhone default.",
+      "Crop to 3:2, the shape of a 35mm frame.",
+      "Turn off Live Photo effects and Portrait blur for a more honest film feel."
+    ]
+  },
+  "faq": [
+    {
+      "question": "Is there a film filter in the iPhone Photos app?",
+      "answer": "Not a real one. The built-in filters such as Vivid Warm, Dramatic Warm, Silvertone and Noir change color and contrast, but none adds grain or film softness. Slider edits, as above, get closer."
+    },
+    {
+      "question": "Can I make iPhone photos look like 35mm film for free?",
+      "answer": "You can get 35mm color for free with the Photos sliders and a 3:2 crop. Grain and lens softness need an editor."
+    },
+    {
+      "question": "Do these edits damage the original photo?",
+      "answer": "No. Photos keeps the original, and Revert brings it back."
+    }
+  ],
+  "related": [
+    "make-photos-look-like-film-on-iphone",
+    "add-film-grain-to-a-photo-on-iphone",
+    "apply-the-same-filter-to-multiple-photos-on-iphone"
+  ],
+  "published": "2026-11-21",
+  "updated": "2026-11-21"
+}

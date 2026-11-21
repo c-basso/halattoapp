@@ -2,8 +2,8 @@
   "meta": {
     "lang": "en",
     "title": "Vintage Photo Filter for iPhone: Film & Old Camera Looks",
-    "description": "Halatto makes the photos you already have look shot on film: disposable, instant, toy camera, 90s point-and-shoot or Y2K digicam. Grain, leaks, date stamp.",
-    "keywords": "vintage photo filter, film filter app, make photos look like film, disposable camera filter, digicam filter, y2k camera filter, old camera filter, film grain, date stamp, light leak, retro photo editor",
+    "description": "Vintage camera filter for iPhone: make photos you already took look shot on film, a disposable, instant, 90s or digital camera, with grain and a date stamp.",
+    "keywords": "vintage camera filter, vintage photo filter, film filter app, make photos look like film, disposable camera filter, digital camera filter, digicam filter, y2k camera filter, old camera filter, film grain, date stamp, light leak, retro photo editor",
     "canonical": "https://halatto.app/",
     "og_title": "Halatto – Vintage Photo Filter: Your Photos, Shot on Film",
     "og_description": "14 old cameras for the photos already on your iPhone: disposable, instant, toy, 90s and Y2K digicam, with grain, light leaks and the orange date stamp.",
@@ -38,14 +38,14 @@
   },
   "hero": {
     "eyebrow": "Vintage photo filter · iPhone",
-    "title_prefix": "Your photos,",
-    "title_highlight": "shot on film.",
-    "subtitle": "Halatto turns the photos already on your iPhone into film: a disposable, an instant camera, a toy camera, a 90s point-and-shoot or a Y2K digicam. Film color, grain, light leaks and the orange date in the corner, in a few taps.",
+    "title_prefix": "Vintage camera filter for iPhone",
+    "title_highlight": "Your photos, shot on film.",
+    "subtitle": "Turn the photos already on your iPhone into film: a disposable, an instant, a toy camera, a 90s point-and-shoot or a Y2K digicam, with grain, light leaks and the orange date.",
     "cta_secondary_link": "See the 14 looks",
     "proof": [
       "Free to try",
       "No account",
-      "Edited on your iPhone, nothing uploaded"
+      "Nothing uploaded"
     ],
     "intent_link": {
       "guide": "make-photos-look-like-film-on-iphone",
@@ -69,8 +69,8 @@
         "label": "35mm, disposable, instant, toy camera and Y2K digicam, each with its own film and lens."
       },
       {
-        "value": "6 tools",
-        "label": "Grain and film age, aging, light leaks, flash, date stamp, crop and color."
+        "value": "5 effects",
+        "label": "Grain and film age, aging, light leaks, flash and the date stamp, plus crop and color."
       },
       {
         "value": "1 tap",
@@ -79,14 +79,6 @@
       {
         "value": "On device",
         "label": "No account. Photos are edited on your iPhone and nothing is uploaded."
-      },
-      {
-        "value": "iOS 18.6+",
-        "label": "iPhone app, 89.3 MB, in English and 30 more languages."
-      },
-      {
-        "value": "Free",
-        "label": "Every look free up to a daily limit; a subscription removes it. Rated 4+."
       }
     ],
     "compare_title": "A color filter vs a camera app vs Halatto",
@@ -126,17 +118,27 @@
   "download": {
     "title": "Get Halatto on the App Store",
     "subtitle": "Vintage Photo Filter: film grain & old camera editor for iPhone.",
-    "price": "Free to try",
-    "price_note": "optional subscription or lifetime unlock removes the daily limit",
+    "price": "Free to try.",
+    "price_note": "An optional subscription or lifetime unlock removes the daily limit.",
     "qr_alt": "QR code linking to Halatto on the App Store",
-    "qr_label": "Scan with your iPhone camera",
+    "qr_label": "Scan with iPhone",
     "requirements": "Requires iOS 18.6 or later on iPhone. 89.3 MB. English and 30 more languages. Rated 4+.",
     "note": "For portraits, friends, travel, parties, night shots and social posts that should look like they came back from the lab, without buying film or an old camera.",
-    "rating_line": ""
+    "rating_line": "",
+    "app_name": "Vintage Photo Filter – Halatto",
+    "app_sub": "Film Grain & Old Camera Editor · iPhone",
+    "meta_aria": "Requirements",
+    "meta": [
+      "iPhone · iOS 18.6+",
+      "89.3 MB",
+      "31 languages",
+      "Rated 4+"
+    ],
+    "card_sub": "Vintage Photo Filter for iPhone"
   },
   "looks": {
     "eyebrow": "14 looks",
-    "title": "Not a color filter. A whole camera.",
+    "title": "14 vintage camera filters, each a whole camera",
     "intro": "Each look recreates a kind of camera: its film or sensor (color, grain, digital noise) and its lens (softness, vignette, flare and light leaks). Pick one, then set the strength, grain and film age.",
     "groups": [
       {
@@ -253,7 +255,7 @@
   },
   "tools": {
     "eyebrow": "Screenshots",
-    "title": "Everything an old camera did to a photo",
+    "title": "Film grain, light leaks, flash and a date stamp",
     "intro": "The ten App Store screens, from picking a look to sharing a before-and-after video. Scroll the strip.",
     "items": [
       {
@@ -338,7 +340,7 @@
     },
     "steps_card": {
       "eyebrow": "How it works",
-      "title": "From phone photo to film print in three steps",
+      "title": "Make iPhone photos look like film in three steps",
       "items": [
         {
           "name": "Open a photo",
@@ -413,11 +415,12 @@
       "faq_heading": "Questions people also ask",
       "related": "Related guides",
       "all_guides": "All guides",
-      "disclaimer": "Halatto is an independent app. It is not affiliated with Apple, Kodak, Fujifilm, Polaroid, Olympus, CineStill or any camera or film brand; brand names are used only to describe a style."
+      "disclaimer": "Halatto is an independent app. It is not affiliated with Apple, Kodak, Fujifilm, Polaroid, Olympus, CineStill or any camera or film brand; brand names are used only to describe a style.",
+      "figure": "In Halatto"
     },
     "default_cta": {
       "title": "Do it in Halatto",
-      "text": "Free to try on the App Store. Open a photo, pick a camera, share."
+      "text": "Free to try. Open a photo, pick a camera."
     }
   },
   "faq_section": {
@@ -431,8 +434,8 @@
     "text": "Open a photo, pick an old camera, and share a picture that looks like film. Free to try on iPhone.",
     "facts": [
       "14 old-camera looks",
-      "No account, nothing uploaded",
-      "iOS 18.6 or later"
+      "No account, no uploads",
+      "iOS 18.6+"
     ]
   },
   "footer": {

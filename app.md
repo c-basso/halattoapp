@@ -175,6 +175,8 @@ Selection rule: keep phrases where the searcher wants to **do something to a pho
 | 11 | best-vintage-camera-apps-for-iphone | best vintage camera app iphone | huji cam alternative, dazz cam alternative, film camera app | High (commercial) | Comparison page that lands people ready to install |
 | 12 | make-a-before-and-after-photo-video-on-iphone | before and after photo video iphone | before after slider video, edit reveal video | Medium | Export video feature; creators |
 | 13 | night-film-halation-glow-on-iphone | halation effect | 800T look, cinematic night photo filter, red glow around lights | Medium, enthusiast | Tungsten 800 look |
+| 14 | apps-like-dazz-cam-for-iphone | apps like dazz cam for iphone | dazz cam alternative, apps like dazz cam free | Medium, rising (Trends: "what is dazz cam" +250%) | Alternative-seekers; we win on "photos you already took" |
+| 15 | make-iphone-photos-look-like-film-without-an-app | make iphone photos look like film without app | film look iphone free, photos app film settings | Medium (Google autocomplete) | Honest free method, then grain/leaks/date need an editor |
 
 ## Supporting phrases to use naturally in copy
 
@@ -185,4 +187,4 @@ film camera app, analog filter, retro filter, vintage camera app, old film look,
 - Title (30): `Vintage Photo Filter – Halatto` (keep).
 - Subtitle (30): `Film Grain & Old Camera Editor` (keep; covers film, grain, old camera, editor).
 - Keyword field (100): `disposable,digicam,y2k,retro,instant,analog,90s,ccd,date,stamp,light,leak,cam,aesthetic,35mm,lomo` (97 chars; no words that are already in the title/subtitle; no trademarks).
-- Do not put "Polaroid", "Kodak", "Fuji", "CineStill", "Huji" or "Dazz" in metadata. The website may mention competitor app names in the comparison guide only, factually.
+- Do not put "Polaroid", "Kodak", "Fuji", "CineStill", "Huji" or "Dazz" in metadata. The website may mention competitor app names only in the comparison guides (best-vintage-camera-apps-for-iphone, apps-like-dazz-cam-for-iphone), factually and without claiming affiliation.
