@@ -1,0 +1,120 @@
+{
+  "priority": 2,
+  "keyword": "disposable camera filter iphone",
+  "keywords": "disposable camera filter, disposable camera app, disposable camera effect, disposable camera look iphone, 90s disposable photo, party camera filter",
+  "title": "Disposable Camera Filter for iPhone Photos You Already Took",
+  "description": "Get the disposable camera look on iPhone photos you already took: warm color, grain, a soft plastic lens, harsh flash and the orange date. Steps inside.",
+  "h1": "Disposable camera filter for iPhone photos you already took",
+  "eyebrow": "Disposable",
+  "card_title": "Disposable camera filter on iPhone",
+  "card_summary": "The party-camera look on any photo: warm grain, a cheap lens, harsh flash and the orange date.",
+  "quick_answer": "Most disposable camera apps only work when you shoot inside them. To put the look on a photo you already have, open it in Halatto and pick Snap 400 (soft plastic lens, rainbow flare, greenish shadows) or Snap Gold (golden, saturated, coarser grain). Add the Retro flash for indoor shots and the orange date stamp in the corner, then save.",
+  "intro": [
+    "A disposable camera photo is easy to recognize: a cheap plastic lens that is soft at the edges, grainy 400-speed film, a flash that flattens faces and blows out the foreground, and a color cast that changes with the light.",
+    "Here is how to recreate it on iPhone photos you have already taken, with no need to plan the shoot around an app."
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/4.webp",
+    "alt": "Halatto Aging tool on a grainy disposable-camera style photo of two friends, with Fade, Sunlight, Yellowing and Unevenness sliders",
+    "caption": "A disposable look with light aging: warm, grainy and a little faded."
+  },
+  "sections": [
+    {
+      "heading": "What a disposable camera does to a photo",
+      "list": [
+        "Fixed plastic lens: soft corners, a little distortion, rainbow flare against the light.",
+        "ISO 400 or 800 film: visible grain, especially in shadows.",
+        "Built-in flash: bright faces, dark backgrounds, hard shadows behind people.",
+        "Drugstore development: green or warm color shifts and a date printed in orange."
+      ],
+      "ordered": false
+    },
+    {
+      "heading": "Snap 400 or Snap Gold?",
+      "table": {
+        "head": [
+          "Look",
+          "Best for",
+          "Character"
+        ],
+        "rows": [
+          [
+            "Snap 400",
+            "Indoor parties, evenings, everyday",
+            "Soft plastic lens, rainbow flare, greenish shadows."
+          ],
+          [
+            "Snap Gold",
+            "Summer, beach, festivals, daylight trips",
+            "Golden, saturated color with coarser grain."
+          ]
+        ]
+      },
+      "note": "For an indoor party photo, add the Retro flash. For a sunny trip, add a little Sunlight in Aging instead."
+    },
+    {
+      "heading": "Disposable camera apps vs a disposable filter",
+      "paragraphs": [
+        "Camera-style apps such as Dispo or Huji recreate the shooting experience: you take the picture inside the app, sometimes wait for it to develop. That is fun at an event but useless for the photos already in your camera roll.",
+        "Halatto works the other way around: it is an editor, so the trip, the party or the night out you already shot can get the disposable look afterwards. Its built-in camera covers the moments you want to shoot with the look on."
+      ]
+    }
+  ],
+  "steps": {
+    "heading": "Step by step: disposable look in Halatto",
+    "intro": "About a minute.",
+    "total_time": "PT1M",
+    "items": [
+      {
+        "name": "Open the photo",
+        "text": "Pick a photo in Halatto, or share it from Photos to Halatto."
+      },
+      {
+        "name": "Choose Snap 400 or Snap Gold",
+        "text": "Tap the look in the Looks strip and check it with the before/after divider."
+      },
+      {
+        "name": "Add flash",
+        "text": "Open Flash and choose Retro for an on-camera flash; set Intensity to taste."
+      },
+      {
+        "name": "Stamp the date",
+        "text": "Open Date stamp and pick a corner. The orange date comes from the day the photo was taken."
+      },
+      {
+        "name": "Do the whole party",
+        "text": "Save the edit as a recipe, then Develop the Roll to give every party photo the same disposable look."
+      }
+    ]
+  },
+  "tips": {
+    "heading": "Tips for a believable disposable photo",
+    "items": [
+      "Disposables shoot wide and close: the look sells best on candid group shots, not studio portraits.",
+      "Keep the flash on for indoor photos and off for daylight.",
+      "Crop slightly tighter to hide perfect iPhone wide-angle edges.",
+      "A little Unevenness in Aging mimics the uneven drugstore print."
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the best disposable camera filter app?",
+      "answer": "If you want to shoot with a delay and limited exposures, a camera app like Dispo or Huji fits. If you want the look on photos you already took, use an editor like Halatto."
+    },
+    {
+      "question": "Can I add a disposable filter to many photos at once?",
+      "answer": "Yes. In Halatto use Develop the Roll and Develop all to put Snap 400 or Snap Gold on every selected photo."
+    },
+    {
+      "question": "Why do disposable photos look green?",
+      "answer": "Consumer film and cheap processing often shift shadows toward green, especially under fluorescent light. Snap 400 recreates that tint."
+    }
+  ],
+  "related": [
+    "90s-photo-filter-on-iphone",
+    "add-date-stamp-to-photo-on-iphone",
+    "apply-the-same-filter-to-multiple-photos-on-iphone"
+  ],
+  "published": "2026-11-21",
+  "updated": "2026-11-21"
+}

@@ -1,0 +1,113 @@
+{
+  "priority": 6,
+  "keyword": "polaroid filter iphone",
+  "keywords": "polaroid filter iphone, polaroid style photo, instant film filter, instant photo effect, instax look, instant camera filter",
+  "title": "Polaroid-Style Instant Photo Filter for iPhone (3 Looks)",
+  "description": "Give iPhone photos the instant-film look: soft color, glassy shadows and pastel highlights of folding, square and mini instant cameras. Steps and tips.",
+  "h1": "How to get a Polaroid-style instant photo look on iPhone",
+  "eyebrow": "Instant",
+  "card_title": "Polaroid-style instant photo look",
+  "card_summary": "Folding, square and mini instant film looks for photos you already took.",
+  "quick_answer": "Instant film has soft contrast, glassy or tinted shadows and pastel highlights. In Halatto pick SX Fold (folding instant: deep blue shadows, lilac highlights), Square 600 (boxy instant: green shadows, pink highlights) or Mini Instant (credit-card prints: clear, bright, a little cool), then crop to a square or portrait and add light aging. Halatto is not affiliated with Polaroid or Fujifilm.",
+  "intro": [
+    "\"Polaroid filter\" is how most people search for the instant-film look, whichever brand they mean. The look has little to do with the white frame and a lot to do with the color of the chemistry.",
+    "Here are the three instant styles, what each looks like, and how to apply them to an iPhone photo."
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/2.webp",
+    "alt": "Halatto camera grid with SX Fold and Square 600 instant looks on portrait photos",
+    "caption": "SX Fold and Square 600 are two of Halatto's three instant looks."
+  },
+  "sections": [
+    {
+      "heading": "The three instant looks",
+      "table": {
+        "head": [
+          "Look",
+          "Inspired by",
+          "Character"
+        ],
+        "rows": [
+          [
+            "SX Fold",
+            "1970s folding instant cameras",
+            "Glassy, deep blue shadows, lilac highlights."
+          ],
+          [
+            "Square 600",
+            "1980s–90s boxy instant cameras",
+            "Soft, green shadows, pink highlights."
+          ],
+          [
+            "Mini Instant",
+            "Modern credit-card size instant film",
+            "Clear, bright, a little cool."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Why instant photos look the way they do",
+      "paragraphs": [
+        "Instant film develops in the print itself. The chemistry gives low contrast, colors that drift toward cyan, green or magenta, and soft, slightly glowing highlights. Older prints fade further and shift warm.",
+        "That is why a plain white border plus a normal filter rarely convinces: the color is what people recognize."
+      ]
+    }
+  ],
+  "steps": {
+    "heading": "Step by step: instant look in Halatto",
+    "intro": "About a minute.",
+    "total_time": "PT1M",
+    "items": [
+      {
+        "name": "Open the photo",
+        "text": "Pick a portrait, a friend shot or a soft daylight scene."
+      },
+      {
+        "name": "Pick an instant look",
+        "text": "Choose SX Fold, Square 600 or Mini Instant in the Looks strip."
+      },
+      {
+        "name": "Crop",
+        "text": "Crop to a square for SX Fold or Square 600, or to a tall portrait for Mini Instant."
+      },
+      {
+        "name": "Age it a little",
+        "text": "Open Aging and try Faded print with a little Sunlight for an older print."
+      },
+      {
+        "name": "Save or share",
+        "text": "Save the photo or export a before-and-after video."
+      }
+    ]
+  },
+  "tips": {
+    "heading": "Tips",
+    "items": [
+      "Instant film loves soft window light and overcast days.",
+      "Lower the look strength slightly on skin for a gentler pastel.",
+      "Keep the date stamp off; most instant cameras never printed one."
+    ]
+  },
+  "faq": [
+    {
+      "question": "Is there an official Polaroid filter?",
+      "answer": "Polaroid's own app is for its cameras and printers. Halatto offers instant-film styles and is not affiliated with Polaroid."
+    },
+    {
+      "question": "Can I shoot with the instant look live?",
+      "answer": "Yes. Open the built-in camera in Halatto and pick Mini Instant or another instant look before you shoot."
+    },
+    {
+      "question": "Does Halatto add a white instant frame?",
+      "answer": "Halatto focuses on the film color, grain and aging of the print itself."
+    }
+  ],
+  "related": [
+    "make-a-photo-look-old-on-iphone",
+    "make-photos-look-like-film-on-iphone",
+    "best-vintage-camera-apps-for-iphone"
+  ],
+  "published": "2026-11-21",
+  "updated": "2026-11-21"
+}

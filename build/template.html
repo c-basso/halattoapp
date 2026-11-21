@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="{{meta.html_lang}}" dir="{{meta.html_dir}}">
+  <head>
+{{> head}}
+  </head>
+  <body class="page-home">
+{{> site-header}}
+
+    <main id="main">
+      <!-- HERO: the camera ejecting a developing print is the page's one loud moment -->
+      <section class="hero" aria-labelledby="hero-heading">
+        <div class="hero-flash" aria-hidden="true"></div>
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow hero-eyebrow">{{hero.eyebrow}}</p>
+            <h1 id="hero-heading"><span class="hero-line">{{hero.title_prefix}}</span> <span class="hero-line hero-line-accent">{{hero.title_highlight}}</span></h1>
+            <p class="hero-sub">{{hero.subtitle}}</p>
+            <div class="hero-actions">
+{{> appstore-button}}
+              <a class="hero-link" href="#looks">{{hero.cta_secondary_link}}</a>
+            </div>
+            <ul class="hero-proof">
+              {{#each hero.proof as |item|}}
+              <li>{{item}}</li>
+              {{/each}}
+            </ul>
+            {{#if hero.intent_link.url}}
+            <p class="hero-intent"><a href="{{hero.intent_link.url}}">{{hero.intent_link.text}}</a></p>
+            {{/if}}
+          </div>
+
+          <figure class="hero-visual" aria-label="{{demo.aria|attr}}">
+            <div class="camera">
+              <img class="camera-body" src="/img/brand/camera.webp" alt="{{demo.alt|attr}}" width="1476" height="1350" fetchpriority="high" decoding="async" />
+              <div class="camera-led" aria-hidden="true"></div>
+              <div class="camera-slot" aria-hidden="true">
+                <div class="camera-print">
+                  <img src="/img/brand/print.webp" alt="" width="696" height="690" decoding="async" />
+                  <img class="camera-print-dark" src="/img/brand/print-dark.webp" alt="" width="696" height="690" decoding="async" />
+                  <span class="camera-date">{{demo.date}}</span>
+                </div>
+              </div>
+            </div>
+            <figcaption>{{demo.caption}}</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- SUMMARY (GEO): a plain, quotable statement of what the app is -->
+      <aside class="summary" aria-label="{{geo.summary_aria}}">
+        <p class="summary-lead">{{geo.summary_lead}}</p>
+        <p>{{geo.summary_body}}</p>
+      </aside>
+
+      <!-- DOWNLOAD -->
+      <section class="block download" id="download" aria-labelledby="download-heading">
+        <div class="download-card">
+          <div class="download-main">
+            <img class="download-icon" src="/img/app-icon.webp" alt="{{header.logo_alt}}" width="120" height="120" loading="lazy" decoding="async" />
+            <h2 id="download-heading">{{download.title}}</h2>
+            <p class="download-sub">{{download.subtitle}}</p>
+            <p class="download-price"><strong>{{download.price}}</strong>, {{download.price_note}}</p>
+            <div class="download-actions">
+{{> appstore-button}}
+              <figure class="qr">
+                <img src="/img/app-store-qr.png" alt="{{download.qr_alt}}" width="96" height="96" loading="lazy" decoding="async" />
+                <figcaption>{{download.qr_label}}</figcaption>
+              </figure>
+            </div>
+            <p class="download-req">{{download.requirements}}</p>
+          </div>
+          <div class="download-facts">
+            <h3>{{geo.stats_title}}</h3>
+            <dl class="facts">
+              {{#each geo.stats as |stat|}}
+              <div><dt>{{stat.value}}</dt><dd>{{stat.label}}</dd></div>
+              {{/each}}
+            </dl>
+            <p class="download-note">{{download.note}}</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- LOOKS: 14 cameras in 5 groups -->
+      <section class="block looks" id="looks" aria-labelledby="looks-heading">
+        <div class="block-head">
+          <p class="eyebrow">{{looks.eyebrow}}</p>
+          <h2 id="looks-heading">{{looks.title}}</h2>
+          <p>{{looks.intro}}</p>
+        </div>
+        <div class="look-groups">
+          {{#each looks.groups as |section|}}
+          <div class="look-group">
+            <div class="look-group-head">
+              <h3>{{section.name}}</h3>
+              <p>{{section.text}}</p>
+              {{#if section.guide_url}}<a class="look-group-link" href="{{section.guide_url}}">{{section.guide_text}}</a>{{/if}}
+            </div>
+            <ul class="look-list">
+              {{#each section.items as |item|}}
+              <li class="look">
+                <img src="/img/looks/{{item.icon}}.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+                <div><p class="look-name">{{item.name}}</p><p class="look-text">{{item.text}}</p></div>
+              </li>
+              {{/each}}
+            </ul>
+          </div>
+          {{/each}}
+        </div>
+      </section>
+
+      <!-- SCREENSHOTS: the ten App Store screens as a film strip -->
+      <section class="block shots" id="screenshots" aria-labelledby="tools-heading">
+        <div class="block-head">
+          <p class="eyebrow">{{tools.eyebrow}}</p>
+          <h2 id="tools-heading">{{tools.title}}</h2>
+          <p>{{tools.intro}}</p>
+        </div>
+        <ol class="reel" aria-label="{{screenshots.aria}}" tabindex="0">
+          {{#each tools.items as |feature|}}
+          <li class="reel-frame">
+            <img class="reel-shot" src="{{feature.shot}}" srcset="{{feature.shot}} 460w, {{feature.shot_2x}} 920w" sizes="(max-width: 760px) 62vw, 260px" alt="{{feature.alt}}" width="460" height="995" loading="lazy" decoding="async" />
+            <h3 class="reel-name">{{feature.title}}</h3>
+            <p class="reel-text">{{feature.text}}</p>
+          </li>
+          {{/each}}
+        </ol>
+        <p class="reel-hint" aria-hidden="true">{{screenshots.hint}}</p>
+      </section>
+
+      <!-- HOW IT WORKS -->
+      <section class="block how" id="how-it-works" aria-labelledby="how-heading">
+        <div class="block-head">
+          <p class="eyebrow">{{sections.steps_card.eyebrow}}</p>
+          <h2 id="how-heading">{{sections.steps_card.title}}</h2>
+          <p>{{sections.feature_card.description}}</p>
+        </div>
+        <ol class="steps">
+          {{#each sections.steps_card.items as |step|}}
+          <li><span class="step-n">{{step_index}}</span><div><h3>{{step.name}}</h3><p>{{step.text}}</p></div></li>
+          {{/each}}
+        </ol>
+        <p class="steps-note">{{sections.steps_card.label}}</p>
+
+        <div class="tool-grid">
+          {{#each sections.tools as |item|}}
+          <div class="tool">
+            <p class="tool-name">{{item.name}}</p>
+            <p class="tool-text">{{item.text}}</p>
+          </div>
+          {{/each}}
+        </div>
+
+        <div class="how-grid">
+          <div class="audience">
+            <h3>{{sections.audience_card.title}}</h3>
+            <ul>
+              {{#each sections.audience_card.items as |item|}}
+              <li>{{item}}</li>
+              {{/each}}
+            </ul>
+          </div>
+          <div class="compare">
+            <h3>{{geo.compare_title}}</h3>
+            <p>{{geo.compare_intro}}</p>
+            <div class="table-wrap">
+              <table class="scoreboard">
+                <thead>
+                  <tr>
+                    <th scope="col">{{geo.compare_col_topic}}</th>
+                    <th scope="col">{{geo.compare_col_a}}</th>
+                    {{#if geo.compare_col_b}}<th scope="col">{{geo.compare_col_b}}</th>{{/if}}
+                    <th scope="col" class="col-app">{{geo.compare_col_app}}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {{#each geo.compare_rows as |row|}}
+                  <tr>
+                    <th scope="row">{{row.topic}}</th>
+                    <td data-label="{{geo.compare_col_a|attr}}">{{row.a}}</td>
+                    {{#if geo.compare_col_b}}<td data-label="{{geo.compare_col_b|attr}}">{{row.b}}</td>{{/if}}
+                    <td class="col-app" data-label="{{geo.compare_col_app|attr}}">{{row.app}}</td>
+                  </tr>
+                  {{/each}}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- GUIDES -->
+      {{#if guides.items}}
+      <section class="block guides" id="guides" aria-labelledby="guides-heading">
+        <div class="block-head block-head-row">
+          <div>
+            <p class="eyebrow">{{guides.eyebrow}}</p>
+            <h2 id="guides-heading">{{guides.title}}</h2>
+            <p>{{guides.intro}}</p>
+          </div>
+          <a class="pill-link" href="{{guides.hub_url}}">{{guides.hub_link_text}}</a>
+        </div>
+        <ul class="guide-list">
+          {{#each guides.items as |guide|}}
+          <li>
+            <a href="{{guide.url}}">
+              <span class="guide-tag">{{guide.eyebrow}}</span>
+              <span class="guide-title">{{guide.title}}</span>
+              <span class="guide-summary">{{guide.summary}}</span>
+            </a>
+          </li>
+          {{/each}}
+        </ul>
+      </section>
+      {{/if}}
+
+      <!-- FAQ -->
+      <section class="block faq" id="faq" aria-labelledby="faq-heading">
+        <div class="block-head">
+          <p class="eyebrow">{{faq_section.eyebrow}}</p>
+          <h2 id="faq-heading">{{geo.faq_section_title}}</h2>
+          <p>{{faq_section.intro}}</p>
+        </div>
+        <div class="faq-list">
+          {{#each seo.faq as |faq|}}
+          <article class="faq-item">
+            <h3 class="faq-q">{{faq.question}}</h3>
+            <p class="faq-a">{{faq.answer}}</p>
+            {{#if faq.learn_more_url}}
+            <a class="faq-more" href="{{faq.learn_more_url}}" title="{{faq.learn_more_title|attr}}">{{faq_section.learn_more_label}}</a>
+            {{/if}}
+          </article>
+          {{/each}}
+        </div>
+      </section>
+
+{{> final-cta}}
+    </main>
+
+{{> site-footer}}
+
+    <script type="application/ld+json">
+      {{seo.structured_data.software_application|json}}
+    </script>
+    <script type="application/ld+json">
+      {{seo.structured_data.organization|json}}
+    </script>
+    <script type="application/ld+json">
+      {{seo.structured_data.website|json}}
+    </script>
+    <script type="application/ld+json">
+      {{seo.structured_data.howto|json}}
+    </script>
+    <script type="application/ld+json">
+      {{seo.structured_data.faqpage|json}}
+    </script>
+    <script type="application/ld+json">
+      {{seo.structured_data.webpage|json}}
+    </script>
+    <script type="application/ld+json">
+      {{seo.structured_data.breadcrumb_list|json}}
+    </script>
+
+    <script src="/site.js?v={{meta.version}}" defer></script>
+{{> analytics}}
+  </body>
+</html>

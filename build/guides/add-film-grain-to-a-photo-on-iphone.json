@@ -1,0 +1,118 @@
+{
+  "priority": 7,
+  "keyword": "add grain to photo iphone",
+  "keywords": "add grain to photo iphone, film grain filter, grainy photo effect, film grain app, add noise to photo iphone",
+  "title": "How to Add Film Grain to a Photo on iPhone (Natural Grain)",
+  "description": "Add realistic film grain to iPhone photos: why Photos has no grain slider, how much grain suits portraits, street and night shots, and the fastest way.",
+  "h1": "How to add film grain to a photo on iPhone",
+  "eyebrow": "Film grain",
+  "card_title": "Add film grain to a photo",
+  "card_summary": "Natural, film-like grain on any iPhone photo, and how much to use.",
+  "quick_answer": "The Photos app has no grain or noise slider. In Halatto, open the photo and pick any look: each film or camera has its own grain built in, and you can raise or lower the grain and film age after you pick it. For a modern photo with just texture, choose a subtle look like Mini Instant, lower its strength and raise grain.",
+  "intro": [
+    "Grain is the single fastest way to make a digital photo feel analog. Real film grain is not uniform noise: it is stronger in the shadows and midtones and changes with the film speed.",
+    "Here is how to add it on iPhone without the plastic, digital-noise look of a generic grain overlay."
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/4.webp",
+    "alt": "Grainy disposable-camera style photo of two friends edited in Halatto",
+    "caption": "Grain from the Snap Gold disposable look, with light aging."
+  },
+  "sections": [
+    {
+      "heading": "How much grain to use",
+      "table": {
+        "head": [
+          "Photo",
+          "Grain",
+          "Look to start with"
+        ],
+        "rows": [
+          [
+            "Portraits, skin",
+            "Light",
+            "Titan 38 or Mini Instant"
+          ],
+          [
+            "Travel, daylight",
+            "Medium",
+            "Snap Gold or Snap 400"
+          ],
+          [
+            "Street, black and white",
+            "Heavy",
+            "Mju 35"
+          ],
+          [
+            "Night, city lights",
+            "Medium to heavy",
+            "Tungsten 800"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Built-in options on iPhone",
+      "paragraphs": [
+        "Photos' Edit tools (Exposure, Contrast, Noise Reduction and others) can remove noise but not add grain. Some recent iPhone models offer a film-style texture in the Camera's Photographic Styles for new shots; check Camera > Styles on yours. Neither works on photos you have already taken.",
+        "Pro editors like Lightroom have a Grain slider with amount, size and roughness. Halatto ties the grain to a film or camera, so it matches the color and lens of the look."
+      ]
+    }
+  ],
+  "steps": {
+    "heading": "Step by step: grain in Halatto",
+    "intro": "Thirty seconds.",
+    "total_time": "PT1M",
+    "items": [
+      {
+        "name": "Open the photo",
+        "text": "Pick a photo in Halatto or share it from Photos."
+      },
+      {
+        "name": "Pick a look",
+        "text": "Choose a film look from the Looks strip; its grain is applied with it."
+      },
+      {
+        "name": "Set grain and film age",
+        "text": "Raise grain for a faster, coarser film; raise film age for fade and wear."
+      },
+      {
+        "name": "Check at 100%",
+        "text": "Pinch to zoom in on a face or a shadow to see if the grain looks natural."
+      },
+      {
+        "name": "Save",
+        "text": "Save or share. Grain survives compression best on photos you send at full size."
+      }
+    ]
+  },
+  "tips": {
+    "heading": "Tips",
+    "items": [
+      "Social apps compress photos; add a little more grain than looks right on your screen.",
+      "Grain hides iPhone over-sharpening and HDR halos.",
+      "Black and white photos take heavy grain better than color ones."
+    ]
+  },
+  "faq": [
+    {
+      "question": "Is grain the same as noise?",
+      "answer": "Not quite. Digital noise is colored and blotchy; film grain is finer and follows the tones of the image. Digicam looks in Halatto add noise on purpose; film looks add grain."
+    },
+    {
+      "question": "Can I add grain without changing the colors?",
+      "answer": "Pick a subtle look and lower its strength, then raise grain. The color shift becomes minimal while the grain stays."
+    },
+    {
+      "question": "Does grain reduce photo quality?",
+      "answer": "It adds texture rather than removing detail, and the original stays in your library."
+    }
+  ],
+  "related": [
+    "make-photos-look-like-film-on-iphone",
+    "make-a-photo-look-old-on-iphone",
+    "night-film-halation-glow-on-iphone"
+  ],
+  "published": "2026-11-21",
+  "updated": "2026-11-21"
+}

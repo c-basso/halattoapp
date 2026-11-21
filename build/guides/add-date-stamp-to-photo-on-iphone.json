@@ -1,0 +1,96 @@
+{
+  "priority": 5,
+  "keyword": "add date stamp to photo iphone",
+  "keywords": "add date stamp to photo iphone, orange date stamp, timestamp on photo iphone, date on photo like old camera, 90s date stamp, retro date stamp",
+  "title": "How to Add a Date Stamp to a Photo on iPhone (Retro Orange)",
+  "description": "iPhone can't print the date on a photo. Here's how to add the orange, old-camera date stamp using the day the photo was taken, plus corner, color and size tips.",
+  "h1": "How to add a date stamp to a photo on iPhone",
+  "eyebrow": "Date stamp",
+  "card_title": "Add the orange date stamp",
+  "card_summary": "The glowing orange date of 90s film cameras, taken from the day the photo was shot.",
+  "quick_answer": "The iPhone Camera and Photos apps store the date in the photo's info but cannot print it on the picture. In Halatto, open the photo, tap Date stamp and pick a corner: the orange date is read from the day the photo was taken, in the '26 11 19 style of film cameras. Adjust Direction, Color and Size, then save.",
+  "intro": [
+    "The orange date in the corner is the most recognizable detail of a 90s film photo. Point-and-shoot cameras exposed it onto the film with tiny LEDs, so it glows slightly and sits on top of the picture.",
+    "Here is how to get that exact look on an iPhone photo, using its real capture date."
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/6.webp",
+    "alt": "Halatto Date stamp tool showing an orange '26 11 19 date on a photo of a black cat, with corner, direction, color and size controls",
+    "caption": "The date comes from the day the photo was taken."
+  },
+  "sections": [
+    {
+      "heading": "Can the iPhone add a date stamp on its own?",
+      "paragraphs": [
+        "No. Swipe up on a photo in Photos (or tap the i button) and you will see the date and time, which you can also adjust. That information lives in the file's metadata; it is not drawn on the image, and it disappears in many apps and screenshots.",
+        "To make the date part of the picture you need an app that draws it on. Utility apps put a plain timestamp on photos for documentation. Halatto draws the retro orange one, matched to film looks."
+      ]
+    },
+    {
+      "heading": "What a real film date stamp looks like",
+      "list": [
+        "Format: 'YY MM DD with an apostrophe, for example '26 11 19.",
+        "Color: glowing orange-red, a little soft at the edges.",
+        "Position: usually the bottom right corner, sometimes rotated on vertical shots."
+      ],
+      "ordered": false
+    }
+  ],
+  "steps": {
+    "heading": "Step by step: date stamp in Halatto",
+    "intro": "Thirty seconds.",
+    "total_time": "PT1M",
+    "items": [
+      {
+        "name": "Open the photo",
+        "text": "Pick the photo in Halatto. Optionally choose a film look first so the date sits on film color."
+      },
+      {
+        "name": "Open Date stamp",
+        "text": "Tap Date stamp and choose one of the four corners. The off icon removes it."
+      },
+      {
+        "name": "Set direction",
+        "text": "Use Direction for a horizontal date, or a vertical one going up or down along the edge."
+      },
+      {
+        "name": "Adjust color and size",
+        "text": "Drag Color to move from classic orange toward yellow or green, and Size to make it smaller or bigger."
+      },
+      {
+        "name": "Save",
+        "text": "Tap the checkmark and save or share the photo."
+      }
+    ]
+  },
+  "tips": {
+    "heading": "Tips",
+    "items": [
+      "Keep the date small; on old prints it was a few millimetres high.",
+      "Bottom right on a dark area of the photo glows best.",
+      "Pair it with Snap 400 or Titan 38 for a 90s point-and-shoot look.",
+      "Stamp every photo of a trip the same way so the set reads like one roll of prints."
+    ]
+  },
+  "faq": [
+    {
+      "question": "Which date does Halatto use?",
+      "answer": "The day the photo was taken, read from the photo's information."
+    },
+    {
+      "question": "Can I add a date stamp to a screenshot or saved image?",
+      "answer": "Yes. Any image in your library works; the date comes from the information saved with it."
+    },
+    {
+      "question": "Can I remove the date stamp later?",
+      "answer": "Yes. Reopen the edit in Halatto, open Date stamp and turn it off."
+    }
+  ],
+  "related": [
+    "90s-photo-filter-on-iphone",
+    "disposable-camera-filter-on-iphone",
+    "make-a-photo-look-old-on-iphone"
+  ],
+  "published": "2026-11-21",
+  "updated": "2026-11-21"
+}

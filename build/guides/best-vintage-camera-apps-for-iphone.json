@@ -1,0 +1,131 @@
+{
+  "priority": 11,
+  "keyword": "best vintage camera app iphone",
+  "keywords": "best vintage camera app iphone, best film camera app, huji cam alternative, dazz cam alternative, retro camera app, vintage filter app",
+  "title": "Best Vintage & Film Camera Apps for iPhone (2026 Guide)",
+  "description": "Huji, Dazz, Dispo, VSCO or Halatto? How vintage camera apps differ: camera-first vs editor, film vs digicam, privacy and price, and who each one fits.",
+  "h1": "Best vintage and film camera apps for iPhone",
+  "eyebrow": "Comparison",
+  "card_title": "Best vintage camera apps for iPhone",
+  "card_summary": "Camera-first apps vs editors, film vs digicam: which kind of vintage app fits you.",
+  "quick_answer": "Pick by how you work. If you want to shoot with the look on and enjoy a disposable-style ritual, a camera-first app like Huji Cam, Dazz Cam or Dispo fits. If you want deep film color grading, VSCO or RNI Films. If you want to turn photos you already took into film or old-camera shots, with aging, light leaks, a date stamp and batch editing, use an editor like Halatto.",
+  "intro": [
+    "The App Store has hundreds of vintage camera apps, and most look alike in screenshots. The real difference is what they are built around: shooting, grading or editing existing photos.",
+    "This guide sorts them by that, so you can pick the right kind before comparing individual filters. We make Halatto, so read our take on it with that in mind."
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/2.webp",
+    "alt": "Halatto grid of 14 old-camera looks applied to portrait photos",
+    "caption": "Halatto's 14 camera looks, previewed on your own photo."
+  },
+  "sections": [
+    {
+      "heading": "Three kinds of vintage photo apps",
+      "table": {
+        "head": [
+          "Kind",
+          "Examples",
+          "Best for",
+          "Trade-off"
+        ],
+        "rows": [
+          [
+            "Camera-first",
+            "Huji Cam, Dazz Cam, NOMO CAM, Dispo, 1998 Cam",
+            "Shooting new photos with a look; the fun of a fake disposable",
+            "Limited or no editing of photos already in your library"
+          ],
+          [
+            "Film grading",
+            "VSCO, RNI Films, Lightroom presets",
+            "Precise color work, photographers",
+            "Mostly color; aging, leaks and dates are limited or missing"
+          ],
+          [
+            "Old-camera editor",
+            "Halatto",
+            "Existing photos, whole sets, social posts",
+            "No social feed or community"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "What to check before you install",
+      "list": [
+        "Does it edit photos you already took, or only new shots?",
+        "Is the look a color filter, or does it add grain, lens softness and leaks?",
+        "Can you put one look on many photos?",
+        "Does it need an account or upload your photos?",
+        "What is free: a few filters, or everything with a limit?"
+      ],
+      "ordered": false
+    },
+    {
+      "id": "privacy",
+      "heading": "Privacy: where your photos go",
+      "paragraphs": [
+        "Some vintage and AI photo apps process images on a server. Halatto edits on your iPhone, with no account, and nothing is uploaded. Its App Store privacy label lists only purchases, identifiers, usage data and diagnostics, none linked to you."
+      ]
+    },
+    {
+      "heading": "Where Halatto fits",
+      "paragraphs": [
+        "Halatto is an editor first: open any photo, pick one of 14 old cameras (35mm, disposable, instant, toy, Y2K digicam), then age it, leak it, flash it and date it. Recipes and Develop the Roll put one look on a whole trip, and the before-and-after video export is made for stories. A built-in camera covers new shots.",
+        "Every look and effect is free up to a daily limit; a subscription or lifetime purchase removes the limit."
+      ]
+    }
+  ],
+  "steps": {
+    "heading": "Try Halatto in two minutes",
+    "intro": "A quick test on your own photos.",
+    "total_time": "PT2M",
+    "items": [
+      {
+        "name": "Install and open a photo",
+        "text": "Download Halatto and pick a photo you like from your library."
+      },
+      {
+        "name": "Browse the looks",
+        "text": "Swipe through the 14 cameras with the before/after divider."
+      },
+      {
+        "name": "Add one detail",
+        "text": "Try the orange date stamp or a light leak."
+      },
+      {
+        "name": "Develop a small roll",
+        "text": "Save a recipe and put it on five photos with Develop the Roll."
+      }
+    ]
+  },
+  "tips": {
+    "heading": "Tips for choosing",
+    "items": [
+      "Test any app on a night photo and a portrait; that is where cheap filters fall apart.",
+      "If you like the look on your existing camera roll, you do not need to change how you shoot.",
+      "Many people use both: a camera app for nights out, an editor for everything else."
+    ]
+  },
+  "faq": [
+    {
+      "question": "What is the best Huji Cam alternative?",
+      "answer": "If you want to keep shooting in-app, Dazz Cam or NOMO CAM. If you want the disposable look on photos you already took, an editor like Halatto."
+    },
+    {
+      "question": "Are vintage camera apps free?",
+      "answer": "Most are free to download with paid filters or subscriptions. Halatto gives every look up to a daily limit for free."
+    },
+    {
+      "question": "Is there an Android version of Halatto?",
+      "answer": "No. Halatto is iPhone only and requires iOS 18.6 or later."
+    }
+  ],
+  "related": [
+    "disposable-camera-filter-on-iphone",
+    "digicam-filter-y2k-photos-on-iphone",
+    "make-photos-look-like-film-on-iphone"
+  ],
+  "published": "2026-11-21",
+  "updated": "2026-11-21"
+}

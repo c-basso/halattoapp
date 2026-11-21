@@ -1,6 +1,126 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://halatto.app/</loc></url>
-  <url><loc>https://halatto.app/privacy.html</loc></url>
-  <url><loc>https://halatto.app/terms.html</loc></url>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://halatto.app/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://halatto.app/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://halatto.app/" />
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://halatto.app/guides/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://halatto.app/guides/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://halatto.app/guides/" />
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://halatto.app/guides/90s-photo-filter-on-iphone/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://halatto.app/guides/90s-photo-filter-on-iphone/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://halatto.app/guides/90s-photo-filter-on-iphone/" />
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://halatto.app/guides/add-date-stamp-to-photo-on-iphone/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://halatto.app/guides/add-date-stamp-to-photo-on-iphone/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://halatto.app/guides/add-date-stamp-to-photo-on-iphone/" />
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://halatto.app/guides/add-film-grain-to-a-photo-on-iphone/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://halatto.app/guides/add-film-grain-to-a-photo-on-iphone/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://halatto.app/guides/add-film-grain-to-a-photo-on-iphone/" />
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://halatto.app/guides/add-light-leaks-to-a-photo-on-iphone/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://halatto.app/guides/add-light-leaks-to-a-photo-on-iphone/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://halatto.app/guides/add-light-leaks-to-a-photo-on-iphone/" />
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://halatto.app/guides/apply-the-same-filter-to-multiple-photos-on-iphone/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://halatto.app/guides/apply-the-same-filter-to-multiple-photos-on-iphone/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://halatto.app/guides/apply-the-same-filter-to-multiple-photos-on-iphone/" />
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://halatto.app/guides/best-vintage-camera-apps-for-iphone/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://halatto.app/guides/best-vintage-camera-apps-for-iphone/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://halatto.app/guides/best-vintage-camera-apps-for-iphone/" />
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://halatto.app/guides/digicam-filter-y2k-photos-on-iphone/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://halatto.app/guides/digicam-filter-y2k-photos-on-iphone/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://halatto.app/guides/digicam-filter-y2k-photos-on-iphone/" />
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://halatto.app/guides/disposable-camera-filter-on-iphone/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://halatto.app/guides/disposable-camera-filter-on-iphone/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://halatto.app/guides/disposable-camera-filter-on-iphone/" />
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://halatto.app/guides/instant-photo-effect-on-iphone/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://halatto.app/guides/instant-photo-effect-on-iphone/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://halatto.app/guides/instant-photo-effect-on-iphone/" />
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://halatto.app/guides/make-a-before-and-after-photo-video-on-iphone/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://halatto.app/guides/make-a-before-and-after-photo-video-on-iphone/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://halatto.app/guides/make-a-before-and-after-photo-video-on-iphone/" />
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://halatto.app/guides/make-a-photo-look-old-on-iphone/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://halatto.app/guides/make-a-photo-look-old-on-iphone/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://halatto.app/guides/make-a-photo-look-old-on-iphone/" />
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://halatto.app/guides/make-photos-look-like-film-on-iphone/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://halatto.app/guides/make-photos-look-like-film-on-iphone/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://halatto.app/guides/make-photos-look-like-film-on-iphone/" />
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://halatto.app/guides/night-film-halation-glow-on-iphone/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://halatto.app/guides/night-film-halation-glow-on-iphone/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://halatto.app/guides/night-film-halation-glow-on-iphone/" />
+    <priority>0.9</priority>
+  </url>
+
 </urlset>

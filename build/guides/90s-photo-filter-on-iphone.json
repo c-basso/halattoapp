@@ -1,0 +1,120 @@
+{
+  "priority": 8,
+  "keyword": "90s filter",
+  "keywords": "90s filter, 90s photo filter iphone, 90s camera effect, 90s aesthetic photo, point and shoot filter, 35mm compact camera look",
+  "title": "90s Photo Filter for iPhone: Point-and-Shoot Film Look",
+  "description": "Make iPhone photos look like a 90s point-and-shoot: 35mm film color, flash, grain and the orange date stamp. Which looks to use and how to apply them.",
+  "h1": "90s photo filter: the point-and-shoot film look on iPhone",
+  "eyebrow": "90s film",
+  "card_title": "90s photo filter on iPhone",
+  "card_summary": "35mm compact cameras, on-camera flash and the orange date, on any photo.",
+  "quick_answer": "A 90s photo was usually shot on a 35mm compact or a disposable: crisp but slightly soft color, visible grain, a direct flash indoors and an orange date in the corner. In Halatto, choose Titan 38 (premium 90s compact), Mju 35 (pocket point-and-shoot in black and white) or Snap 400 (disposable), add the Retro flash for indoor shots and the date stamp, then save.",
+  "intro": [
+    "The 90s look is film, not digital: no sensor noise, no crunchy JPEG, but grain, warm skin and a flash that makes everyone glow.",
+    "Here is how to pick the right camera for the photo and finish it the way a lab print looked."
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/7.webp",
+    "alt": "Halatto Develop the Roll screen with Titan 38, Mju 35, Snap 400 and Snap Gold cameras and black and white cat photos",
+    "caption": "Titan 38, Mju 35 and Snap 400 cover the 90s point-and-shoot and disposable looks."
+  },
+  "sections": [
+    {
+      "heading": "90s vs Y2K: two different looks",
+      "table": {
+        "head": [
+          "",
+          "90s point-and-shoot",
+          "2000s digicam"
+        ],
+        "rows": [
+          [
+            "Medium",
+            "35mm film",
+            "Small CCD sensor"
+          ],
+          [
+            "Texture",
+            "Grain",
+            "Digital noise, JPEG blocks"
+          ],
+          [
+            "Color",
+            "Warm skin, rich but soft",
+            "Cool whites, odd skin tones"
+          ],
+          [
+            "Halatto looks",
+            "Titan 38, Mju 35, Snap 400, Snap Gold",
+            "Silver IX, Cyber Blue, Digi 2MP"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Which 90s camera for which photo",
+      "list": [
+        "Titan 38: city trips, portraits, golden hour. Crisp, cool shadows, warm highlights.",
+        "Mju 35: black and white street and friends. Hard contrast, big grain.",
+        "Snap 400 and Snap Gold: parties, holidays, the camera that went around the table."
+      ],
+      "ordered": false
+    }
+  ],
+  "steps": {
+    "heading": "Step by step: 90s look in Halatto",
+    "intro": "About a minute.",
+    "total_time": "PT1M",
+    "items": [
+      {
+        "name": "Open the photo",
+        "text": "Pick a photo in Halatto or share it from Photos."
+      },
+      {
+        "name": "Choose a 90s camera",
+        "text": "Tap Titan 38, Mju 35 or Snap 400 in the Looks strip."
+      },
+      {
+        "name": "Add flash for indoor shots",
+        "text": "Open Flash and pick Retro."
+      },
+      {
+        "name": "Stamp the date",
+        "text": "Open Date stamp and choose the bottom right corner."
+      },
+      {
+        "name": "Save or develop the roll",
+        "text": "Save it, or save a recipe and use Develop the Roll for the whole album."
+      }
+    ]
+  },
+  "tips": {
+    "heading": "Tips",
+    "items": [
+      "Crop to 3:2, the shape of a 35mm frame.",
+      "A slight Aging fade makes it look like a print from an album, not a fresh scan.",
+      "Use one camera for the whole set; 90s albums were one or two rolls."
+    ]
+  },
+  "faq": [
+    {
+      "question": "What app gives the 90s filter on TikTok and Instagram?",
+      "answer": "Many apps do. Halatto gives the 90s point-and-shoot and disposable looks on photos you already took, with flash and the orange date."
+    },
+    {
+      "question": "Can I make a 90s look in black and white?",
+      "answer": "Yes. Mju 35 is a black and white pocket point-and-shoot with hard contrast and big grain."
+    },
+    {
+      "question": "Is the 90s look the same as Y2K?",
+      "answer": "No. 90s is film; Y2K usually means early digital cameras. See the digicam filter guide for that look."
+    }
+  ],
+  "related": [
+    "digicam-filter-y2k-photos-on-iphone",
+    "add-date-stamp-to-photo-on-iphone",
+    "disposable-camera-filter-on-iphone"
+  ],
+  "published": "2026-11-21",
+  "updated": "2026-11-21"
+}

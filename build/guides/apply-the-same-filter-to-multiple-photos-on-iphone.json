@@ -1,0 +1,97 @@
+{
+  "priority": 10,
+  "keyword": "apply same edit to multiple photos iphone",
+  "keywords": "apply same edit to multiple photos iphone, batch edit photos iphone, copy edits iphone, same filter on all photos, batch photo filter, edit multiple photos at once iphone",
+  "title": "Apply the Same Filter to Multiple Photos on iPhone at Once",
+  "description": "Batch edit on iPhone: Copy and Paste Edits in Photos, and how to put one film look on a whole trip at once with saved recipes and Develop the Roll in Halatto.",
+  "h1": "How to apply the same filter to multiple photos on iPhone",
+  "eyebrow": "Batch edit",
+  "card_title": "Same filter on many photos",
+  "card_summary": "Copy and Paste Edits in Photos, or one film look on a whole trip with Develop the Roll.",
+  "quick_answer": "In Photos, edit one photo, tap the More button and choose Copy Edits, then select the other photos, tap More and Paste Edits. That copies Photos adjustments only. For a film look on a whole set, edit one photo in Halatto and Save as Recipe, or open Develop the Roll, choose a camera, select the photos and tap Develop all.",
+  "intro": [
+    "A trip, a party or a feed looks finished when every photo shares the same color and texture, like one roll of film. Editing thirty photos one by one is how most people give up.",
+    "Here are the two batch options on iPhone and when each one fits."
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/7.webp",
+    "alt": "Halatto Develop the Roll screen applying the Mju 35 look to several photos with a Develop all button",
+    "caption": "Develop the Roll puts one camera on every selected photo."
+  },
+  "sections": [
+    {
+      "heading": "Option 1: Copy and Paste Edits in Photos",
+      "list": [
+        "Open an edited photo in Photos.",
+        "Tap the More button (three dots) and choose Copy Edits.",
+        "Go back, tap Select and choose the other photos.",
+        "Tap the More button and choose Paste Edits."
+      ],
+      "ordered": true,
+      "note": "This copies Photos adjustments and filters only. It cannot add grain, light leaks, a date stamp or a film camera look."
+    },
+    {
+      "heading": "Option 2: recipes and Develop the Roll in Halatto",
+      "paragraphs": [
+        "A recipe is your full edit saved under a name: the look, its strength, grain and film age, aging, leaks, flash and date stamp. Apply it to any photo later in one tap.",
+        "Develop the Roll is the batch version: choose a camera, select the photos, and Develop all puts the look on every one, like getting a whole roll back from the lab."
+      ]
+    }
+  ],
+  "steps": {
+    "heading": "Step by step: one look for a whole trip",
+    "intro": "A couple of minutes for a few dozen photos.",
+    "total_time": "PT3M",
+    "items": [
+      {
+        "name": "Edit one hero photo",
+        "text": "Open your favorite photo of the set and build the look: camera, grain, aging, leak, date."
+      },
+      {
+        "name": "Save as Recipe",
+        "text": "Save the edit as a recipe and give it a name, for example Lisbon 2026."
+      },
+      {
+        "name": "Open Develop the Roll",
+        "text": "Pick the camera for the roll and select the rest of the photos."
+      },
+      {
+        "name": "Develop all",
+        "text": "Tap Develop all. Every selected photo gets the same look."
+      },
+      {
+        "name": "Fine-tune and share",
+        "text": "Reopen any single photo to adjust it, then save or share the set."
+      }
+    ]
+  },
+  "tips": {
+    "heading": "Tips",
+    "items": [
+      "Pick the hero photo with the most typical light of the trip, not the most extreme one.",
+      "Night and day photos may need two recipes from the same camera.",
+      "Use one camera per album; switching cameras mid-set breaks the roll feeling."
+    ]
+  },
+  "faq": [
+    {
+      "question": "Can I batch edit photos in the iPhone Photos app?",
+      "answer": "Yes, with Copy Edits and Paste Edits, but only Photos' own adjustments are copied."
+    },
+    {
+      "question": "How many photos can Develop the Roll handle?",
+      "answer": "A whole set at once; the button shows how many photos are selected."
+    },
+    {
+      "question": "Can I use a recipe on photos from another trip?",
+      "answer": "Yes. Recipes stay in the app, so the same look can go on any photo, any time."
+    }
+  ],
+  "related": [
+    "make-photos-look-like-film-on-iphone",
+    "disposable-camera-filter-on-iphone",
+    "make-a-before-and-after-photo-video-on-iphone"
+  ],
+  "published": "2026-11-21",
+  "updated": "2026-11-21"
+}

@@ -1,0 +1,115 @@
+{
+  "priority": 9,
+  "keyword": "light leak effect",
+  "keywords": "light leak effect, light leak filter iphone, film light leak, add light leak to photo, lomo light leak, toy camera effect",
+  "title": "How to Add a Light Leak Effect to a Photo on iPhone",
+  "description": "Add film light leaks to iPhone photos: edge, window and burn leaks in soft red, orange or golden, plus toy cameras that leak by design. Settings inside.",
+  "h1": "How to add a light leak effect to a photo on iPhone",
+  "eyebrow": "Light leaks",
+  "card_title": "Add light leaks to a photo",
+  "card_summary": "Edge, window and burn leaks in red, orange or gold, and the toy cameras that leak on their own.",
+  "quick_answer": "A light leak is the warm glow from light that got onto the film by accident. In Halatto, open the photo, tap Light Leak, choose a preset (Soft red, Orange, Golden), pick the type (Edge for a glow from one side, Window for a soft patch, Burn for a strong blown-out flare), then set Color, Amount and Position. Or pick a toy camera look, such as Tunnel 35 or Dream 120, that already leaks.",
+  "intro": [
+    "Light leaks came from cheap or old cameras with gaps in the body, from opening the back too early, or from the end of a roll. Today they are the quickest way to make a photo feel warm and nostalgic.",
+    "The trick is to keep them subtle and put them where light could actually get in: the edge of the frame."
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/5.webp",
+    "alt": "Halatto Light Leak tool with Original, Soft red, Orange and Golden presets, Edge, Window and Burn types and Color, Amount and Position sliders",
+    "caption": "Light Leak: preset, type, then Color, Amount and Position."
+  },
+  "sections": [
+    {
+      "heading": "Edge, Window or Burn?",
+      "table": {
+        "head": [
+          "Type",
+          "What it looks like",
+          "Use it for"
+        ],
+        "rows": [
+          [
+            "Edge",
+            "A glow coming in from one side of the frame.",
+            "Most photos; the classic leak."
+          ],
+          [
+            "Window",
+            "A soft patch of light over part of the image.",
+            "Dreamy portraits, flowers, golden hour."
+          ],
+          [
+            "Burn",
+            "A strong, blown-out flare as if the film was exposed.",
+            "End-of-roll frames, music and party photos."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Toy cameras that leak by design",
+      "list": [
+        "Tunnel 35: tunnel vignette, cross-processed color, a leak at the edge.",
+        "Toy 120: dark corners and blur toward the edges.",
+        "Dream 120: very soft, glowing highlights and a pink light leak."
+      ],
+      "ordered": false
+    }
+  ],
+  "steps": {
+    "heading": "Step by step: light leak in Halatto",
+    "intro": "About a minute.",
+    "total_time": "PT1M",
+    "items": [
+      {
+        "name": "Pick a film look",
+        "text": "A leak looks best on film color, so start with a look such as Snap Gold or Titan 38."
+      },
+      {
+        "name": "Open Light Leak",
+        "text": "Choose Soft red, Orange or Golden."
+      },
+      {
+        "name": "Choose the type",
+        "text": "Tap Edge, Window or Burn."
+      },
+      {
+        "name": "Place it",
+        "text": "Set Color, keep Amount low, and move Position so the leak comes from an edge, away from faces."
+      },
+      {
+        "name": "Save",
+        "text": "Tap the checkmark, then save or share."
+      }
+    ]
+  },
+  "tips": {
+    "heading": "Tips",
+    "items": [
+      "One leak per photo. Several at once look like stickers.",
+      "Warm leaks (orange, golden) suit sunsets; soft red suits night and neon.",
+      "In a set, vary the leak's position a little so each frame looks individual."
+    ]
+  },
+  "faq": [
+    {
+      "question": "Are light leaks a mistake?",
+      "answer": "Originally yes, now mostly a style. They signal film and imperfection, which is why they are popular on social media."
+    },
+    {
+      "question": "Can I remove a light leak later?",
+      "answer": "Yes. Reopen the edit in Halatto and set Light Leak back to Original."
+    },
+    {
+      "question": "Do light leaks work on black and white photos?",
+      "answer": "Yes; on black and white they show as a bright, washed-out glow."
+    }
+  ],
+  "related": [
+    "make-a-photo-look-old-on-iphone",
+    "instant-photo-effect-on-iphone",
+    "make-photos-look-like-film-on-iphone"
+  ],
+  "published": "2026-11-21",
+  "updated": "2026-11-21"
+}

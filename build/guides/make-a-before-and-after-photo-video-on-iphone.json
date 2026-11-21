@@ -1,0 +1,108 @@
+{
+  "priority": 12,
+  "keyword": "before and after photo video iphone",
+  "keywords": "before and after photo video iphone, before after slider video, photo edit reveal video, before and after reel, story before after",
+  "title": "Make a Before and After Photo Video on iPhone for Stories",
+  "description": "Turn a photo edit into a before-and-after reveal video on iPhone, sized for Stories, Reels and TikTok (9:16, 4:5, 1:1). The fastest way and tips that get views.",
+  "h1": "How to make a before and after photo video on iPhone",
+  "eyebrow": "Before & after",
+  "card_title": "Before and after photo video",
+  "card_summary": "A reveal video of your edit in 9:16, 4:5 or 1:1, ready for Stories and Reels.",
+  "quick_answer": "After you edit a photo in Halatto, open Export and choose the video option: a divider sweeps across the photo from the original to the film look. Pick Original, 9:16 (Stories, Reels, TikTok), 4:5 (feed) or 1:1, and tap Share video. Doing the same in a video editor means exporting two images and animating a mask by hand.",
+  "intro": [
+    "Before-and-after reveals are some of the most-watched photo posts: people want to see what the edit changed.",
+    "Here is the quick way to make one on iPhone from a vintage edit, and how to format it for each platform."
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/9.webp",
+    "alt": "Halatto Export screen with a before and after video of a cat photo and Original, 9:16, 4:5 and 1:1 options and a Share video button",
+    "caption": "Export: pick the aspect ratio and tap Share video."
+  },
+  "sections": [
+    {
+      "heading": "Which aspect ratio to export",
+      "table": {
+        "head": [
+          "Where you post",
+          "Aspect ratio"
+        ],
+        "rows": [
+          [
+            "Instagram Stories, Reels, TikTok, YouTube Shorts",
+            "9:16"
+          ],
+          [
+            "Instagram and Facebook feed",
+            "4:5"
+          ],
+          [
+            "Square posts, X, messengers",
+            "1:1"
+          ],
+          [
+            "Keep the photo's own shape",
+            "Original"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "The manual way, for comparison",
+      "paragraphs": [
+        "Without a built-in export you would save the original and the edited photo, put both on a timeline in a video editor such as CapCut or iMovie, add a wipe transition or animate a mask, then export at the right size. It works, but it takes minutes per photo."
+      ]
+    }
+  ],
+  "steps": {
+    "heading": "Step by step: reveal video in Halatto",
+    "intro": "Under a minute after the edit.",
+    "total_time": "PT1M",
+    "items": [
+      {
+        "name": "Edit the photo",
+        "text": "Pick a look and add any aging, leaks or date stamp."
+      },
+      {
+        "name": "Open Export",
+        "text": "Choose the before-and-after video."
+      },
+      {
+        "name": "Choose the size",
+        "text": "Tap Original, 9:16, 4:5 or 1:1."
+      },
+      {
+        "name": "Share video",
+        "text": "Tap Share video and send it to Instagram, TikTok, Messages or save it to Photos."
+      }
+    ]
+  },
+  "tips": {
+    "heading": "Tips for reveals that get watched",
+    "items": [
+      "Choose photos where the change is obvious: a sharp, cold phone photo turned warm and grainy.",
+      "Put the look's name in your caption; people ask which filter it is.",
+      "Post a carousel of the final photos after the reveal."
+    ]
+  },
+  "faq": [
+    {
+      "question": "Can I make a before and after video in the Photos app?",
+      "answer": "Not directly. Photos can compare an edit by tapping it, but it cannot export a reveal video."
+    },
+    {
+      "question": "Does the video include a watermark?",
+      "answer": "The App Store screenshot of the export shows a small Halatto mark in the corner of the video."
+    },
+    {
+      "question": "Which apps can I share the video to?",
+      "answer": "Any app in the iOS share sheet, including Instagram, TikTok, Messages and Photos."
+    }
+  ],
+  "related": [
+    "apply-the-same-filter-to-multiple-photos-on-iphone",
+    "make-photos-look-like-film-on-iphone",
+    "best-vintage-camera-apps-for-iphone"
+  ],
+  "published": "2026-11-21",
+  "updated": "2026-11-21"
+}

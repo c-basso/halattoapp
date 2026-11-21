@@ -1,0 +1,630 @@
+{
+  "meta": {
+    "lang": "en",
+    "title": "Vintage Photo Filter for iPhone: Film & Old Camera Looks",
+    "description": "Halatto makes the photos you already have look shot on film: disposable, instant, toy camera, 90s point-and-shoot or Y2K digicam. Grain, leaks, date stamp.",
+    "keywords": "vintage photo filter, film filter app, make photos look like film, disposable camera filter, digicam filter, y2k camera filter, old camera filter, film grain, date stamp, light leak, retro photo editor",
+    "canonical": "https://halatto.app/",
+    "og_title": "Halatto – Vintage Photo Filter: Your Photos, Shot on Film",
+    "og_description": "14 old cameras for the photos already on your iPhone: disposable, instant, toy, 90s and Y2K digicam, with grain, light leaks and the orange date stamp.",
+    "og_image": "https://halatto.app/site_preview.png",
+    "og_image_alt": "Halatto vintage photo filter app: a retro camera ejecting a film print with an orange date stamp",
+    "og_url": "https://halatto.app/",
+    "og_locale": "en_US",
+    "twitter_url": "https://halatto.app/",
+    "twitter_title": "Halatto – Vintage Photo Filter: Your Photos, Shot on Film",
+    "twitter_description": "14 old cameras for the photos already on your iPhone: disposable, instant, toy, 90s and Y2K digicam, with grain, light leaks and the orange date stamp.",
+    "twitter_image": "https://halatto.app/site_preview.png",
+    "twitter_image_alt": "Halatto vintage photo filter app: a retro camera ejecting a film print with an orange date stamp"
+  },
+  "header": {
+    "app_name_suffix": "Vintage Photo Filter",
+    "logo_alt": "Halatto app icon: a silver retro camera",
+    "app_name": "Halatto",
+    "brand_name": "HALATTO",
+    "brand_subtitle": "Vintage photo filter for iPhone",
+    "download_text": "Download on the App Store",
+    "download_aria_label": "Download Halatto, the vintage photo filter, on the App Store"
+  },
+  "nav": {
+    "aria": "Main navigation",
+    "looks": "Looks",
+    "how_it_works": "How it works",
+    "screenshots": "Screenshots",
+    "guides": "Guides",
+    "faq": "FAQ",
+    "download": "Get the app",
+    "menu_label": "Menu"
+  },
+  "hero": {
+    "eyebrow": "Vintage photo filter · iPhone",
+    "title_prefix": "Your photos,",
+    "title_highlight": "shot on film.",
+    "subtitle": "Halatto turns the photos already on your iPhone into film: a disposable, an instant camera, a toy camera, a 90s point-and-shoot or a Y2K digicam. Film color, grain, light leaks and the orange date in the corner, in a few taps.",
+    "cta_secondary_link": "See the 14 looks",
+    "proof": [
+      "Free to try",
+      "No account",
+      "Edited on your iPhone, nothing uploaded"
+    ],
+    "intent_link": {
+      "guide": "make-photos-look-like-film-on-iphone",
+      "text": "Step by step: make your iPhone photos look like film"
+    }
+  },
+  "demo": {
+    "aria": "A retro camera flashes and ejects a print that develops, with an orange date stamp",
+    "alt": "Halatto retro camera illustration ejecting a developing film print",
+    "date": "'26 11 21",
+    "caption": "Pick a camera. The print comes out with its film, lens and date."
+  },
+  "geo": {
+    "summary_aria": "What Halatto is",
+    "summary_lead": "Summary: Halatto (App Store name \"Vintage Photo Filter – Halatto\") is an iPhone photo editor that makes an existing photo look like it was shot on film or an old camera, with 14 camera looks, film grain, aging, light leaks, flash and a date stamp.",
+    "summary_body": "Published on the Apple App Store in November 2026 by Vladimir Ivakhnenko (c-basso), in Graphics & Design. Each look simulates a whole camera, its film or sensor and its lens, not only a color grade. Photos are edited on the iPhone with no account and nothing uploaded. Free to try with a daily limit; a subscription removes the limit.",
+    "stats_title": "At a glance",
+    "stats": [
+      {
+        "value": "14 looks",
+        "label": "35mm, disposable, instant, toy camera and Y2K digicam, each with its own film and lens."
+      },
+      {
+        "value": "6 tools",
+        "label": "Grain and film age, aging, light leaks, flash, date stamp, crop and color."
+      },
+      {
+        "value": "1 tap",
+        "label": "Develop the Roll puts one look on a whole set of photos at once."
+      },
+      {
+        "value": "On device",
+        "label": "No account. Photos are edited on your iPhone and nothing is uploaded."
+      },
+      {
+        "value": "iOS 18.6+",
+        "label": "iPhone app, 89.3 MB, in English and 30 more languages."
+      },
+      {
+        "value": "Free",
+        "label": "Every look free up to a daily limit; a subscription removes it. Rated 4+."
+      }
+    ],
+    "compare_title": "A color filter vs a camera app vs Halatto",
+    "compare_intro": "Three common ways to get a film look on iPhone, and what each one does to the photo.",
+    "compare_col_topic": "Topic",
+    "compare_col_a": "Color filter or preset",
+    "compare_col_b": "Film camera app",
+    "compare_col_app": "Halatto",
+    "compare_rows": [
+      {
+        "topic": "Photos you already took",
+        "a": "Yes.",
+        "b": "Usually only new shots, or an import mode with fewer options.",
+        "app": "Built for them: open any photo from your library or the share sheet."
+      },
+      {
+        "topic": "What the look changes",
+        "a": "Color and contrast.",
+        "b": "Color, grain, sometimes leaks and a date.",
+        "app": "The whole camera: film color, grain or sensor noise, lens softness, vignette, flare and light leaks."
+      },
+      {
+        "topic": "Making it look old",
+        "a": "Fade and grain sliders at best.",
+        "b": "Random dust or a fixed date.",
+        "app": "Aging (fade, sunlight, yellowing), dust, stains, creases, film age and a date stamp from the day the photo was taken."
+      },
+      {
+        "topic": "A whole trip or party",
+        "a": "Copy edits photo by photo.",
+        "b": "Shoot everything in the app beforehand.",
+        "app": "Save a recipe, then Develop the Roll puts it on every photo at once."
+      }
+    ],
+    "faq_section_title": "Vintage photo filter questions, answered"
+  },
+  "download": {
+    "title": "Get Halatto on the App Store",
+    "subtitle": "Vintage Photo Filter: film grain & old camera editor for iPhone.",
+    "price": "Free to try",
+    "price_note": "optional subscription or lifetime unlock removes the daily limit",
+    "qr_alt": "QR code linking to Halatto on the App Store",
+    "qr_label": "Scan with your iPhone camera",
+    "requirements": "Requires iOS 18.6 or later on iPhone. 89.3 MB. English and 30 more languages. Rated 4+.",
+    "note": "For portraits, friends, travel, parties, night shots and social posts that should look like they came back from the lab, without buying film or an old camera.",
+    "rating_line": ""
+  },
+  "looks": {
+    "eyebrow": "14 looks",
+    "title": "Not a color filter. A whole camera.",
+    "intro": "Each look recreates a kind of camera: its film or sensor (color, grain, digital noise) and its lens (softness, vignette, flare and light leaks). Pick one, then set the strength, grain and film age.",
+    "groups": [
+      {
+        "name": "35mm film",
+        "text": "Cinema film at night and the compacts people carried in the 90s.",
+        "guide_url": "https://halatto.app/guides/make-photos-look-like-film-on-iphone/",
+        "guide_text": "Film look guide",
+        "items": [
+          {
+            "icon": "tungsten800",
+            "name": "Tungsten 800",
+            "text": "Night cinema film. Red halos around lights, teal shadows."
+          },
+          {
+            "icon": "titan38",
+            "name": "Titan 38",
+            "text": "Premium 90s compact. Crisp, cool shadows, warm highlights."
+          },
+          {
+            "icon": "mju35",
+            "name": "Mju 35",
+            "text": "Pocket point-and-shoot in black and white. Hard contrast, big grain."
+          }
+        ]
+      },
+      {
+        "name": "Disposable",
+        "text": "The party camera from the bottom of the bag.",
+        "guide_url": "https://halatto.app/guides/disposable-camera-filter-on-iphone/",
+        "guide_text": "Disposable filter guide",
+        "items": [
+          {
+            "icon": "snap400",
+            "name": "Snap 400",
+            "text": "Soft plastic lens, rainbow flare, greenish shadows."
+          },
+          {
+            "icon": "snapGold",
+            "name": "Snap Gold",
+            "text": "Summer disposable. Golden, saturated, coarser grain."
+          }
+        ]
+      },
+      {
+        "name": "Instant",
+        "text": "Prints that develop in your hand, square or pocket-sized.",
+        "guide_url": "https://halatto.app/guides/instant-photo-effect-on-iphone/",
+        "guide_text": "Instant photo guide",
+        "items": [
+          {
+            "icon": "sxFold",
+            "name": "SX Fold",
+            "text": "Folding instant. Glassy, deep blue shadows, lilac highlights."
+          },
+          {
+            "icon": "square600",
+            "name": "Square 600",
+            "text": "Boxy instant. Soft, green shadows, pink highlights."
+          },
+          {
+            "icon": "miniInstant",
+            "name": "Mini Instant",
+            "text": "Credit-card size. Clear, bright, a little cool."
+          }
+        ]
+      },
+      {
+        "name": "Toy camera",
+        "text": "Plastic lenses, dark corners and light that sneaks in.",
+        "guide_url": "https://halatto.app/guides/add-light-leaks-to-a-photo-on-iphone/",
+        "guide_text": "Light leak guide",
+        "items": [
+          {
+            "icon": "tunnel35",
+            "name": "Tunnel 35",
+            "text": "Tunnel vignette, cross-processed color, a leak at the edge."
+          },
+          {
+            "icon": "toy120",
+            "name": "Toy 120",
+            "text": "Medium-format toy. Dark corners, blur toward the edges."
+          },
+          {
+            "icon": "dream120",
+            "name": "Dream 120",
+            "text": "Very soft, glowing highlights, a pink light leak."
+          }
+        ]
+      },
+      {
+        "name": "Y2K digicam",
+        "text": "2000s digital compacts with a hard flash and CCD color.",
+        "guide_url": "https://halatto.app/guides/digicam-filter-y2k-photos-on-iphone/",
+        "guide_text": "Digicam filter guide",
+        "items": [
+          {
+            "icon": "silverIX",
+            "name": "Silver IX",
+            "text": "Warm silver compact. Pink skin, soft, purple fringing."
+          },
+          {
+            "icon": "cyberBlue",
+            "name": "Cyber Blue",
+            "text": "Cool compact. Blue whites, contrast and noise."
+          },
+          {
+            "icon": "digi2MP",
+            "name": "Digi 2MP",
+            "text": "Early CCD. JPEG blocks, smeared color, streaks from lights."
+          }
+        ]
+      }
+    ]
+  },
+  "tools": {
+    "eyebrow": "Screenshots",
+    "title": "Everything an old camera did to a photo",
+    "intro": "The ten App Store screens, from picking a look to sharing a before-and-after video. Scroll the strip.",
+    "items": [
+      {
+        "title": "Your photos, shot on film",
+        "text": "Open a photo and drag the divider to compare before and after while you browse the Looks strip.",
+        "shot": "/img/screenshots/1.webp",
+        "shot_2x": "/img/screenshots/1@2x.webp",
+        "alt": "Halatto Looks strip under a photo of two friends with a before and after divider, Snap Gold look selected"
+      },
+      {
+        "title": "14 old cameras",
+        "text": "Disposable, instant, toy, 90s and digicam, each previewed on your own photo.",
+        "shot": "/img/screenshots/2.webp",
+        "shot_2x": "/img/screenshots/2@2x.webp",
+        "alt": "Grid of Halatto camera looks including Snap Gold, Tunnel 35, Toy 120, Dream 120, SX Fold and Square 600 on portrait photos"
+      },
+      {
+        "title": "Y2K digicam flash",
+        "text": "Add a Retro or Digital flash with noise and cool whites, like it's 2005.",
+        "shot": "/img/screenshots/3.webp",
+        "shot_2x": "/img/screenshots/3@2x.webp",
+        "alt": "Flash tool in Halatto with None, Retro, Digital and Tanning options on a night photo of two friends in winter jackets"
+      },
+      {
+        "title": "Disposable camera vibes",
+        "text": "Warm, grainy and a little faded, made for parties and trips. Aging presets include Shoebox and Faded print.",
+        "shot": "/img/screenshots/4.webp",
+        "shot_2x": "/img/screenshots/4@2x.webp",
+        "alt": "Aging tool with Fade, Sunlight, Yellowing and Unevenness sliders on a grainy disposable-style photo"
+      },
+      {
+        "title": "Make it feel truly old",
+        "text": "Dust, creases, fade and light leaks: Edge, Window or Burn, in soft red, orange or golden.",
+        "shot": "/img/screenshots/5.webp",
+        "shot_2x": "/img/screenshots/5@2x.webp",
+        "alt": "Light Leak tool with Soft red, Orange and Golden presets and Edge, Window and Burn modes on a creased old portrait"
+      },
+      {
+        "title": "The orange date stamp",
+        "text": "Taken from the day you shot the photo. Pick the corner, direction, color and size.",
+        "shot": "/img/screenshots/6.webp",
+        "shot_2x": "/img/screenshots/6@2x.webp",
+        "alt": "Date stamp tool showing an orange '26 11 19 date on a photo of a black cat, with corner, color and size controls"
+      },
+      {
+        "title": "Develop the whole roll",
+        "text": "Pick a camera once and put it on every photo from your trip with Develop all.",
+        "shot": "/img/screenshots/7.webp",
+        "shot_2x": "/img/screenshots/7@2x.webp",
+        "alt": "Develop the Roll screen applying the Mju 35 black and white look to several cat photos at once"
+      },
+      {
+        "title": "Save your own recipe",
+        "text": "Name your edit and apply it to any photo, any time, in one tap.",
+        "shot": "/img/screenshots/8.webp",
+        "shot_2x": "/img/screenshots/8@2x.webp",
+        "alt": "Save as Recipe dialog in Halatto with the name Recipe 1 and a Save button"
+      },
+      {
+        "title": "Share the before and after",
+        "text": "Export a story-ready reveal video in Original, 9:16, 4:5 or 1:1.",
+        "shot": "/img/screenshots/9.webp",
+        "shot_2x": "/img/screenshots/9@2x.webp",
+        "alt": "Export screen with a before and after video of a cat photo, aspect options Original, 9:16, 4:5, 1:1 and a Share video button"
+      },
+      {
+        "title": "Or shoot on film right away",
+        "text": "The built-in camera puts the look on before you take the photo. No account, nothing uploaded.",
+        "shot": "/img/screenshots/10.webp",
+        "shot_2x": "/img/screenshots/10@2x.webp",
+        "alt": "Halatto built-in camera with the Cyber Blue digicam look live on two friends at night"
+      }
+    ]
+  },
+  "screenshots": {
+    "aria": "App screenshots, scroll horizontally",
+    "hint": "Swipe the strip →"
+  },
+  "sections": {
+    "feature_card": {
+      "description": "Halatto is an editor first: it works on photos you already took, and keeps every edit so you can come back and change the look."
+    },
+    "steps_card": {
+      "eyebrow": "How it works",
+      "title": "From phone photo to film print in three steps",
+      "items": [
+        {
+          "name": "Open a photo",
+          "text": "Pick one from your library, or in Photos tap Share and choose Halatto. Or shoot a new one with the built-in camera."
+        },
+        {
+          "name": "Pick a camera",
+          "text": "Choose one of 14 looks, then set its strength, grain and film age. Add aging, light leaks, flash and the date stamp if you like."
+        },
+        {
+          "name": "Save or share",
+          "text": "Save the photo, share it, or export a before-and-after video. Save the edit as a recipe to use it again."
+        }
+      ],
+      "label": "Tip: let one look carry a whole set. A trip or a party feels like one roll of film when every photo shares a camera."
+    },
+    "tools": [
+      {
+        "name": "Grain & film age",
+        "text": "Fine or coarse grain and how old the film looks."
+      },
+      {
+        "name": "Aging",
+        "text": "Fade, sunlight, yellowing, unevenness, dust, stains and creases."
+      },
+      {
+        "name": "Light leaks",
+        "text": "Edge, Window or Burn leaks in soft red, orange or golden."
+      },
+      {
+        "name": "Flash",
+        "text": "Retro, Digital or Tanning flash with intensity."
+      },
+      {
+        "name": "Date stamp",
+        "text": "The orange date from the day the photo was taken."
+      },
+      {
+        "name": "Recipes & roll",
+        "text": "Save an edit, put it on many photos at once."
+      }
+    ],
+    "audience_card": {
+      "title": "Made for photos that should feel like memories.",
+      "items": [
+        "Friends and party photos that should look like a disposable passed around the room.",
+        "Travel sets that look like one roll of film from start to finish.",
+        "Portraits and night shots with film color, halation and a soft old lens.",
+        "Instagram, TikTok and story posts with a Y2K digicam or 90s point-and-shoot feel."
+      ]
+    }
+  },
+  "guides": {
+    "eyebrow": "Guides",
+    "title": "Guides for vintage and film photos on iPhone",
+    "intro": "Each guide answers one question people search for, from making photos look like film to adding a date stamp, then shows the exact steps on iPhone.",
+    "hub_link_text": "See all guides",
+    "read_more": "Read the guide",
+    "hub": {
+      "title": "Film & Vintage Photo Guides for iPhone Users | Halatto",
+      "description": "Step-by-step guides to make iPhone photos look like film: disposable and digicam filters, film grain, light leaks, date stamps, instant photos and batch edits.",
+      "h1": "Guides: film and vintage photos on iPhone",
+      "intro": "Every guide starts with a direct answer, then the exact steps on iPhone, including what the built-in Photos app can and cannot do."
+    },
+    "labels": {
+      "home": "Home",
+      "guides": "Guides",
+      "breadcrumb_aria": "Breadcrumb",
+      "updated": "Updated",
+      "reading_time": "5 min read",
+      "quick_answer": "Quick answer",
+      "faq_heading": "Questions people also ask",
+      "related": "Related guides",
+      "all_guides": "All guides",
+      "disclaimer": "Halatto is an independent app. It is not affiliated with Apple, Kodak, Fujifilm, Polaroid, Olympus, CineStill or any camera or film brand; brand names are used only to describe a style."
+    },
+    "default_cta": {
+      "title": "Do it in Halatto",
+      "text": "Free to try on the App Store. Open a photo, pick a camera, share."
+    }
+  },
+  "faq_section": {
+    "eyebrow": "FAQ",
+    "intro": "Short answers first. Each one links to a full step-by-step guide.",
+    "learn_more_label": "Learn more"
+  },
+  "cta": {
+    "eyebrow": "Get the app",
+    "title": "Your camera roll, back from the lab.",
+    "text": "Open a photo, pick an old camera, and share a picture that looks like film. Free to try on iPhone.",
+    "facts": [
+      "14 old-camera looks",
+      "No account, nothing uploaded",
+      "iOS 18.6 or later"
+    ]
+  },
+  "footer": {
+    "copyright": "© {year} c-basso, makers of Halatto",
+    "tagline": "A vintage photo filter for iPhone: film, disposable, instant, toy camera and Y2K digicam looks with grain, light leaks and a date stamp.",
+    "last_updated_label": "Updated",
+    "privacy_link": "Privacy Policy",
+    "terms_link": "Terms of Use",
+    "app_store_link_text": "App Store listing",
+    "languages_label": "This page in other languages",
+    "col_app": "App",
+    "col_guides": "Popular guides",
+    "col_company": "About",
+    "all_guides": "All guides",
+    "developer_link": "More apps by c-basso",
+    "developer_url": "https://apps.apple.com/developer/id1239180595",
+    "contact_link": "Contact",
+    "contact_email": "c-basso@ya.ru"
+  },
+  "seo": {
+    "breadcrumb_home": "Home",
+    "faq": [
+      {
+        "question": "How do I make my iPhone photos look like film?",
+        "answer": "Open the photo in Halatto, pick a film look such as Titan 38 or Tungsten 800, and raise grain and film age a little. Film color, grain and the softness of an old lens are what make a photo read as film; a color filter alone does not.",
+        "guide": "make-photos-look-like-film-on-iphone"
+      },
+      {
+        "question": "Is there a disposable camera filter for photos I already took?",
+        "answer": "Yes. Most disposable camera apps only work when you shoot in them. In Halatto you open any photo from your library and choose Snap 400 or Snap Gold, then add the flash and the orange date stamp.",
+        "guide": "disposable-camera-filter-on-iphone"
+      },
+      {
+        "question": "How do I get the Y2K digicam look on iPhone?",
+        "answer": "Pick one of the three digicam looks (Silver IX, Cyber Blue or Digi 2MP) and add the Digital flash. They add CCD color, sensor noise, cool whites and the hard flash of a 2000s compact camera.",
+        "guide": "digicam-filter-y2k-photos-on-iphone"
+      },
+      {
+        "question": "How do I add a date stamp to a photo on iPhone?",
+        "answer": "The Photos app cannot print a date on a picture. In Halatto open the photo, tap Date stamp and choose a corner: the orange date is taken from the day the photo was shot, and you can change its color, size and direction.",
+        "guide": "add-date-stamp-to-photo-on-iphone"
+      },
+      {
+        "question": "How can I make a photo look old?",
+        "answer": "Use Aging: start with the Shoebox or Faded print preset, then raise Fade and Yellowing and add dust, stains or creases. A warm film look and a light leak finish the effect.",
+        "guide": "make-a-photo-look-old-on-iphone"
+      },
+      {
+        "question": "Can I get a Polaroid-style instant photo look?",
+        "answer": "Yes. Halatto has three instant looks: SX Fold for the classic folding-camera color, Square 600 for the boxy instant look and Mini Instant for credit-card prints. Halatto is not affiliated with Polaroid or Fujifilm.",
+        "guide": "instant-photo-effect-on-iphone"
+      },
+      {
+        "question": "How do I add film grain to a photo on iPhone?",
+        "answer": "Every Halatto look has its own grain, and you can set the amount after you pick it. Grain looks most natural with a little fade and a softer lens, which the film looks add for you.",
+        "guide": "add-film-grain-to-a-photo-on-iphone"
+      },
+      {
+        "question": "How do I put the same filter on many photos at once?",
+        "answer": "Save your edit as a recipe, then use Develop the Roll: select the photos and tap Develop all to put the same camera on every one, so a trip looks like one roll of film.",
+        "guide": "apply-the-same-filter-to-multiple-photos-on-iphone"
+      },
+      {
+        "question": "Does Halatto upload my photos?",
+        "answer": "No. Photos are edited on your iPhone, there is no account, and nothing is uploaded to a server.",
+        "guide": "best-vintage-camera-apps-for-iphone#privacy"
+      },
+      {
+        "question": "Is Halatto free, and which devices does it run on?",
+        "answer": "It is free to download, and every look and effect works up to a daily limit. A subscription or a lifetime purchase removes the limit. It requires iOS 18.6 or later on iPhone; there is no Android version.",
+        "learn_more_url": "__APP_STORE_URL__",
+        "learn_more_title": "Halatto on the App Store: price, devices and screenshots"
+      }
+    ],
+    "structured_data": {
+      "software_application": {
+        "@context": "https://schema.org",
+        "@type": "MobileApplication",
+        "name": "Halatto",
+        "alternateName": "Vintage Photo Filter – Halatto",
+        "operatingSystem": "iOS 18.6 or later",
+        "applicationCategory": "DesignApplication",
+        "applicationSubCategory": "Vintage photo filter",
+        "fileSize": "89.3 MB",
+        "softwareVersion": "1.0.0",
+        "datePublished": "2026-11-20",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD",
+          "category": "free"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Vladimir Ivakhnenko"
+        },
+        "inLanguage": [
+          "en",
+          "hr",
+          "cs",
+          "da",
+          "nl",
+          "fi",
+          "fr",
+          "de",
+          "el",
+          "he",
+          "hu",
+          "id",
+          "it",
+          "ja",
+          "ko",
+          "ms",
+          "nb",
+          "pl",
+          "pt",
+          "ro",
+          "ru",
+          "zh-Hans",
+          "zh-Hant",
+          "sk",
+          "es",
+          "sv",
+          "th",
+          "tr",
+          "uk",
+          "vi",
+          "fil"
+        ],
+        "featureList": [
+          "14 film and old-camera looks: 35mm, disposable, instant, toy camera, Y2K digicam",
+          "Adjustable strength, grain and film age",
+          "Aging: fade, sunlight, yellowing, dust, stains and creases",
+          "Light leaks: Edge, Window and Burn",
+          "Camera flash: Retro, Digital, Tanning",
+          "Orange date stamp from the day the photo was taken",
+          "Save edits as recipes",
+          "Develop the Roll: one look on many photos at once",
+          "Before-and-after video export",
+          "Built-in camera with the look applied live",
+          "On-device editing, no account"
+        ],
+        "description": "iPhone photo editor that makes existing photos look like they were shot on film or an old camera: disposable, instant, toy camera, 90s point-and-shoot or Y2K digicam."
+      },
+      "organization": {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "c-basso",
+        "url": "https://halatto.app/",
+        "logo": "https://halatto.app/img/logo.webp",
+        "description": "Independent publisher (Vladimir Ivakhnenko) of Halatto and other iOS utilities.",
+        "sameAs": [
+          "https://x.com/c__basso",
+          "https://apps.apple.com/developer/id1239180595"
+        ]
+      },
+      "website": {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Halatto",
+        "url": "https://halatto.app/"
+      },
+      "howto": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to make a photo look like film on iPhone with Halatto",
+        "description": "Open a photo, pick an old-camera look, adjust grain and aging, then save or share it.",
+        "totalTime": "PT1M",
+        "tool": [
+          {
+            "@type": "HowToTool",
+            "name": "Halatto vintage photo filter app for iPhone"
+          }
+        ],
+        "step": [
+          {
+            "@type": "HowToStep",
+            "name": "Open a photo",
+            "text": "Open Halatto and pick a photo from your library, or share one into Halatto from the Photos app."
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Pick a camera look",
+            "text": "Choose one of 14 looks, then set strength, grain and film age, and add aging, light leaks, flash or a date stamp."
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Save or share",
+            "text": "Save the photo, share it, or export a before-and-after video."
+          }
+        ]
+      }
+    }
+  }
+}

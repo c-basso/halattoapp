@@ -1,0 +1,92 @@
+{
+  "priority": 13,
+  "keyword": "halation effect",
+  "keywords": "halation effect, halation filter iphone, red glow around lights, cinematic night photo filter, 800t look, night film look iphone",
+  "title": "Halation Effect on iPhone: Cinematic Night Film Glow",
+  "description": "Get the red halation glow around lights that night cinema film gives, on iPhone photos: what causes it, which night photos suit it, and how to add it.",
+  "h1": "Halation effect: the cinematic night film glow on iPhone",
+  "eyebrow": "Night film",
+  "card_title": "Halation glow for night photos",
+  "card_summary": "The red glow around lights of tungsten cinema film, on your night photos.",
+  "quick_answer": "Halation is the red-orange glow around bright lights on film without an anti-halation layer, made famous by tungsten-balanced cinema film used for stills. iPhone photos never show it. In Halatto, open a night photo with lights in the frame and pick Tungsten 800: red halos around lights, teal shadows and film grain. Lower the strength for skin, raise grain for a grittier frame.",
+  "intro": [
+    "Neon signs, street lamps, car lights and candles all bloom on certain night films. That glow is what makes night photos feel like a movie still instead of a phone snapshot.",
+    "Here is what causes it, which photos it works on and how to get it on iPhone."
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/2.webp",
+    "alt": "Halatto camera looks grid, where the Tungsten 800 night film look is one of the 35mm cameras",
+    "caption": "Tungsten 800 is Halatto's night cinema film look."
+  },
+  "sections": [
+    {
+      "heading": "What causes halation",
+      "paragraphs": [
+        "Bright light passes through the film, reflects off the back of the base and exposes the red-sensitive layer again around the highlight. Most still films have a layer that stops this; cinema film with that layer removed does not, so every light gets a red halo.",
+        "Tungsten-balanced film also renders artificial light neutral and pushes shadows and daylight toward teal, which gives the classic night palette."
+      ]
+    },
+    {
+      "heading": "Photos that suit halation",
+      "list": [
+        "City streets with signs, lamps and traffic lights.",
+        "Bars, concerts, kitchens with warm bulbs in frame.",
+        "Portraits in front of lights, with highlights in the background.",
+        "Not daylight landscapes: without bright points of light there is nothing to glow."
+      ],
+      "ordered": false
+    }
+  ],
+  "steps": {
+    "heading": "Step by step: night film in Halatto",
+    "intro": "Under a minute.",
+    "total_time": "PT1M",
+    "items": [
+      {
+        "name": "Open a night photo",
+        "text": "Pick a photo with lights in the frame."
+      },
+      {
+        "name": "Choose Tungsten 800",
+        "text": "Tap Tungsten 800 in the Looks strip and compare with the divider."
+      },
+      {
+        "name": "Balance it",
+        "text": "Lower the strength if skin turns too teal; raise grain for a grittier look."
+      },
+      {
+        "name": "Save or shoot live",
+        "text": "Save the photo, or open the built-in camera with Tungsten 800 to shoot the rest of the night."
+      }
+    ]
+  },
+  "tips": {
+    "heading": "Tips",
+    "items": [
+      "Slightly underexposed night photos keep the glow from washing out.",
+      "Avoid night mode's long, bright exposures; a regular quick shot looks more like film.",
+      "Pair with a soft red light leak for a music-video feel."
+    ]
+  },
+  "faq": [
+    {
+      "question": "Is Tungsten 800 a CineStill 800T filter?",
+      "answer": "It is Halatto's own night cinema film look in that style: red halos around lights and teal shadows. Halatto is not affiliated with CineStill."
+    },
+    {
+      "question": "Can I add halation to a daylight photo?",
+      "answer": "It needs bright points of light to glow around, so daylight photos show little effect."
+    },
+    {
+      "question": "Does the iPhone have a halation setting?",
+      "answer": "No. The Camera and Photos apps have no halation or glow control."
+    }
+  ],
+  "related": [
+    "make-photos-look-like-film-on-iphone",
+    "add-film-grain-to-a-photo-on-iphone",
+    "add-light-leaks-to-a-photo-on-iphone"
+  ],
+  "published": "2026-11-21",
+  "updated": "2026-11-21"
+}

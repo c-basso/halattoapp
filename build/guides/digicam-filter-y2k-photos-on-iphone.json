@@ -1,0 +1,79 @@
+{
+  "priority": 3,
+  "keyword": "digicam filter",
+  "keywords": "digicam filter, y2k camera filter, ccd camera effect, 2000s digital camera look, y2k digicam iphone, digital camera flash effect",
+  "title": "Digicam Filter: Get the Y2K Digital Camera Look on iPhone",
+  "description": "Make iPhone photos look shot on a 2000s digicam: CCD color, sensor noise, cool whites and a hard flash. Three Y2K looks, flash settings and steps that work.",
+  "h1": "Digicam filter: the Y2K digital camera look on iPhone",
+  "eyebrow": "Y2K digicam",
+  "card_title": "Digicam filter for the Y2K look",
+  "card_summary": "CCD color, noise and a hard flash like a 2005 point-and-shoot, on photos you already took.",
+  "quick_answer": "The Y2K digicam look comes from small CCD sensors and a hard built-in flash: punchy or cool color, digital noise, blown highlights and a slightly smeared, low-resolution JPEG. In Halatto, open the photo, pick Silver IX (warm, pink skin), Cyber Blue (blue whites, contrast) or Digi 2MP (early CCD with JPEG blocks and light streaks), then add the Digital flash.",
+  "intro": [
+    "Early-2000s compact digital cameras are back because they look nothing like a modern phone: the flash is harsh, the white balance is off, there is noise in every shadow and the JPEG is a little crunchy.",
+    "You do not need to buy a used camera on eBay. Here is how to get the same result on any iPhone photo."
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/3.webp",
+    "alt": "Halatto Flash tool with Digital selected on a night photo of two friends in winter jackets, Y2K digicam style",
+    "caption": "The Digital flash adds the hard, frontal light of a 2000s compact."
+  },
+  "sections": [
+    {
+      "heading": "What makes a photo look like a 2000s digicam",
+      "list": [
+        "CCD color: saturated reds, cool or magenta-tinted whites, odd skin tones.",
+        "Noise: colored grain in shadows, more at night.",
+        "Flash: bright subject, dark background, a shine on faces.",
+        "Low resolution: soft detail, JPEG blocks, purple fringing on edges, vertical streaks from bright lights."
+      ],
+      "ordered": false
+    },
+    {
+      "heading": "The three digicam looks in Halatto",
+      "table": {
+        "head": ["Look", "Character", "Use it for"],
+        "rows": [
+          ["Silver IX", "Warm silver compact: pink skin, soft, purple fringing.", "Selfies, friends, warm indoor light."],
+          ["Cyber Blue", "Cool compact: blue whites, contrast and noise.", "Night out, parties, winter, mirror selfies."],
+          ["Digi 2MP", "Early CCD: JPEG blocks, smeared color, streaks from lights.", "The most lo-fi, early-2000s memory-card look."]
+        ]
+      }
+    },
+    {
+      "heading": "Shoot it live instead",
+      "paragraphs": [
+        "If you are going out tonight, open the built-in camera in Halatto and pick a digicam look before you shoot. The photo is saved with the look already on, and you can still change it later."
+      ]
+    }
+  ],
+  "steps": {
+    "heading": "Step by step: digicam look in Halatto",
+    "intro": "Under a minute.",
+    "total_time": "PT1M",
+    "items": [
+      { "name": "Open a photo", "text": "Pick a photo, ideally one taken at night or indoors with people in it." },
+      { "name": "Pick a digicam look", "text": "Choose Silver IX, Cyber Blue or Digi 2MP in the Looks strip." },
+      { "name": "Add the Digital flash", "text": "Open Flash, tap Digital and set Intensity. Retro gives a softer, older flash." },
+      { "name": "Optional date stamp", "text": "Add the orange date in a corner for the full 2000s print feel." },
+      { "name": "Save or share", "text": "Save it, or export a before-and-after video for a story." }
+    ]
+  },
+  "tips": {
+    "heading": "Tips for the Y2K look",
+    "items": [
+      "Night and indoor photos with people in the foreground work best; landscapes look less authentic.",
+      "Crop to 4:3, the shape of most old digicam sensors.",
+      "Digi 2MP is strongest; use a lower strength on faces.",
+      "Keep a whole night consistent with one look and Develop the Roll."
+    ]
+  },
+  "faq": [
+    { "question": "What is a CCD camera filter?", "answer": "It imitates the color and noise of CCD sensors used in compact cameras around 2000 to 2010. Halatto's digicam looks are built on that idea." },
+    { "question": "Is a digicam filter the same as a disposable filter?", "answer": "No. Disposables are film: grain, soft plastic lens, warm or green color. Digicams are digital: noise, cool whites, crunchy JPEG detail and a hard flash." },
+    { "question": "Can I use the digicam look on old photos?", "answer": "Yes, any photo from your library works, including screenshots and saved images." }
+  ],
+  "related": ["90s-photo-filter-on-iphone", "disposable-camera-filter-on-iphone", "best-vintage-camera-apps-for-iphone"],
+  "published": "2026-11-21",
+  "updated": "2026-11-21"
+}

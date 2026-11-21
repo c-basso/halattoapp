@@ -1,0 +1,90 @@
+{
+  "priority": 1,
+  "keyword": "how to make photos look like film on iphone",
+  "keywords": "make photos look like film, film look iphone, film filter app, film photo effect iphone, analog look iphone, edit iphone photos to look like film",
+  "title": "How to Make iPhone Photos Look Like Film (Real Film Look)",
+  "description": "Make iPhone photos look like film: what a film look really is (color, grain, lens, light), the free Photos-app method, and a one-tap way with old-camera looks.",
+  "h1": "How to make your iPhone photos look like film",
+  "eyebrow": "Film look",
+  "card_title": "Make iPhone photos look like film",
+  "card_summary": "Why a color filter isn't enough, the free Photos-app method, and the one-tap way with real camera looks.",
+  "quick_answer": "A photo reads as film when four things change together: film color (softer contrast, warm highlights, tinted shadows), grain, an old lens (softness, vignette, flare) and a little fade. The Photos app can only get you part of the way with Warmth, Contrast and Vignette. In Halatto, open the photo, pick a film look such as Titan 38 or Tungsten 800, raise grain and film age a little, and save. It works on photos you already took and edits on your iPhone.",
+  "intro": [
+    "iPhone photos are sharp, clean and evenly lit. That is exactly what film is not. Film has a color palette of its own, visible grain, highlights that roll off softly and a lens that is never perfectly sharp at the edges.",
+    "This guide explains what to change and how far to push it, first with the free tools in Photos, then with Halatto, which simulates the whole camera instead of only the color."
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/1.webp",
+    "alt": "Halatto before and after divider on a photo of two friends with the Snap Gold film look applied",
+    "caption": "Drag the divider to compare the original iPhone photo (left) with the film look (right)."
+  },
+  "sections": [
+    {
+      "heading": "What makes a photo look like film",
+      "paragraphs": [
+        "A film look is not one setting. These are the signs people recognize, in the order they matter:"
+      ],
+      "list": [
+        "Color: lifted blacks, softer contrast, warm or green-tinted shadows depending on the film stock.",
+        "Grain: an even, slightly irregular texture, stronger in shadows and on fast film.",
+        "Lens: softness toward the edges, a vignette, flare and the occasional light leak.",
+        "Age: fade, a warm shift and a little dust if the print has been in a box."
+      ],
+      "ordered": true,
+      "note": "If you only change color, the photo looks filtered, not shot on film. Grain and lens softness do most of the work."
+    },
+    {
+      "heading": "The free way: edit in the Photos app",
+      "paragraphs": [
+        "Open the photo, tap Edit and use Adjust. Lower Contrast and Brilliance slightly, raise Warmth, drop Highlights, nudge Black Point down, and add a small Vignette. Save.",
+        "You will get a warmer, softer picture, but Photos has no grain, no light leaks and no lens softness, so the result usually looks like a filter rather than a print."
+      ]
+    },
+    {
+      "heading": "Which film look to pick in Halatto",
+      "paragraphs": [
+        "Each Halatto look is a whole camera. Start from the mood of the photo:"
+      ],
+      "table": {
+        "head": ["Photo", "Look", "What it gives you"],
+        "rows": [
+          ["Daylight portraits, travel", "Titan 38", "Crisp 90s compact: cool shadows, warm highlights."],
+          ["City at night, neon, lamps", "Tungsten 800", "Night cinema film with red halos around lights and teal shadows."],
+          ["Street, moody, high contrast", "Mju 35", "Black and white point-and-shoot with big grain."],
+          ["Friends, parties, summer", "Snap 400 or Snap Gold", "Disposable camera color, soft plastic lens, flare."],
+          ["Soft, dreamy, pastel", "SX Fold or Square 600", "Instant film color with glassy or pink highlights."]
+        ]
+      }
+    }
+  ],
+  "steps": {
+    "heading": "Step by step: a film look in Halatto",
+    "intro": "Under a minute per photo.",
+    "total_time": "PT1M",
+    "items": [
+      { "name": "Open the photo", "text": "Open Halatto and pick a photo from your library. Or in Photos tap Share and choose Halatto." },
+      { "name": "Pick a film look", "text": "Swipe the Looks strip and tap a camera, for example Titan 38. Drag the before/after divider to compare." },
+      { "name": "Set strength, grain and film age", "text": "Lower the strength if the color is too much, then raise grain and film age a little until it reads as a print." },
+      { "name": "Add the details", "text": "Optional: a soft light leak, a Retro flash or the orange date stamp." },
+      { "name": "Save or share", "text": "Save the photo or share it. Save the edit as a recipe to use the same film on other photos." }
+    ]
+  },
+  "tips": {
+    "heading": "Tips for a convincing film look",
+    "items": [
+      "Use the same look on a whole set; a consistent film is what makes a feed look shot on one roll.",
+      "Slightly underexposed photos take film color better than bright, HDR-heavy ones.",
+      "Less is more with grain on faces; push it on streets and night shots.",
+      "Night photos with lights in the frame are perfect for Tungsten 800's halation glow."
+    ]
+  },
+  "faq": [
+    { "question": "Can the iPhone camera shoot film photos directly?", "answer": "Not real film, but the built-in camera in Halatto shows the look live, so the photo comes out already looking like film." },
+    { "question": "Is there a free film filter on iPhone?", "answer": "Photos has basic filters and Adjust sliders, which give a warm, faded look but no grain or lens effects. Halatto is free to try with a daily limit." },
+    { "question": "Do film looks work on old photos and screenshots?", "answer": "Yes, any photo in your library works. Low-resolution photos often look even more natural with a disposable or digicam look." },
+    { "question": "Are my photos uploaded?", "answer": "No. Halatto edits on the iPhone with no account." }
+  ],
+  "related": ["disposable-camera-filter-on-iphone", "add-film-grain-to-a-photo-on-iphone", "night-film-halation-glow-on-iphone"],
+  "published": "2026-11-21",
+  "updated": "2026-11-21"
+}
