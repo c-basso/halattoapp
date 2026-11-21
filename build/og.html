@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="robots" content="noindex" />
+<title>Halatto – social preview (1200×630)</title>
+<!--
+  Source of /site_preview.png (og:image / twitter:image).
+  `npm run site:preview` screenshots this page at exactly 1200×630.
+  Keep it in sync with the hero: same palette, Michroma, the camera ejecting a print.
+-->
+<style>
+  @font-face { font-family: "Michroma"; src: url("/fonts/michroma-latin.woff") format("woff"); font-display: block; }
+  :root {
+    --ink: #17120f; --cocoa: #4a2a05; --deep: #2a1702;
+    --sun: #ffd36b; --mustard: #f7b733; --amber: #e89a1f; --toffee: #c97a12; --cream: #f4ead8; --date: #ff8a1e;
+    --wide: "Michroma", "Eurostile", sans-serif;
+    --body: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; width: 1200px; height: 630px; overflow: hidden; }
+  body {
+    position: relative;
+    font-family: var(--body);
+    color: var(--cocoa);
+    background: linear-gradient(165deg, var(--sun) 0%, var(--mustard) 42%, var(--amber) 78%, var(--toffee) 100%);
+    -webkit-font-smoothing: antialiased;
+  }
+  /* soft light behind the camera, like the hero */
+  body::before {
+    content: ""; position: absolute; width: 900px; height: 900px; right: -260px; top: -320px;
+    background: radial-gradient(closest-side, rgba(255, 246, 214, .8), rgba(255, 211, 107, 0));
+  }
+  .copy { position: absolute; left: 80px; top: 72px; width: 600px; z-index: 2; }
+
+  .brand { display: flex; align-items: center; gap: 16px; }
+  .brand img { width: 64px; height: 64px; border-radius: 15px; box-shadow: 0 8px 20px rgba(74, 42, 5, .28); }
+  .brand span { font-family: var(--wide); font-size: 22px; letter-spacing: .28em; color: var(--deep); }
+
+  h1 {
+    margin: 56px 0 0;
+    font-family: var(--wide); font-weight: 400;
+    font-size: 66px; line-height: 1.06; letter-spacing: -.02em;
+    color: var(--deep);
+  }
+  .sub { margin: 28px 0 0; font-size: 24px; line-height: 1.42; font-weight: 500; color: rgba(74, 42, 5, .86); }
+
+  .foot { position: absolute; left: 80px; bottom: 64px; z-index: 2; display: flex; align-items: center; gap: 24px; }
+  .badge {
+    display: inline-flex; align-items: center; gap: 12px;
+    padding: 15px 26px 15px 22px; border-radius: 16px;
+    background: var(--ink); color: var(--cream);
+    font-size: 21px; font-weight: 700; letter-spacing: -.005em;
+    box-shadow: 0 14px 30px rgba(74, 42, 5, .32);
+  }
+  .badge svg { width: 20px; height: 24px; }
+  .url { font-family: var(--wide); font-size: 17px; letter-spacing: .12em; color: rgba(74, 42, 5, .78); }
+
+  /* Camera ejecting a print: same geometry as the site hero (.camera in style.css), frozen at the end of the animation */
+  .camera { position: absolute; z-index: 1; right: 64px; top: 34px; width: 466px; aspect-ratio: 984 / 1144; filter: drop-shadow(0 26px 40px rgba(74, 42, 5, .38)); }
+  .camera-body { position: absolute; left: 0; top: 0; width: 100%; height: 78.6713%; z-index: 1; }
+  .camera-slot { position: absolute; left: 0; width: 100%; top: 62.5874%; bottom: 0; overflow: hidden; z-index: 2; }
+  .camera-print { position: absolute; left: 26.4228%; width: 47.1545%; top: -7.4766%; height: 107.4766%; }
+  .camera-print img { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .camera-date {
+    position: absolute; right: 15%; top: 11%;
+    font-family: var(--wide); font-size: 13px; letter-spacing: .08em; color: var(--date);
+    text-shadow: 0 0 4px rgba(255, 138, 30, .9), 0 0 10px rgba(255, 90, 30, .5);
+  }
+</style>
+</head>
+<body>
+  <div class="copy">
+    <div class="brand">
+      <img src="/img/appstore/app-icon-1024.png" alt="" width="64" height="64" />
+      <span>HALATTO</span>
+    </div>
+    <h1>Your photos,<br />shot on film.</h1>
+    <p class="sub">Vintage camera filter for iPhone.<br />Disposable, instant, 90s and Y2K digicam looks.</p>
+  </div>
+
+  <div class="foot">
+    <span class="badge">
+      <svg viewBox="14 8 14 26" aria-hidden="true"><path fill="currentColor" d="M24.99671,19.88935a5.14625,5.14625,0,0,1,2.45058-4.31771,5.26776,5.26776,0,0,0-4.15039-2.24376c-1.74624-.1833-3.43913,1.04492-4.329,1.04492-.90707,0-2.27713-1.02672-3.75247-.99637a5.52735,5.52735,0,0,0-4.65137,2.8367c-2.01111,3.482-.511,8.59939,1.41551,11.414.96388,1.37823,2.09037,2.91774,3.56438,2.86315,1.4424-.05983,1.98111-.91977,3.7222-.91977,1.72494,0,2.23035.91977,3.73427.88506,1.54777-.02512,2.52292-1.38435,3.453-2.77563a11.39931,11.39931,0,0,0,1.579-3.21589A4.97284,4.97284,0,0,1,24.99671,19.88935Z"/><path fill="currentColor" d="M22.15611,11.47681a5.06687,5.06687,0,0,0,1.159-3.62989,5.15524,5.15524,0,0,0-3.33555,1.72582,4.82131,4.82131,0,0,0-1.18934,3.4955A4.26259,4.26259,0,0,0,22.15611,11.47681Z"/></svg>
+      Free to try on the App Store
+    </span>
+    <span class="url">halatto.app</span>
+  </div>
+
+  <div class="camera" aria-hidden="true">
+    <img class="camera-body" src="/img/brand/camera.webp" alt="" />
+    <div class="camera-slot">
+      <div class="camera-print">
+        <img src="/img/brand/print.webp" alt="" />
+        <span class="camera-date">'26 11 21</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

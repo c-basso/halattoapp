@@ -188,9 +188,15 @@ function startLocalServer() {
     return new Promise((resolve) => server.listen(0, '127.0.0.1', () => resolve(server)));
 }
 
+// `build/og.html` is a hand-made 1200×630 layout for the default language's og:image.
+// It is always shot from the local server, so it does not depend on the live site.
+const OG_PAGE = path.resolve(__dirname, 'og.html');
+
 (async () => {
-    const server = LOCAL ? await startLocalServer() : null;
-    const base = server ? `http://127.0.0.1:${server.address().port}/` : null;
+    const needServer = LOCAL || fs.existsSync(OG_PAGE);
+    const server = needServer ? await startLocalServer() : null;
+    const localBase = server ? `http://127.0.0.1:${server.address().port}/` : null;
+    const base = LOCAL ? localBase : null;
     for (let item of URLS) {
         const screenshotPath = DEFAULT_LANGUAGE === item.code
             ? path.resolve(__dirname, '..', 'site_preview.png')
@@ -200,7 +206,9 @@ function startLocalServer() {
             screenshotPath,
             width: 1200,
             height: 630,
-            url: base ? base + new URL(item.url).pathname.replace(/^\//, '') : item.url
+            url: DEFAULT_LANGUAGE === item.code && fs.existsSync(OG_PAGE)
+                ? `${localBase}build/og.html`
+                : base ? base + new URL(item.url).pathname.replace(/^\//, '') : item.url
         });
 
         console.log(`\nOptimizing image: ${screenshotPath}`);

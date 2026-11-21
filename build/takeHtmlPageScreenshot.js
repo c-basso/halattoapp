@@ -26,6 +26,7 @@ const takeHtmlPageScreenshot = async (options) => {
     await page.goto(targetUrl, { waitUntil: 'load' });
     console.log('[takeHtmlPageScreenshot] Page loaded (load event fired), waiting before screenshot...');
 
+    await page.evaluate(() => document.fonts.ready);
     await wait(100);
     await page.screenshot({ path: screenshotPath });
     console.log('[takeHtmlPageScreenshot] Screenshot saved to:', screenshotPath);
