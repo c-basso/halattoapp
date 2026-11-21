@@ -199,6 +199,7 @@ const SHARED_SITE_META = {
     og_image_height: '630',
     og_type: 'website',
     twitter_card: 'summary_large_image',
+    twitter_site: '@c__basso',
     twitter_image_width: '1200',
     twitter_image_height: '630'
 };
