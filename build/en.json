@@ -462,7 +462,25 @@
     "developer_link": "More apps by c-basso",
     "developer_url": "https://apps.apple.com/developer/id1239180595",
     "contact_link": "Contact",
-    "contact_email": "c-basso@ya.ru"
+    "contact_email": "c-basso@ya.ru",
+    "social": [
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/halatto.app",
+        "icon": "camera"
+      },
+      {
+        "name": "TikTok",
+        "url": "https://www.tiktok.com/@halatto",
+        "icon": "play"
+      },
+      {
+        "name": "Pinterest",
+        "url": "https://www.pinterest.com/halattoapp/",
+        "icon": "pin"
+      }
+    ],
+    "social_label": "Halatto on social media"
   },
   "seo": {
     "breadcrumb_home": "Home",
@@ -587,7 +605,12 @@
           "Built-in camera with the look applied live",
           "On-device editing, no account"
         ],
-        "description": "iPhone photo editor that makes existing photos look like they were shot on film or an old camera: disposable, instant, toy camera, 90s point-and-shoot or Y2K digicam."
+        "description": "iPhone photo editor that makes existing photos look like they were shot on film or an old camera: disposable, instant, toy camera, 90s point-and-shoot or Y2K digicam.",
+        "sameAs": [
+          "https://www.instagram.com/halatto.app",
+          "https://www.tiktok.com/@halatto",
+          "https://www.pinterest.com/halattoapp/"
+        ]
       },
       "organization": {
         "@context": "https://schema.org",

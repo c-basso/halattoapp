@@ -43,6 +43,14 @@
               <li><a href="{{footer.developer_url}}" target="_blank" rel="noopener noreferrer">{{footer.developer_link}}</a></li>
               <li><a href="mailto:{{footer.contact_email}}">{{footer.contact_link}}</a></li>
             </ul>
+            {{#if footer.social}}
+            <!-- Icons are generic glyphs in img/social/*.svg, drawn through a CSS mask in the text colour. -->
+            <ul class="footer-social" aria-label="{{footer.social_label|attr}}">
+              {{#each footer.social as |link|}}
+              <li><a href="{{link.url}}" target="_blank" rel="noopener noreferrer me"><span class="footer-social-icon" style="--icon: url('/img/social/{{link.icon}}.svg')" aria-hidden="true"></span>{{link.name}}</a></li>
+              {{/each}}
+            </ul>
+            {{/if}}
           </nav>
 
           {{#if meta.language_links}}

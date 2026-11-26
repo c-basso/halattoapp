@@ -28,6 +28,7 @@ Source: US App Store listing and iTunes Lookup API, pulled 2026-11-21.
 | Ratings | none yet (do not show a rating in JSON-LD until there are enough) |
 | Privacy (developer-reported) | Data not linked to you: Purchases, Identifiers, Usage Data, Diagnostics. Photos are edited on the device; no account; nothing is uploaded |
 | Accessibility | Not declared yet |
+| Social | Instagram https://www.instagram.com/halatto.app, TikTok https://www.tiktok.com/@halatto, Pinterest https://www.pinterest.com/halattoapp/ (footer links and `sameAs` only; never next to an App Store button) |
 | Terms / Privacy | https://halatto.app/terms.html, https://halatto.app/privacy.html |
 
 ## Promotional text
