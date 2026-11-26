@@ -12,7 +12,7 @@
       content="Vintage camera filter for iPhone: make photos you already took look shot on film, a disposable, instant, 90s or digital camera, with grain and a date stamp."
     />
     <!-- App Store Smart App Banner -->
-    <meta name="apple-itunes-app" content="app-id=6758913511" />
+    <meta name="apple-itunes-app" content="app-id=6758913511, affiliate-data=pt=118672082&amp;ct=web_en_home_banner" />
     <!-- Core SEO -->
     <meta name="keywords" content="vintage camera filter, vintage photo filter, film filter app, make photos look like film, disposable camera filter, digital camera filter, digicam filter, y2k camera filter, old camera filter, film grain, date stamp, light leak, retro photo editor" />
     <meta name="author" content="c-basso" />
@@ -81,7 +81,7 @@
 
     <link
       rel="stylesheet"
-      href="/style.css?v=1795558704461"
+      href="/style.css?v=1795705130748"
     />
     <script>document.documentElement.classList.add('js');</script>
     <!-- dev-links: on localhost / LAN dev servers, point absolute site links at the local copy (no effect in production) -->
@@ -119,9 +119,9 @@
           <a href="https://halatto.app/#how-it-works">How it works</a>
           <a href="https://halatto.app/guides/">Guides</a>
           <a href="https://halatto.app/#faq">FAQ</a>
-          <a class="nav-store" href="https://apps.apple.com/app/id6758913511" target="_blank" rel="noopener noreferrer">Download on the App Store</a>
+          <a class="nav-store" href="https://apps.apple.com/app/apple-store/id6758913511?pt=118672082&amp;ct=web_en_home_nav&amp;mt=8" target="_blank" rel="noopener noreferrer">Download on the App Store</a>
         </nav>
-        <a class="header-cta" href="https://apps.apple.com/app/id6758913511" target="_blank" rel="noopener noreferrer" aria-label="Download Halatto, the vintage photo filter, on the App Store">
+        <a class="header-cta" href="https://apps.apple.com/app/apple-store/id6758913511?pt=118672082&amp;ct=web_en_home_header&amp;mt=8" target="_blank" rel="noopener noreferrer" aria-label="Download Halatto, the vintage photo filter, on the App Store">
           <svg width="14" height="17" viewBox="14 8 14 26" aria-hidden="true"><path fill="currentColor" d="M24.99671,19.88935a5.14625,5.14625,0,0,1,2.45058-4.31771,5.26776,5.26776,0,0,0-4.15039-2.24376c-1.74624-.1833-3.43913,1.04492-4.329,1.04492-.90707,0-2.27713-1.02672-3.75247-.99637a5.52735,5.52735,0,0,0-4.65137,2.8367c-2.01111,3.482-.511,8.59939,1.41551,11.414.96388,1.37823,2.09037,2.91774,3.56438,2.86315,1.4424-.05983,1.98111-.91977,3.7222-.91977,1.72494,0,2.23035.91977,3.73427.88506,1.54777-.02512,2.52292-1.38435,3.453-2.77563a11.39931,11.39931,0,0,0,1.579-3.21589A4.97284,4.97284,0,0,1,24.99671,19.88935Z"/><path fill="currentColor" d="M22.15611,11.47681a5.06687,5.06687,0,0,0,1.159-3.62989,5.15524,5.15524,0,0,0-3.33555,1.72582,4.82131,4.82131,0,0,0-1.18934,3.4955A4.26259,4.26259,0,0,0,22.15611,11.47681Z"/></svg>
           <span>Get the app</span>
         </a>
@@ -142,7 +142,7 @@
             <div class="hero-actions">
               <a
                 class="store-button"
-                href="https://apps.apple.com/app/id6758913511"
+                href="https://apps.apple.com/app/apple-store/id6758913511?pt=118672082&amp;ct=web_en_home_hero&amp;mt=8"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Download Halatto, the vintage photo filter, on the App Store"
@@ -167,6 +167,11 @@
               </a>
 
               <a class="hero-link" href="#looks">See the 14 looks</a>
+              <!-- Desktop only (CSS): a computer cannot install the app, the phone that scans this can. -->
+              <figure class="hero-qr">
+                <span class="qr-tile"><img src="/img/app-store-qr.png" alt="QR code linking to Halatto on the App Store" width="84" height="84" decoding="async" /></span>
+                <figcaption>Scan with iPhone</figcaption>
+              </figure>
             </div>
             <ul class="hero-proof">
               
@@ -199,11 +204,57 @@
         </div>
       </section>
 
-      <!-- SUMMARY (GEO): a plain, quotable statement of what the app is -->
-      <aside class="summary" aria-label="What Halatto is">
-        <p class="summary-lead">Summary: Halatto (App Store name "Vintage Photo Filter – Halatto") is an iPhone photo editor that makes an existing photo look like it was shot on film or an old camera, with 14 camera looks, film grain, aging, light leaks, flash and a date stamp.</p>
-        <p>Published on the Apple App Store in November 2026 by Vladimir Ivakhnenko (c-basso), in Graphics & Design. Each look simulates a whole camera, its film or sensor and its lens, not only a color grade. Photos are edited on the iPhone with no account and nothing uploaded. Free to try with a daily limit; a subscription removes the limit.</p>
-      </aside>
+      <!-- BEFORE / AFTER: one real photo, the original under the developed one; the range input moves the divider -->
+      
+      <section class="block reveal" id="before-after" aria-labelledby="reveal-heading">
+        <div class="reveal-inner">
+          <div class="ba-slider" style="--pos: 50%">
+            <img class="ba-slider-after" src="/img/before-after/home-after.webp?v=ccdefe7d" srcset="/img/before-after/home-after.webp?v=ccdefe7d 800w, /img/before-after/home-after@2x.webp?v=2653226e 1600w" sizes="(max-width: 760px) 92vw, 440px" alt="Four friends laughing outdoors on a sunny day with the Dream 120 look applied in Halatto" width="800" height="1000" decoding="async" />
+            <div class="ba-slider-before">
+              <img src="/img/before-after/home-before.webp?v=7e1b4637" srcset="/img/before-after/home-before.webp?v=7e1b4637 800w, /img/before-after/home-before@2x.webp?v=4b5df25e 1600w" sizes="(max-width: 760px) 92vw, 440px" alt="Four friends laughing outdoors on a sunny day: the original photo" width="800" height="1000" decoding="async" />
+            </div>
+            <span class="ba-label">Before</span>
+            <span class="ba-label ba-label-after">After · Dream 120</span>
+            <span class="ba-slider-line" aria-hidden="true"></span>
+            <input class="ba-slider-range" type="range" min="0" max="100" value="50" aria-label="Move the divider between the original photo and the Dream 120 look" />
+          </div>
+          <div class="reveal-copy">
+            <p class="eyebrow">Before / after</p>
+            <h2 id="reveal-heading">One photo, before and after</h2>
+            <p>Drag the line. On the left is the photo as the camera took it. On the right is the same photo with the Dream 120 look: a soft plastic lens, glowing highlights and a pink light leak. Nothing else was edited.</p>
+            <div class="reveal-actions">
+              <a
+                class="store-button"
+                href="https://apps.apple.com/app/apple-store/id6758913511?pt=118672082&amp;ct=web_en_home_reveal&amp;mt=8"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Download Halatto, the vintage photo filter, on the App Store"
+              >
+                <svg
+                  class="store-button-icon"
+                  width="20"
+                  height="24"
+                  viewBox="14 8 14 26"
+                  aria-hidden="true"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M24.99671,19.88935a5.14625,5.14625,0,0,1,2.45058-4.31771,5.26776,5.26776,0,0,0-4.15039-2.24376c-1.74624-.1833-3.43913,1.04492-4.329,1.04492-.90707,0-2.27713-1.02672-3.75247-.99637a5.52735,5.52735,0,0,0-4.65137,2.8367c-2.01111,3.482-.511,8.59939,1.41551,11.414.96388,1.37823,2.09037,2.91774,3.56438,2.86315,1.4424-.05983,1.98111-.91977,3.7222-.91977,1.72494,0,2.23035.91977,3.73427.88506,1.54777-.02512,2.52292-1.38435,3.453-2.77563a11.39931,11.39931,0,0,0,1.579-3.21589A4.97284,4.97284,0,0,1,24.99671,19.88935Z"
+                  />
+                  <path
+                    fill="currentColor"
+                    d="M22.15611,11.47681a5.06687,5.06687,0,0,0,1.159-3.62989,5.15524,5.15524,0,0,0-3.33555,1.72582,4.82131,4.82131,0,0,0-1.18934,3.4955A4.26259,4.26259,0,0,0,22.15611,11.47681Z"
+                  />
+                </svg>
+                <span>Download on the App Store</span>
+              </a>
+
+              <p class="reveal-note">Free to try. No account, nothing uploaded.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
 
       <!-- DOWNLOAD -->
       <section class="block download" id="download" aria-labelledby="download-heading">
@@ -221,7 +272,7 @@
             <div class="download-actions">
               <a
                 class="store-button"
-                href="https://apps.apple.com/app/id6758913511"
+                href="https://apps.apple.com/app/apple-store/id6758913511?pt=118672082&amp;ct=web_en_home_download&amp;mt=8"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Download Halatto, the vintage photo filter, on the App Store"
@@ -298,17 +349,20 @@
             <ul class="look-list">
               
               <li class="look">
-                <img src="/img/looks/tungsten800.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+                <img class="look-photo" src="/img/looks/photo/tungsten800.webp?v=183ada22" alt="Tungsten 800: the same photo with this look" width="240" height="300" loading="lazy" decoding="async" />
+                
                 <div><p class="look-name">Tungsten 800</p><p class="look-text">Night cinema film. Red halos around lights, teal shadows.</p></div>
               </li>
               
               <li class="look">
-                <img src="/img/looks/titan38.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+                <img class="look-photo" src="/img/looks/photo/titan38.webp?v=930210bf" alt="Titan 38: the same photo with this look" width="240" height="300" loading="lazy" decoding="async" />
+                
                 <div><p class="look-name">Titan 38</p><p class="look-text">Premium 90s compact. Crisp, cool shadows, warm highlights.</p></div>
               </li>
               
               <li class="look">
-                <img src="/img/looks/mju35.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+                <img class="look-photo" src="/img/looks/photo/mju35.webp?v=a9dd5ac3" alt="Mju 35: the same photo with this look" width="240" height="300" loading="lazy" decoding="async" />
+                
                 <div><p class="look-name">Mju 35</p><p class="look-text">Pocket point-and-shoot in black and white. Hard contrast, big grain.</p></div>
               </li>
               
@@ -324,12 +378,14 @@
             <ul class="look-list">
               
               <li class="look">
-                <img src="/img/looks/snap400.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+                <img class="look-photo" src="/img/looks/photo/snap400.webp?v=63ca9cb6" alt="Snap 400: the same photo with this look" width="240" height="300" loading="lazy" decoding="async" />
+                
                 <div><p class="look-name">Snap 400</p><p class="look-text">Soft plastic lens, rainbow flare, greenish shadows.</p></div>
               </li>
               
               <li class="look">
-                <img src="/img/looks/snapGold.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+                <img class="look-photo" src="/img/looks/photo/snapGold.webp?v=edb31893" alt="Snap Gold: the same photo with this look" width="240" height="300" loading="lazy" decoding="async" />
+                
                 <div><p class="look-name">Snap Gold</p><p class="look-text">Summer disposable. Golden, saturated, coarser grain.</p></div>
               </li>
               
@@ -345,17 +401,20 @@
             <ul class="look-list">
               
               <li class="look">
-                <img src="/img/looks/sxFold.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+                <img class="look-photo" src="/img/looks/photo/sxFold.webp?v=111e7b39" alt="SX Fold: the same photo with this look" width="240" height="300" loading="lazy" decoding="async" />
+                
                 <div><p class="look-name">SX Fold</p><p class="look-text">Folding instant. Glassy, deep blue shadows, lilac highlights.</p></div>
               </li>
               
               <li class="look">
-                <img src="/img/looks/square600.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+                <img class="look-photo" src="/img/looks/photo/square600.webp?v=5e63a642" alt="Square 600: the same photo with this look" width="240" height="300" loading="lazy" decoding="async" />
+                
                 <div><p class="look-name">Square 600</p><p class="look-text">Boxy instant. Soft, green shadows, pink highlights.</p></div>
               </li>
               
               <li class="look">
-                <img src="/img/looks/miniInstant.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+                <img class="look-photo" src="/img/looks/photo/miniInstant.webp?v=cd0ae30b" alt="Mini Instant: the same photo with this look" width="240" height="300" loading="lazy" decoding="async" />
+                
                 <div><p class="look-name">Mini Instant</p><p class="look-text">Credit-card size. Clear, bright, a little cool.</p></div>
               </li>
               
@@ -371,17 +430,20 @@
             <ul class="look-list">
               
               <li class="look">
-                <img src="/img/looks/tunnel35.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+                <img class="look-photo" src="/img/looks/photo/tunnel35.webp?v=428b2daa" alt="Tunnel 35: the same photo with this look" width="240" height="300" loading="lazy" decoding="async" />
+                
                 <div><p class="look-name">Tunnel 35</p><p class="look-text">Tunnel vignette, cross-processed color, a leak at the edge.</p></div>
               </li>
               
               <li class="look">
-                <img src="/img/looks/toy120.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+                <img class="look-photo" src="/img/looks/photo/toy120.webp?v=32f3d277" alt="Toy 120: the same photo with this look" width="240" height="300" loading="lazy" decoding="async" />
+                
                 <div><p class="look-name">Toy 120</p><p class="look-text">Medium-format toy. Dark corners, blur toward the edges.</p></div>
               </li>
               
               <li class="look">
-                <img src="/img/looks/dream120.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+                <img class="look-photo" src="/img/looks/photo/dream120.webp?v=fa656d91" alt="Dream 120: the same photo with this look" width="240" height="300" loading="lazy" decoding="async" />
+                
                 <div><p class="look-name">Dream 120</p><p class="look-text">Very soft, glowing highlights, a pink light leak.</p></div>
               </li>
               
@@ -397,17 +459,20 @@
             <ul class="look-list">
               
               <li class="look">
-                <img src="/img/looks/silverIX.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+                <img class="look-photo" src="/img/looks/photo/silverIX.webp?v=26ab510f" alt="Silver IX: the same photo with this look" width="240" height="300" loading="lazy" decoding="async" />
+                
                 <div><p class="look-name">Silver IX</p><p class="look-text">Warm silver compact. Pink skin, soft, purple fringing.</p></div>
               </li>
               
               <li class="look">
-                <img src="/img/looks/cyberBlue.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+                <img class="look-photo" src="/img/looks/photo/cyberBlue.webp?v=8a81c3d0" alt="Cyber Blue: the same photo with this look" width="240" height="300" loading="lazy" decoding="async" />
+                
                 <div><p class="look-name">Cyber Blue</p><p class="look-text">Cool compact. Blue whites, contrast and noise.</p></div>
               </li>
               
               <li class="look">
-                <img src="/img/looks/digi2MP.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+                <img class="look-photo" src="/img/looks/photo/digi2MP.webp?v=3384d323" alt="Digi 2MP: the same photo with this look" width="240" height="300" loading="lazy" decoding="async" />
+                
                 <div><p class="look-name">Digi 2MP</p><p class="look-text">Early CCD. JPEG blocks, smeared color, streaks from lights.</p></div>
               </li>
               
@@ -745,6 +810,12 @@
       </section>
       
 
+      <!-- SUMMARY (GEO): a plain, quotable statement of what the app is -->
+      <aside class="summary" aria-label="What Halatto is">
+        <p class="summary-lead">Summary: Halatto (App Store name "Vintage Photo Filter – Halatto") is an iPhone photo editor that makes an existing photo look like it was shot on film or an old camera, with 14 camera looks, film grain, aging, light leaks, flash and a date stamp.</p>
+        <p>Published on the Apple App Store in November 2026 by Vladimir Ivakhnenko (c-basso), in Graphics & Design. Each look simulates a whole camera, its film or sensor and its lens, not only a color grade. Photos are edited on the iPhone with no account and nothing uploaded. Free to try with a daily limit; a subscription removes the limit.</p>
+      </aside>
+
       <!-- FAQ -->
       <section class="block faq" id="faq" aria-labelledby="faq-heading">
         <div class="block-head">
@@ -830,7 +901,7 @@
             <h3 class="faq-q">Is Halatto free, and which devices does it run on?</h3>
             <p class="faq-a">It is free to download, and every look and effect works up to a daily limit. A subscription or a lifetime purchase removes the limit. It requires iOS 18.6 or later on iPhone; there is no Android version.</p>
             
-            <a class="faq-more" href="https://apps.apple.com/app/id6758913511" title="Halatto on the App Store: price, devices and screenshots">Learn more</a>
+            <a class="faq-more" href="https://apps.apple.com/app/apple-store/id6758913511?pt=118672082&amp;ct=web_en_home_faq&amp;mt=8" title="Halatto on the App Store: price, devices and screenshots">Learn more</a>
             
           </article>
           
@@ -846,7 +917,7 @@
             <div class="final-cta-actions">
               <a
                 class="store-button"
-                href="https://apps.apple.com/app/id6758913511"
+                href="https://apps.apple.com/app/apple-store/id6758913511?pt=118672082&amp;ct=web_en_home_final&amp;mt=8"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Download Halatto, the vintage photo filter, on the App Store"
@@ -903,7 +974,7 @@
               <span>Halatto</span>
             </a>
             <p class="footer-tagline">A vintage photo filter for iPhone: film, disposable, instant, toy camera and Y2K digicam looks with grain, light leaks and a date stamp.</p>
-            <a class="footer-store" href="https://apps.apple.com/app/id6758913511" target="_blank" rel="noopener noreferrer" aria-label="Download Halatto, the vintage photo filter, on the App Store">
+            <a class="footer-store" href="https://apps.apple.com/app/apple-store/id6758913511?pt=118672082&amp;ct=web_en_home_footer&amp;mt=8" target="_blank" rel="noopener noreferrer" aria-label="Download Halatto, the vintage photo filter, on the App Store">
               <svg width="15" height="18" viewBox="14 8 14 26" aria-hidden="true"><path fill="currentColor" d="M24.99671,19.88935a5.14625,5.14625,0,0,1,2.45058-4.31771,5.26776,5.26776,0,0,0-4.15039-2.24376c-1.74624-.1833-3.43913,1.04492-4.329,1.04492-.90707,0-2.27713-1.02672-3.75247-.99637a5.52735,5.52735,0,0,0-4.65137,2.8367c-2.01111,3.482-.511,8.59939,1.41551,11.414.96388,1.37823,2.09037,2.91774,3.56438,2.86315,1.4424-.05983,1.98111-.91977,3.7222-.91977,1.72494,0,2.23035.91977,3.73427.88506,1.54777-.02512,2.52292-1.38435,3.453-2.77563a11.39931,11.39931,0,0,0,1.579-3.21589A4.97284,4.97284,0,0,1,24.99671,19.88935Z"/><path fill="currentColor" d="M22.15611,11.47681a5.06687,5.06687,0,0,0,1.159-3.62989,5.15524,5.15524,0,0,0-3.33555,1.72582,4.82131,4.82131,0,0,0-1.18934,3.4955A4.26259,4.26259,0,0,0,22.15611,11.47681Z"/></svg>
               <span>Download on the App Store</span>
             </a>
@@ -916,7 +987,7 @@
               <li><a href="https://halatto.app/#screenshots">Screenshots</a></li>
               <li><a href="https://halatto.app/#how-it-works">How it works</a></li>
               <li><a href="https://halatto.app/#faq">FAQ</a></li>
-              <li><a href="https://apps.apple.com/app/id6758913511" target="_blank" rel="noopener noreferrer">App Store listing</a></li>
+              <li><a href="https://apps.apple.com/app/apple-store/id6758913511?pt=118672082&amp;ct=web_en_home_footer-nav&amp;mt=8" target="_blank" rel="noopener noreferrer">App Store listing</a></li>
             </ul>
           </nav>
 
@@ -956,13 +1027,20 @@
         </div>
         <div class="footer-bottom">
           <p>© 2026 c-basso, makers of Halatto</p>
-          <p>Updated <time datetime="2026-11-21">November 21, 2026</time></p>
+          <p>Updated <time datetime="2026-11-26">November 26, 2026</time></p>
         </div>
       </footer>
 
+    <!-- Small screens: a bar that follows the reader while no App Store button is on screen (site.js). -->
+    <div class="sticky-cta" data-sticky-cta hidden>
+      <img src="/img/app-icon.webp" alt="" width="40" height="40" loading="lazy" decoding="async" />
+      <p><strong>Halatto</strong><span>Vintage photo filter. Free to try.</span></p>
+      <a class="sticky-cta-button" href="https://apps.apple.com/app/apple-store/id6758913511?pt=118672082&amp;ct=web_en_home_sticky&amp;mt=8" target="_blank" rel="noopener noreferrer" aria-label="Download Halatto, the vintage photo filter, on the App Store">Get</a>
+    </div>
+
 
     <script type="application/ld+json">
-      {"@context":"https://schema.org","@type":"MobileApplication","name":"Halatto","alternateName":"Vintage Photo Filter – Halatto","operatingSystem":"iOS 18.6 or later","applicationCategory":"DesignApplication","applicationSubCategory":"Vintage photo filter","fileSize":"89.3 MB","softwareVersion":"1.0.0","datePublished":"2026-11-20","offers":{"@type":"Offer","price":"0","priceCurrency":"USD","category":"free","url":"https://apps.apple.com/app/id6758913511"},"author":{"@type":"Person","name":"Vladimir Ivakhnenko"},"inLanguage":["en","hr","cs","da","nl","fi","fr","de","el","he","hu","id","it","ja","ko","ms","nb","pl","pt","ro","ru","zh-Hans","zh-Hant","sk","es","sv","th","tr","uk","vi","fil"],"featureList":["14 film and old-camera looks: 35mm, disposable, instant, toy camera, Y2K digicam","Adjustable strength, grain and film age","Aging: fade, sunlight, yellowing, dust, stains and creases","Light leaks: Edge, Window and Burn","Camera flash: Retro, Digital, Tanning","Orange date stamp from the day the photo was taken","Save edits as recipes","Develop the Roll: one look on many photos at once","Before-and-after video export","Built-in camera with the look applied live","On-device editing, no account"],"description":"iPhone photo editor that makes existing photos look like they were shot on film or an old camera: disposable, instant, toy camera, 90s point-and-shoot or Y2K digicam.","url":"https://halatto.app/","downloadUrl":"https://apps.apple.com/app/id6758913511","dateModified":"2026-11-21","image":"https://halatto.app/img/logo.webp","screenshot":"https://halatto.app/img/screenshots/1.webp"}
+      {"@context":"https://schema.org","@type":"MobileApplication","name":"Halatto","alternateName":"Vintage Photo Filter – Halatto","operatingSystem":"iOS 18.6 or later","applicationCategory":"DesignApplication","applicationSubCategory":"Vintage photo filter","fileSize":"89.3 MB","softwareVersion":"1.0.0","datePublished":"2026-11-20","offers":{"@type":"Offer","price":"0","priceCurrency":"USD","category":"free","url":"https://apps.apple.com/app/id6758913511"},"author":{"@type":"Person","name":"Vladimir Ivakhnenko"},"inLanguage":["en","hr","cs","da","nl","fi","fr","de","el","he","hu","id","it","ja","ko","ms","nb","pl","pt","ro","ru","zh-Hans","zh-Hant","sk","es","sv","th","tr","uk","vi","fil"],"featureList":["14 film and old-camera looks: 35mm, disposable, instant, toy camera, Y2K digicam","Adjustable strength, grain and film age","Aging: fade, sunlight, yellowing, dust, stains and creases","Light leaks: Edge, Window and Burn","Camera flash: Retro, Digital, Tanning","Orange date stamp from the day the photo was taken","Save edits as recipes","Develop the Roll: one look on many photos at once","Before-and-after video export","Built-in camera with the look applied live","On-device editing, no account"],"description":"iPhone photo editor that makes existing photos look like they were shot on film or an old camera: disposable, instant, toy camera, 90s point-and-shoot or Y2K digicam.","url":"https://halatto.app/","downloadUrl":"https://apps.apple.com/app/id6758913511","dateModified":"2026-11-26","image":"https://halatto.app/img/logo.webp","screenshot":"https://halatto.app/img/screenshots/1.webp"}
     </script>
     <script type="application/ld+json">
       {"@context":"https://schema.org","@type":"Organization","name":"c-basso","url":"https://halatto.app/","logo":"https://halatto.app/img/logo.webp","description":"Independent publisher (Vladimir Ivakhnenko) of Halatto and other iOS utilities.","sameAs":["https://x.com/c__basso","https://apps.apple.com/developer/id1239180595"]}
@@ -977,13 +1055,13 @@
       {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do I make my iPhone photos look like film?","acceptedAnswer":{"@type":"Answer","text":"Open the photo in Halatto, pick a film look such as Titan 38 or Tungsten 800, and raise grain and film age a little. Film color, grain and the softness of an old lens are what make a photo read as film; a color filter alone does not."}},{"@type":"Question","name":"Is there a disposable camera filter for photos I already took?","acceptedAnswer":{"@type":"Answer","text":"Yes. Most disposable camera apps only work when you shoot in them. In Halatto you open any photo from your library and choose Snap 400 or Snap Gold, then add the flash and the orange date stamp."}},{"@type":"Question","name":"How do I get the Y2K digicam look on iPhone?","acceptedAnswer":{"@type":"Answer","text":"Pick one of the three digicam looks (Silver IX, Cyber Blue or Digi 2MP) and add the Digital flash. They add CCD color, sensor noise, cool whites and the hard flash of a 2000s compact camera."}},{"@type":"Question","name":"How do I add a date stamp to a photo on iPhone?","acceptedAnswer":{"@type":"Answer","text":"The Photos app cannot print a date on a picture. In Halatto open the photo, tap Date stamp and choose a corner: the orange date is taken from the day the photo was shot, and you can change its color, size and direction."}},{"@type":"Question","name":"How can I make a photo look old?","acceptedAnswer":{"@type":"Answer","text":"Use Aging: start with the Shoebox or Faded print preset, then raise Fade and Yellowing and add dust, stains or creases. A warm film look and a light leak finish the effect."}},{"@type":"Question","name":"Can I get a Polaroid-style instant photo look?","acceptedAnswer":{"@type":"Answer","text":"Yes. Halatto has three instant looks: SX Fold for the classic folding-camera color, Square 600 for the boxy instant look and Mini Instant for credit-card prints. Halatto is not affiliated with Polaroid or Fujifilm."}},{"@type":"Question","name":"How do I add film grain to a photo on iPhone?","acceptedAnswer":{"@type":"Answer","text":"Every Halatto look has its own grain, and you can set the amount after you pick it. Grain looks most natural with a little fade and a softer lens, which the film looks add for you."}},{"@type":"Question","name":"How do I put the same filter on many photos at once?","acceptedAnswer":{"@type":"Answer","text":"Save your edit as a recipe, then use Develop the Roll: select the photos and tap Develop all to put the same camera on every one, so a trip looks like one roll of film."}},{"@type":"Question","name":"Does Halatto upload my photos?","acceptedAnswer":{"@type":"Answer","text":"No. Photos are edited on your iPhone, there is no account, and nothing is uploaded to a server."}},{"@type":"Question","name":"Is Halatto free, and which devices does it run on?","acceptedAnswer":{"@type":"Answer","text":"It is free to download, and every look and effect works up to a daily limit. A subscription or a lifetime purchase removes the limit. It requires iOS 18.6 or later on iPhone; there is no Android version."}}]}
     </script>
     <script type="application/ld+json">
-      {"@context":"https://schema.org","@type":"WebPage","name":"Vintage Photo Filter for iPhone: Film & Old Camera Looks","url":"https://halatto.app/","description":"Vintage camera filter for iPhone: make photos you already took look shot on film, a disposable, instant, 90s or digital camera, with grain and a date stamp.","dateModified":"2026-11-21","inLanguage":"en"}
+      {"@context":"https://schema.org","@type":"WebPage","name":"Vintage Photo Filter for iPhone: Film & Old Camera Looks","url":"https://halatto.app/","description":"Vintage camera filter for iPhone: make photos you already took look shot on film, a disposable, instant, 90s or digital camera, with grain and a date stamp.","dateModified":"2026-11-26","inLanguage":"en"}
     </script>
     <script type="application/ld+json">
       {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://halatto.app/"}]}
     </script>
 
-    <script src="/site.js?v=1795558704461" defer></script>
+    <script src="/site.js?v=1795705130748" defer></script>
 <!-- Analytics: paste the counter snippet for halatto.app here. Empty = no analytics. -->
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
@@ -994,6 +1072,7 @@
         k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
     })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=114454776', 'ym');
 
+    window.HALATTO_YM = 114454776; // site.js sends the appstore_click goal to this counter
     ym(114454776, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/114454776" style="position:absolute; left:-9999px;" alt="" /></div></noscript>

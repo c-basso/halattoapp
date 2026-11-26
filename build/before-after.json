@@ -1,0 +1,91 @@
+{
+  "_readme": "Before/after pairs for the site. Originals and plain look renders come from the youmarkt Halatto library (real engine renders). \"extras\" adds tools on top of the look or alone: dateStamp, aging.shoebox|fadedPrint|magenta70s|sunBleached|yellowed90s, grain.fine|medium|pushed, frame.instant|instantMini|instantWide|print|deckle|aged|matte|gate|sprocket|booth (shown whole, not cropped); optional \"date\": \"1998-07-14\" for the stamp. Run: npm run before-after (cut pictures) or npm run before-after:render (develop missing renders first).",
+  "source": "../youmarkt/data/apps/halatto",
+  "home": {
+    "look": "dream120",
+    "photo": "us-JfPoZkTI_VM",
+    "focus": 0.4
+  },
+  "looks": {
+    "photo": "us-i9MZPbv5DDI",
+    "focus": 0.45,
+    "overrides": {
+      "tungsten800": "us-OtQPfYRCm8s",
+      "dream120": "us-BP7nLSv1DPo"
+    }
+  },
+  "guides": {
+    "make-photos-look-like-film-on-iphone": {
+      "look": "tungsten800",
+      "photo": "px-35466895"
+    },
+    "disposable-camera-filter-on-iphone": {
+      "look": "snap400",
+      "photo": "px-6760888"
+    },
+    "digicam-filter-y2k-photos-on-iphone": {
+      "look": "cyberBlue",
+      "photo": "us-BP7nLSv1DPo"
+    },
+    "make-a-photo-look-old-on-iphone": {
+      "look": "sxFold",
+      "photo": "us-sLbmAZpx6_g",
+      "extras": [
+        "aging.shoebox"
+      ]
+    },
+    "add-date-stamp-to-photo-on-iphone": {
+      "look": "snap400",
+      "photo": "px-4881650",
+      "extras": [
+        "dateStamp"
+      ],
+      "focus": 1
+    },
+    "instant-photo-effect-on-iphone": {
+      "look": "square600",
+      "photo": "px-6552577",
+      "extras": [
+        "frame.instant"
+      ]
+    },
+    "add-film-grain-to-a-photo-on-iphone": {
+      "photo": "us-UrvkgTFMeng",
+      "extras": [
+        "grain.pushed"
+      ]
+    },
+    "90s-photo-filter-on-iphone": {
+      "look": "snap400",
+      "photo": "px-6405798"
+    },
+    "add-light-leaks-to-a-photo-on-iphone": {
+      "look": "dream120",
+      "photo": "px-16112875"
+    },
+    "apply-the-same-filter-to-multiple-photos-on-iphone": {
+      "look": "snap400",
+      "photo": "px-4881567"
+    },
+    "best-vintage-camera-apps-for-iphone": {
+      "look": "snapGold",
+      "photo": "us-bOOqVSK1bwk"
+    },
+    "make-a-before-and-after-photo-video-on-iphone": {
+      "look": "toy120",
+      "photo": "us-nwrErqg8lI4"
+    },
+    "night-film-halation-glow-on-iphone": {
+      "look": "tungsten800",
+      "photo": "px-12174129"
+    },
+    "apps-like-dazz-cam-for-iphone": {
+      "look": "cyberBlue",
+      "photo": "px-32320054"
+    },
+    "make-iphone-photos-look-like-film-without-an-app": {
+      "look": "tunnel35",
+      "photo": "px-29483983"
+    }
+  }
+}

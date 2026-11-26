@@ -1,6 +1,7 @@
 {
   "priority": 6,
   "keyword": "polaroid filter iphone",
+  "ct": "instant",
   "keywords": "polaroid filter app, polaroid filter iphone, make photos look like polaroids, polaroid style photo, instant film filter, instant photo effect, instax look, instant camera filter",
   "title": "Polaroid-Style Filter App for iPhone: Instant Photo Look",
   "description": "Give iPhone photos the instant-film look: soft color, glassy shadows and pastel highlights of folding, square and mini instant cameras. Steps and tips.",
@@ -10,7 +11,7 @@
   "card_summary": "Folding, square and mini instant film looks for photos you already took.",
   "quick_answer": "Instant film has soft contrast, glassy or tinted shadows and pastel highlights. In Halatto pick SX Fold (folding instant: deep blue shadows, lilac highlights), Square 600 (boxy instant: green shadows, pink highlights) or Mini Instant (credit-card prints: clear, bright, a little cool), then crop to a square or portrait and add light aging. Halatto is not affiliated with Polaroid or Fujifilm.",
   "intro": [
-    "\"Polaroid filter\" is how most people search for the instant-film look, whichever brand they mean. The look has little to do with the white frame and a lot to do with the color of the chemistry.",
+    "\"Polaroid filter\" is how most people search for the instant-film look, whichever brand they mean. The white frame is half of it; the other half is the color of the chemistry.",
     "Here are the three instant styles, what each looks like, and how to apply them to an iPhone photo."
   ],
   "screenshot": {
@@ -50,7 +51,7 @@
       "heading": "Why instant photos look the way they do",
       "paragraphs": [
         "Instant film develops in the print itself. The chemistry gives low contrast, colors that drift toward cyan, green or magenta, and soft, slightly glowing highlights. Older prints fade further and shift warm.",
-        "That is why a plain white border plus a normal filter rarely convinces: the color is what people recognize."
+        "That is why a plain white border plus a normal filter rarely convinces: the color is what people recognize. Get the color from an instant look first, then add the frame."
       ]
     }
   ],
@@ -100,7 +101,7 @@
     },
     {
       "question": "Does Halatto add a white instant frame?",
-      "answer": "Halatto focuses on the film color, grain and aging of the print itself."
+      "answer": "Yes. The Frame tool puts the photo on an instant card with the wider bottom margin: Instant (square), Mini or Wide. Pick an instant look first so the color matches the card."
     }
   ],
   "related": [
@@ -109,5 +110,10 @@
     "best-vintage-camera-apps-for-iphone"
   ],
   "published": "2026-11-21",
-  "updated": "2026-11-21"
+  "updated": "2026-11-26",
+  "before_after": {
+    "subject": "A woman sitting on a curb in the middle of a tree-lined street",
+    "subject_framed": "Two friends laughing on a sofa",
+    "caption_with_extras": "The same photo before and after the Square 600 look with the Instant frame, both added in Halatto."
+  }
 }

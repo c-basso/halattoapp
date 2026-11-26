@@ -101,6 +101,7 @@ Open a photo, pick a vintage photo filter, and share it.
 - **Light Leak**: presets Original, Soft red, Orange, Golden …; type Edge, Window, Burn; sliders Color, Amount, Position.
 - **Flash**: None, Retro, Digital, Tanning; Intensity slider.
 - **Date stamp**: off or one of four corners; Direction (horizontal / vertical up / vertical down); Color slider; Size slider. The date comes from the day the photo was taken (e.g. '26 11 19).
+- **Frame**: puts the photo on a card (confirmed by the developer 2026-11-26; not in the store screenshots). Styles include Instant (square), Mini and Wide instant cards, Print, Booth, Sprocket; No frame turns it off. Controls: Border, Tilt, Shadow, Backdrop.
 - **Develop the Roll**: pick a camera, then "Develop all (N)" applies it to every selected photo.
 - **Save as Recipe**: names the current edit ("Recipe 1") so it can be applied to other photos in one tap.
 - **Export (before & after video)**: aspect ratio Original, 9:16, 4:5, 1:1; "Share video" button.

@@ -1,6 +1,7 @@
 {
   "priority": 13,
   "keyword": "halation effect",
+  "ct": "halation",
   "keywords": "halation effect, what is halation, halation film, halation filter iphone, red glow around lights, cinematic night photo filter, 800t look, night film look iphone",
   "title": "What Is Halation? Get the Film Halation Effect on iPhone",
   "description": "Get the red halation glow around lights that night cinema film gives, on iPhone photos: what causes it, which night photos suit it, and how to add it.",
@@ -95,5 +96,8 @@
     "add-light-leaks-to-a-photo-on-iphone"
   ],
   "published": "2026-11-21",
-  "updated": "2026-11-21"
+  "updated": "2026-11-26",
+  "before_after": {
+    "subject": "Red stage lights and lasers over a concert crowd"
+  }
 }

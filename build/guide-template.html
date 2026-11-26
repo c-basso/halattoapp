@@ -26,6 +26,25 @@
             <p class="quick-answer-label">{{guides.labels.quick_answer}}</p>
             <p>{{guide.quick_answer}}</p>
           </div>
+          {{#if guide.before_after}}
+          <figure class="ba">
+            <div class="ba-pair">
+              <div class="ba-item">
+                <img src="{{guide.before_after.before}}" srcset="{{guide.before_after.before}} 640w, {{guide.before_after.before_2x}} 1280w" sizes="(max-width: 960px) 46vw, 340px" alt="{{guide.before_after.alt_before|attr}}" width="{{guide.before_after.width}}" height="{{guide.before_after.height}}" decoding="async" />
+                <span class="ba-label">{{guide.before_after.label_before}}</span>
+              </div>
+              <div class="ba-item">
+                <img src="{{guide.before_after.after}}" srcset="{{guide.before_after.after}} 640w, {{guide.before_after.after_2x}} 1280w" sizes="(max-width: 960px) 46vw, 340px" alt="{{guide.before_after.alt_after|attr}}" width="{{guide.before_after.width}}" height="{{guide.before_after.height}}" fetchpriority="high" decoding="async" />
+                <span class="ba-label ba-label-after">{{guide.before_after.label_after}}</span>
+              </div>
+            </div>
+            <figcaption>{{guide.before_after.caption}}</figcaption>
+          </figure>
+          {{/if}}
+          <div class="guide-top-cta">
+{{> appstore-button place="top"}}
+            <p>{{guides.labels.top_cta_note}}</p>
+          </div>
         </header>
 
         <div class="guide-body">
@@ -33,12 +52,6 @@
           <p>{{para}}</p>
           {{/each}}
 
-          {{#if guide.figure}}
-          <figure class="guide-figure">
-            <img src="{{guide.figure.src}}" alt="{{guide.figure.alt}}" width="460" height="995" loading="lazy" decoding="async" />
-            <figcaption><span class="guide-figure-label">{{guides.labels.figure}}</span>{{guide.figure.caption}}</figcaption>
-          </figure>
-          {{/if}}
           {{#if guide.callout}}
           <aside class="guide-callout"><p>{{guide.callout.text}}</p></aside>
           {{/if}}
@@ -102,7 +115,7 @@
                 <p class="inline-cta-title">{{guide.cta.title}}</p>
                 <p>{{guide.cta.text}}</p>
               </div>
-{{> appstore-button}}
+{{> appstore-button place="steps"}}
             </div>
           </section>
           {{/if}}
@@ -145,7 +158,7 @@
               </div>
             </div>
             {{#if download.rating_line}}<p class="app-card-rating">{{download.rating_line}}</p>{{/if}}
-{{> appstore-button}}
+{{> appstore-button place="aside"}}
             <p class="app-card-note"><strong>{{download.price}}</strong> {{download.price_note}}</p>
             <figure class="app-card-qr">
               <span class="qr-tile"><img src="/img/app-store-qr.png" alt="{{download.qr_alt}}" width="56" height="56" loading="lazy" decoding="async" /></span>
@@ -168,6 +181,7 @@
     </main>
 
 {{> site-footer}}
+{{> sticky-cta}}
 
     <script type="application/ld+json">
       {{seo.structured_data.article|json}}

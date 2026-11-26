@@ -15,8 +15,13 @@
             <h1 id="hero-heading"><span class="hero-kicker">{{hero.title_prefix}}</span> <span class="hero-title">{{hero.title_highlight}}</span></h1>
             <p class="hero-sub">{{hero.subtitle}}</p>
             <div class="hero-actions">
-{{> appstore-button}}
+{{> appstore-button place="hero"}}
               <a class="hero-link" href="#looks">{{hero.cta_secondary_link}}</a>
+              <!-- Desktop only (CSS): a computer cannot install the app, the phone that scans this can. -->
+              <figure class="hero-qr">
+                <span class="qr-tile"><img src="/img/app-store-qr.png" alt="{{download.qr_alt}}" width="84" height="84" decoding="async" /></span>
+                <figcaption>{{download.qr_label}}</figcaption>
+              </figure>
             </div>
             <ul class="hero-proof">
               {{#each hero.proof as |item|}}
@@ -45,11 +50,32 @@
         </div>
       </section>
 
-      <!-- SUMMARY (GEO): a plain, quotable statement of what the app is -->
-      <aside class="summary" aria-label="{{geo.summary_aria}}">
-        <p class="summary-lead">{{geo.summary_lead}}</p>
-        <p>{{geo.summary_body}}</p>
-      </aside>
+      <!-- BEFORE / AFTER: one real photo, the original under the developed one; the range input moves the divider -->
+      {{#if reveal.pair}}
+      <section class="block reveal" id="before-after" aria-labelledby="reveal-heading">
+        <div class="reveal-inner">
+          <div class="ba-slider" style="--pos: 50%">
+            <img class="ba-slider-after" src="{{reveal.pair.after}}" srcset="{{reveal.pair.after}} 800w, {{reveal.pair.after_2x}} 1600w" sizes="(max-width: 760px) 92vw, 440px" alt="{{reveal.pair.alt_after|attr}}" width="{{reveal.pair.width}}" height="{{reveal.pair.height}}" decoding="async" />
+            <div class="ba-slider-before">
+              <img src="{{reveal.pair.before}}" srcset="{{reveal.pair.before}} 800w, {{reveal.pair.before_2x}} 1600w" sizes="(max-width: 760px) 92vw, 440px" alt="{{reveal.pair.alt_before|attr}}" width="{{reveal.pair.width}}" height="{{reveal.pair.height}}" decoding="async" />
+            </div>
+            <span class="ba-label">{{reveal.pair.label_before}}</span>
+            <span class="ba-label ba-label-after">{{reveal.pair.label_after}}</span>
+            <span class="ba-slider-line" aria-hidden="true"></span>
+            <input class="ba-slider-range" type="range" min="0" max="100" value="50" aria-label="{{reveal.slider_label|attr}}" />
+          </div>
+          <div class="reveal-copy">
+            <p class="eyebrow">{{reveal.eyebrow}}</p>
+            <h2 id="reveal-heading">{{reveal.title}}</h2>
+            <p>{{reveal.text}}</p>
+            <div class="reveal-actions">
+{{> appstore-button place="reveal"}}
+              <p class="reveal-note">{{reveal.note}}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      {{/if}}
 
       <!-- DOWNLOAD -->
       <section class="block download" id="download" aria-labelledby="download-heading">
@@ -65,7 +91,7 @@
             <h2 id="download-heading">{{download.title}}</h2>
             <p class="download-price"><strong>{{download.price}}</strong> {{download.price_note}}</p>
             <div class="download-actions">
-{{> appstore-button}}
+{{> appstore-button place="download"}}
               <figure class="qr">
                 <span class="qr-tile"><img src="/img/app-store-qr.png" alt="{{download.qr_alt}}" width="84" height="84" loading="lazy" decoding="async" /></span>
                 <figcaption>{{download.qr_label}}</figcaption>
@@ -107,7 +133,8 @@
             <ul class="look-list">
               {{#each section.items as |item|}}
               <li class="look">
-                <img src="/img/looks/{{item.icon}}.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />
+                {{#if item.photo}}<img class="look-photo" src="{{item.photo}}" alt="{{item.name|attr}}: {{looks.photo_alt|attr}}" width="240" height="300" loading="lazy" decoding="async" />{{/if}}
+                {{#if item.no_photo}}<img src="/img/looks/{{item.icon}}.svg" alt="" width="64" height="64" loading="lazy" decoding="async" />{{/if}}
                 <div><p class="look-name">{{item.name}}</p><p class="look-text">{{item.text}}</p></div>
               </li>
               {{/each}}
@@ -223,6 +250,12 @@
       </section>
       {{/if}}
 
+      <!-- SUMMARY (GEO): a plain, quotable statement of what the app is -->
+      <aside class="summary" aria-label="{{geo.summary_aria}}">
+        <p class="summary-lead">{{geo.summary_lead}}</p>
+        <p>{{geo.summary_body}}</p>
+      </aside>
+
       <!-- FAQ -->
       <section class="block faq" id="faq" aria-labelledby="faq-heading">
         <div class="block-head">
@@ -236,7 +269,7 @@
             <h3 class="faq-q">{{faq.question}}</h3>
             <p class="faq-a">{{faq.answer}}</p>
             {{#if faq.learn_more_url}}
-            <a class="faq-more" href="{{faq.learn_more_url}}" title="{{faq.learn_more_title|attr}}">{{faq_section.learn_more_label}}</a>
+            <a class="faq-more" href="{{faq.learn_more_url|attr}}" title="{{faq.learn_more_title|attr}}">{{faq_section.learn_more_label}}</a>
             {{/if}}
           </article>
           {{/each}}
@@ -247,6 +280,7 @@
     </main>
 
 {{> site-footer}}
+{{> sticky-cta}}
 
     <script type="application/ld+json">
       {{seo.structured_data.software_application|json}}

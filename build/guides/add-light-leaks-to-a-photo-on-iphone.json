@@ -1,6 +1,7 @@
 {
   "priority": 9,
   "keyword": "light leak effect",
+  "ct": "leaks",
   "keywords": "light leak effect, light leak filter iphone, film light leak, add light leak to photo, lomo light leak, toy camera effect",
   "title": "How to Add a Light Leak Effect to a Photo on iPhone",
   "description": "Add film light leaks to iPhone photos: edge, window and burn leaks in soft red, orange or golden, plus toy cameras that leak by design. Settings inside.",
@@ -111,5 +112,9 @@
     "make-photos-look-like-film-on-iphone"
   ],
   "published": "2026-11-21",
-  "updated": "2026-11-21"
+  "updated": "2026-11-26",
+  "before_after": {
+    "subject": "A passenger train at a station platform",
+    "caption": "The same photo before and after the Dream 120 look in Halatto, a toy camera with a pink light leak built in. Nothing else was edited."
+  }
 }

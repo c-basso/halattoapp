@@ -8,6 +8,7 @@ const {
     LANGUAGES,
     APP_ID,
     APP_STORE_URL,
+    APP_STORE_PROVIDER_TOKEN,
     SHARED_SITE_META,
     FOOTER_PRIVACY_URL,
     FOOTER_TERMS_URL,
@@ -35,6 +36,84 @@ const STYLE_CSS_PATH = path.join(ROOT_DIR, 'style.css');
 const WEBMANIFEST_PATH = path.join(ROOT_DIR, 'site.webmanifest');
 
 const APP_STORE_PLACEHOLDER = '__APP_STORE_URL__';
+
+/* ------------------------------------------------------------------ */
+/* App Store campaign links                                            */
+/* ------------------------------------------------------------------ */
+
+/**
+ * Every link to the App Store carries an App Analytics campaign: `ct=web_<locale>_<page>_<place>`
+ * (web_en_home_hero, web_en_g-disposable_sticky), so App Store Connect → Campaigns shows which locale, page and
+ * button brought the install. `page`: home, guides (the hub) or g-<guide ct>. Apple limits `ct` to 40 characters.
+ * `{{store.<place>}}` in templates; the App Store button partial takes the place as an argument:
+ * `{{> appstore-button place="hero"}}`.
+ */
+const STORE_PLACES = ['header', 'nav', 'hero', 'reveal', 'download', 'final', 'footer', 'footer-nav', 'faq', 'top', 'steps', 'aside', 'sticky'];
+const CAMPAIGN_TOKEN_MAX = 40;
+
+function campaignToken(lang, page, place) {
+    const token = `web_${lang}_${page}_${place}`;
+    if (token.length > CAMPAIGN_TOKEN_MAX || !/^[A-Za-z0-9_-]+$/.test(token)) {
+        throw new Error(`Campaign token "${token}" must be at most ${CAMPAIGN_TOKEN_MAX} characters of [A-Za-z0-9_-]`);
+    }
+    return token;
+}
+
+function campaignUrl(lang, page, place) {
+    const params = new URLSearchParams();
+    if (APP_STORE_PROVIDER_TOKEN) {
+        params.set('pt', APP_STORE_PROVIDER_TOKEN);
+    }
+    params.set('ct', campaignToken(lang, page, place));
+    params.set('mt', '8');
+    return `https://apps.apple.com/app/apple-store/id${APP_ID}?${params.toString()}`;
+}
+
+function storeLinks(lang, page) {
+    return Object.fromEntries(STORE_PLACES.map((place) => [place, campaignUrl(lang, page, place)]));
+}
+
+/** Smart App Banner: the campaign rides in `affiliate-data` (needs the provider token to be attributed). */
+function smartBannerContent(lang, page) {
+    const base = `app-id=${APP_ID}`;
+    return APP_STORE_PROVIDER_TOKEN
+        ? `${base}, affiliate-data=pt=${APP_STORE_PROVIDER_TOKEN}&ct=${campaignToken(lang, page, 'banner')}`
+        : base;
+}
+
+/* ------------------------------------------------------------------ */
+/* Before / after pictures (build/before-after.js writes the manifest) */
+/* ------------------------------------------------------------------ */
+
+const BEFORE_AFTER_MANIFEST_PATH = path.join(__dirname, 'before-after.manifest.json');
+const BEFORE_AFTER = fs.existsSync(BEFORE_AFTER_MANIFEST_PATH)
+    ? JSON.parse(fs.readFileSync(BEFORE_AFTER_MANIFEST_PATH, 'utf8'))
+    : {};
+
+function fillLabel(text, vars) {
+    return String(text || '').replace(/\{(\w+)\}/g, (full, key) => (key in vars ? vars[key] : full));
+}
+
+/** Template data for one pair: labels, caption and alt texts in the page language. `copy`: { subject, caption }. */
+function beforeAfterData(pair, labels, copy = {}) {
+    const onDisk = (url) => fs.existsSync(path.join(ROOT_DIR, String(url).split('?')[0]));
+    if (!pair || !onDisk(pair.after) || !onDisk(pair.before)) {
+        return null;
+    }
+    const withExtras = Array.isArray(pair.extras) && pair.extras.length > 0;
+    // `subject_framed`: what the photo shows once the entry's render with extras exists (the photo may differ from the plain one).
+    const vars = { look: pair.look_name, subject: (withExtras && copy.subject_framed) || copy.subject || labels.ba_subject || 'A photo' };
+    return {
+        ...pair,
+        label_before: labels.ba_before || 'Before',
+        label_after: fillLabel(labels.ba_after || 'After · {look}', vars),
+        // `caption_with_extras` describes the picture rendered with tools on top of the look (date stamp, aging,
+        // grain); while only the plain look is rendered, the plain caption stays true.
+        caption: (withExtras && copy.caption_with_extras) || copy.caption || fillLabel(labels.ba_caption, vars),
+        alt_before: fillLabel(labels.ba_alt_before || '{subject}: the original photo', vars),
+        alt_after: fillLabel((withExtras ? labels.ba_alt_after_edit : labels.ba_alt_after) || '{subject} with the {look} look', vars)
+    };
+}
 
 const BUILD_TIMESTAMP = Date.now();
 const BUILD_DATE_ISO = new Date(BUILD_TIMESTAMP).toISOString().slice(0, 10);
@@ -454,6 +533,8 @@ function normalizeMeta(data, lang) {
     // Footer language switcher only makes sense once there is more than one locale.
     data.meta.language_links = LANGUAGE_LINKS.length > 1 ? LANGUAGE_LINKS : null;
     Object.assign(data.meta, SHARED_SITE_META);
+    data.meta.itunes_app = smartBannerContent(lang, 'home');
+    data.store = storeLinks(lang, 'home');
 
     data.nav = data.nav || {};
     data.nav.home_url = canonicalUrl;
@@ -484,7 +565,9 @@ function ensureSeoShape(data) {
     data.seo.structured_data = data.seo.structured_data || {};
 }
 
-function applyAppStoreFromConstants(data) {
+function applyAppStoreFromConstants(data, lang) {
+    // Links written in the locale JSON (FAQ "learn more") are text links on the homepage.
+    const textLinkUrl = campaignUrl(lang, 'home', 'faq');
     data.meta = data.meta || {};
     data.header = data.header || {};
     data.header.download_url = APP_STORE_URL;
@@ -500,7 +583,7 @@ function applyAppStoreFromConstants(data) {
             for (const key of Object.keys(node)) {
                 const value = node[key];
                 if (typeof value === 'string' && value.includes(APP_STORE_PLACEHOLDER)) {
-                    node[key] = value.split(APP_STORE_PLACEHOLDER).join(APP_STORE_URL);
+                    node[key] = value.split(APP_STORE_PLACEHOLDER).join(textLinkUrl);
                 } else {
                     visit(value);
                 }
@@ -641,7 +724,7 @@ function preparePageData(data, lang) {
     normalizeMeta(data, lang);
     normalizeFooter(data, lang);
     ensureSeoShape(data);
-    applyAppStoreFromConstants(data);
+    applyAppStoreFromConstants(data, lang);
     setSeoLastUpdatedFromBuild(data, lang);
     buildWebPageStructuredData(data);
     buildOrganizationStructuredData(data);
@@ -843,12 +926,12 @@ function renderBlocks(template, context, lang) {
 const PARTIALS_DIR = path.join(__dirname, 'partials');
 const partialCache = new Map();
 
-/** Inline `{{> name}}` partials from `build/partials/name.html` (recursive). */
+/** Inline `{{> name}}` / `{{> name arg="value"}}` partials from `build/partials/name.html` (recursive). */
 function inlinePartials(template, depth = 0) {
     if (depth > 10) {
         throw new Error('Partial nesting too deep (cycle?)');
     }
-    return template.replace(/\{\{>\s*([\w-]+)\s*\}\}/g, (_, name) => {
+    return template.replace(/\{\{>\s*([\w-]+)((?:\s+[\w-]+="[^"]*")*)\s*\}\}/g, (_, name, rawArgs) => {
         if (!partialCache.has(name)) {
             const partialPath = path.join(PARTIALS_DIR, `${name}.html`);
             if (!fs.existsSync(partialPath)) {
@@ -856,7 +939,15 @@ function inlinePartials(template, depth = 0) {
             }
             partialCache.set(name, fs.readFileSync(partialPath, 'utf8'));
         }
-        return inlinePartials(partialCache.get(name), depth + 1);
+        // Arguments (`{{> appstore-button place="hero"}}`) replace `@place@` in the partial's text.
+        const args = Object.fromEntries([...(rawArgs || '').matchAll(/([\w-]+)="([^"]*)"/g)].map((m) => [m[1], m[2]]));
+        const body = partialCache.get(name).replace(/@([a-z_]+)@/g, (full, key) => {
+            if (!(key in args)) {
+                throw new Error(`Partial "${name}" needs the argument ${key}="…"`);
+            }
+            return args[key];
+        });
+        return inlinePartials(body, depth + 1);
     });
 }
 
@@ -932,8 +1023,20 @@ function applyEnglishFallback(data, lang, defaultRaw) {
 /* Homepage                                                            */
 /* ------------------------------------------------------------------ */
 
+/** Labels of the default locale for card alt texts; set in main() before pages render. */
+let guideCardLabels = {};
+
 function guideCardItems(guides, lang) {
-    return guides.map((guide) => ({
+    return guides.map((guide) => {
+        // Hub card preview: the guide's before/after pair in one picture; the screenshot when there is none yet.
+        const pair = BEFORE_AFTER.guides?.[lang === DEFAULT_LANGUAGE ? guide.slug : guide.en_slug];
+        const thumb = pair?.thumb && fs.existsSync(path.join(ROOT_DIR, pair.thumb.split('?')[0])) ? pair : null;
+        return {
+        thumb: thumb ? thumb.thumb : null,
+        thumb_width: thumb?.thumb_width,
+        thumb_height: thumb?.thumb_height,
+        thumb_alt: thumb ? fillLabel(guideCardLabels.ba_thumb_alt || 'Before and after: {look}', { look: thumb.look_name }) : '',
+        no_thumb: !thumb,
         slug: guide.slug,
         url: guideUrlForSlug(guide.slug, lang),
         title: guide.card_title || guide.h1,
@@ -941,7 +1044,8 @@ function guideCardItems(guides, lang) {
         eyebrow: guide.eyebrow,
         screenshot_src: guide.screenshot?.src,
         screenshot_alt: guide.screenshot?.alt
-    }));
+        };
+    });
 }
 
 /**
@@ -981,6 +1085,19 @@ function attachGuideCards(data, guidesByLang, lang) {
     }
 }
 
+/** Homepage before/after slider and the photo on each look card (icon when a look has no render yet). */
+function attachHomePictures(data) {
+    data.reveal = data.reveal || {};
+    data.reveal.pair = beforeAfterData(BEFORE_AFTER.home, data.guides?.labels || {}, { subject: data.reveal.subject });
+    for (const group of data.looks?.groups || []) {
+        for (const item of group.items || []) {
+            const photo = BEFORE_AFTER.looks?.[item.icon];
+            item.photo = photo && fs.existsSync(path.join(ROOT_DIR, photo.src.split('?')[0])) ? photo.src : null;
+            item.no_photo = !item.photo;
+        }
+    }
+}
+
 function buildPage(template, lang, { defaultRaw, guidesByLang }) {
     const outputDir = getOutputDirectory(lang);
     const outputPath = getOutputPath(lang);
@@ -990,6 +1107,7 @@ function buildPage(template, lang, { defaultRaw, guidesByLang }) {
     const raw = applyEnglishFallback(readJsonFile(jsonPath), lang, defaultRaw);
     const data = preparePageData(raw, lang);
     attachGuideCards(data, guidesByLang, lang);
+    attachHomePictures(data);
     fs.writeFileSync(outputPath, renderTemplate(template, data, lang), 'utf8');
 
     console.log(`✅ Successfully built index.html from template and ${lang}.json`);
@@ -1045,6 +1163,7 @@ function buildGuideStructuredData(guide, siteData, lang) {
         logo: { '@type': 'ImageObject', url: DEFAULT_OG_LOGO }
     };
     const image = guide.screenshot?.src ? absoluteSiteUrl(guide.screenshot.src) : DEFAULT_OG_LOGO;
+    const articleImages = guide.before_after?.after_2x ? [absoluteSiteUrl(guide.before_after.after_2x), image] : [image];
 
     return {
         article: {
@@ -1052,7 +1171,7 @@ function buildGuideStructuredData(guide, siteData, lang) {
             '@type': 'Article',
             headline: stripHtml(guide.h1),
             description: stripHtml(guide.description),
-            image: [image],
+            image: articleImages,
             author: publisher,
             publisher,
             datePublished: guide.published || guideUpdatedIso(guide),
@@ -1135,18 +1254,32 @@ function prepareGuideData(guide, guides, siteData, lang) {
         unordered: Boolean(section.list && !section.ordered)
     }));
     const cta = guide.cta || siteData.guides?.default_cta || {};
+    // Pictures and the campaign code belong to the English guide; a translation points at it with `en_slug`.
+    const enSlug = lang === DEFAULT_LANGUAGE ? guide.slug : guide.en_slug;
+    const enGuide = lang === DEFAULT_LANGUAGE || !enSlug ? guide : readJsonFile(path.join(GUIDES_DIR, `${enSlug}.json`));
+    const campaignCode = guide.ct || enGuide.ct;
+    if (!campaignCode) {
+        throw new Error(`Guide ${lang}/${guide.slug} has no "ct" (short campaign code, e.g. "disposable")`);
+    }
+    const page = `g-${campaignCode}`;
+    const beforeAfter = beforeAfterData(BEFORE_AFTER.guides?.[enSlug], guideLabels(siteData), guide.before_after || {});
+    if (!beforeAfter) {
+        console.warn(`Warning [guide:${lang}:${guide.slug}]: no before/after picture (npm run before-after)`);
+    }
     const alternates = getGuideAlternates(guide.slug, lang);
     const xDefault = alternates.find((alt) => alt.lang === DEFAULT_LANGUAGE)?.url || url;
 
     return {
         ...siteData,
         page_type: 'guide',
+        store: storeLinks(lang, page),
         guide: {
             ...guide,
             url,
-            // `screenshot.hide_in_article`: keep the image for hub cards / OG, but show the
-            // caption as a text callout in the article instead of an unrelated store screenshot.
-            figure: guide.screenshot && !guide.screenshot.hide_in_article ? guide.screenshot : null,
+            before_after: beforeAfter,
+            // The article shows the before/after pair, not the App Store screenshot; `screenshot` stays in the guide
+            // JSON for structured data and as the hub card fallback. `screenshot.hide_in_article` + a caption makes a
+            // text callout.
             callout: guide.screenshot?.hide_in_article && guide.screenshot.caption
                 ? { text: guide.screenshot.caption }
                 : null,
@@ -1175,13 +1308,14 @@ function prepareGuideData(guide, guides, siteData, lang) {
             og_image_alt: siteData.meta.og_image_alt,
             twitter_image_alt: siteData.meta.twitter_image_alt,
             og_type: 'article',
+            itunes_app: smartBannerContent(lang, page),
             alternate_languages: alternates.map((alt) => ({ ...alt, lang: alt.hreflang })),
             alternate_default: xDefault,
             ...guidePageMeta(siteData, lang)
         },
         seo: {
             ...siteData.seo,
-            structured_data: buildGuideStructuredData(guide, siteData, lang)
+            structured_data: buildGuideStructuredData({ ...guide, before_after: beforeAfter }, siteData, lang)
         }
     };
 }
@@ -1217,6 +1351,7 @@ function buildGuidesHub(guides, siteData, lang = DEFAULT_LANGUAGE) {
     const data = {
         ...siteData,
         page_type: 'hub',
+        store: storeLinks(lang, 'guides'),
         guides: { ...siteData.guides, items, hub_url: hubUrl, hub },
         meta: {
             ...siteData.meta,
@@ -1232,6 +1367,7 @@ function buildGuidesHub(guides, siteData, lang = DEFAULT_LANGUAGE) {
             twitter_description: hub.description,
             og_image: previewImage,
             twitter_image: previewImage,
+            itunes_app: smartBannerContent(lang, 'guides'),
             alternate_languages: alternates.map((alt) => ({ ...alt, lang: alt.hreflang })),
             alternate_default: GUIDES_HUB_URL,
             ...guidePageMeta(siteData, lang)
@@ -1303,6 +1439,7 @@ function main() {
     }
     const guides = guidesByLang[DEFAULT_LANGUAGE] || [];
     const defaultRaw = readJsonFile(getJsonPath(DEFAULT_LANGUAGE));
+    guideCardLabels = defaultRaw.guides?.labels || {};
     const defaultData = preparePageData(JSON.parse(JSON.stringify(defaultRaw)), DEFAULT_LANGUAGE);
     const localizedGuides = Object.fromEntries(
         Object.entries(guidesByLang).filter(([lang]) => lang !== DEFAULT_LANGUAGE)

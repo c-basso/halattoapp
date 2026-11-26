@@ -1,6 +1,7 @@
 {
   "priority": 15,
   "keyword": "make iphone photos look like film without app",
+  "ct": "noapp",
   "keywords": "make iphone photos look like film without app, film look iphone photos app settings, iphone photo edit settings for film look, make iphone photos look like film free, vintage edit iphone photos app, film filter iphone free",
   "title": "Make iPhone Photos Look Like Film Without an App (Settings)",
   "description": "Make iPhone photos look like film in the built-in Photos app: slider settings for warm film, disposable and faded-print looks, plus what Photos cannot do.",
@@ -180,5 +181,8 @@
     "apply-the-same-filter-to-multiple-photos-on-iphone"
   ],
   "published": "2026-11-21",
-  "updated": "2026-11-21"
+  "updated": "2026-11-26",
+  "before_after": {
+    "subject": "Newlyweds walking down a city street"
+  }
 }

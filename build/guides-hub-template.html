@@ -23,7 +23,8 @@
           {{#each guides.items as |guide|}}
           <li>
             <a href="{{guide.url}}">
-              <img src="{{guide.screenshot_src}}" alt="" width="460" height="995" loading="lazy" decoding="async" />
+              {{#if guide.thumb}}<img class="hub-ba" src="{{guide.thumb}}" alt="{{guide.thumb_alt|attr}}" width="{{guide.thumb_width}}" height="{{guide.thumb_height}}" loading="lazy" decoding="async" />{{/if}}
+              {{#if guide.no_thumb}}<img src="{{guide.screenshot_src}}" alt="" width="460" height="995" loading="lazy" decoding="async" />{{/if}}
               <span class="hub-text">
                 <span class="guide-tag">{{guide.eyebrow}}</span>
                 <span class="guide-title">{{guide.title}}</span>
@@ -39,6 +40,7 @@
     </main>
 
 {{> site-footer}}
+{{> sticky-cta}}
 
     <script type="application/ld+json">
       {{seo.structured_data.collection|json}}

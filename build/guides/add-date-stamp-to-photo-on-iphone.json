@@ -1,6 +1,7 @@
 {
   "priority": 5,
   "keyword": "add date stamp to photo iphone",
+  "ct": "datestamp",
   "keywords": "add date stamp to photo iphone, orange date stamp, timestamp on photo iphone, date on photo like old camera, 90s date stamp, retro date stamp, add date to photo already taken, how to date stamp a photo on iphone, add date to photo iphone",
   "title": "Add a Date Stamp to a Photo Already Taken on iPhone",
   "description": "iPhone can't print the date on a photo. Here's how to add the orange, old-camera date stamp using the day the photo was taken, plus corner, color and size tips.",
@@ -96,5 +97,10 @@
     "make-a-photo-look-old-on-iphone"
   ],
   "published": "2026-11-21",
-  "updated": "2026-11-21"
+  "updated": "2026-11-26",
+  "before_after": {
+    "subject": "A group of friends on a rooftop at dusk",
+    "caption": "The same photo before and after the Snap 400 look in Halatto. The date stamp goes on top of a look.",
+    "caption_with_extras": "The same photo before and after the Snap 400 look with the orange date stamp, both added in Halatto."
+  }
 }

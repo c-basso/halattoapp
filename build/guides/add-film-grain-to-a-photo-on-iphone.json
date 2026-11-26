@@ -1,6 +1,7 @@
 {
   "priority": 7,
   "keyword": "add grain to photo iphone",
+  "ct": "grain",
   "keywords": "add grain to photo iphone, film grain filter, grainy photo effect, film grain app, add noise to photo iphone, 35mm film grain, film grain effect",
   "title": "How to Add 35mm Film Grain to a Photo on iPhone (Natural)",
   "description": "Add realistic film grain to iPhone photos: why Photos has no grain slider, how much grain suits portraits, street and night shots, and the fastest way.",
@@ -114,5 +115,10 @@
     "night-film-halation-glow-on-iphone"
   ],
   "published": "2026-11-21",
-  "updated": "2026-11-21"
+  "updated": "2026-11-26",
+  "before_after": {
+    "subject": "Two women laughing in a field at sunset",
+    "caption": "The same photo before and after the Mju 35 look in Halatto: black and white with hard contrast and big grain. Nothing else was edited.",
+    "caption_with_extras": "The same photo before and after film grain was added in Halatto. No look, nothing else was edited."
+  }
 }

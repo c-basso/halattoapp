@@ -1,6 +1,7 @@
 {
   "priority": 1,
   "keyword": "how to make photos look like film on iphone",
+  "ct": "film",
   "keywords": "make photos look like film, film look iphone, film filter app, film photo effect iphone, analog look iphone, edit iphone photos to look like film, make iphone photos look like 35mm",
   "title": "How to Make iPhone Photos Look Like Film (Real Film Look)",
   "description": "Make iPhone photos look like film: what a film look really is (color, grain, lens, light), the free Photos-app method, and a one-tap way with old-camera looks.",
@@ -141,5 +142,8 @@
     "add-film-grain-to-a-photo-on-iphone"
   ],
   "published": "2026-11-21",
-  "updated": "2026-11-21"
+  "updated": "2026-11-26",
+  "before_after": {
+    "subject": "Three friends in holiday outfits sitting by a decorated door"
+  }
 }

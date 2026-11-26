@@ -1,6 +1,7 @@
 {
   "priority": 8,
   "keyword": "90s filter",
+  "ct": "90s",
   "keywords": "90s filter, 90s photo filter iphone, 90s camera effect, 90s aesthetic photo, point and shoot filter, 35mm compact camera look",
   "title": "90s Photo Filter for iPhone: Point-and-Shoot Film Look",
   "description": "Make iPhone photos look like a 90s point-and-shoot: 35mm film color, flash, grain and the orange date stamp. Which looks to use and how to apply them.",
@@ -116,5 +117,8 @@
     "disposable-camera-filter-on-iphone"
   ],
   "published": "2026-11-21",
-  "updated": "2026-11-21"
+  "updated": "2026-11-26",
+  "before_after": {
+    "subject": "Friends dancing around a Christmas tree in a hall"
+  }
 }

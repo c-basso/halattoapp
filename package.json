@@ -2,6 +2,8 @@
   "name": "halattoapp",
   "scripts": {
     "build": "node build/build.js",
+    "before-after": "node build/before-after.js",
+    "before-after:render": "node build/before-after.js && bash build/before-after-render.sh && node build/before-after.js && node build/build.js",
     "validate": "node build/validate/index.js",
     "sitemap": "node build/sitemap.js",
     "start": "npx http-server",

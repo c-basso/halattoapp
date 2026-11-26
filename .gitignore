@@ -7,3 +7,6 @@ gsc/
 # Google Indexing API daily rotation progress (build/gindexnow.js)
 .index-google-state.json
 .index-google-state.json.tmp
+# Full-size renders for site examples (npm run before-after:render); the cut pictures in img/ are committed
+build/before-after-renders/
+build/before-after.render-job.json

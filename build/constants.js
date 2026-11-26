@@ -4,6 +4,11 @@ const path = require('path');
 const SITE_URL = "https://halatto.app/";
 const APP_ID = '6758913511';
 const APP_STORE_URL = `https://apps.apple.com/app/id${APP_ID}`;
+/**
+ * App Store Connect provider token for campaign links (`pt=`): App Store Connect → App Analytics → Acquisition →
+ * Campaigns → Generate campaign link shows it as a number. Without it Apple does not attribute `ct=` campaigns.
+ */
+const APP_STORE_PROVIDER_TOKEN = '118672082';
 const DEFAULT_LANGUAGE = 'en';
 
 /**
@@ -187,7 +192,7 @@ const SOFTWARE_APPLICATION_AGGREGATE_RATING = null;
  * not on every build: it feeds the visible "Updated" label, JSON-LD dateModified and sitemap lastmod.
  * Guides carry their own `updated` field in build/guides/<slug>.json.
  */
-const SITE_CONTENT_UPDATED_ISO = '2026-11-21';
+const SITE_CONTENT_UPDATED_ISO = '2026-11-26';
 
 /** Site-wide meta duplicated across locales; merged at build time in `normalizeMeta`. */
 const SHARED_SITE_META = {
@@ -219,6 +224,7 @@ module.exports = {
     SITE_URL,
     APP_ID,
     APP_STORE_URL,
+    APP_STORE_PROVIDER_TOKEN,
     URLS,
     DEFAULT_LANGUAGE,
     LANGUAGES,

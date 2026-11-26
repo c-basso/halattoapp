@@ -1,6 +1,7 @@
 {
   "priority": 10,
   "keyword": "apply same edit to multiple photos iphone",
+  "ct": "batch",
   "keywords": "apply same edit to multiple photos iphone, batch edit photos iphone, copy edits iphone, same filter on all photos, batch photo filter, edit multiple photos at once iphone",
   "title": "Apply the Same Filter to Multiple Photos on iPhone at Once",
   "description": "Batch edit on iPhone: Copy and Paste Edits in Photos, and how to put one film look on a whole trip at once with saved recipes and Develop the Roll in Halatto.",
@@ -93,5 +94,8 @@
     "make-a-before-and-after-photo-video-on-iphone"
   ],
   "published": "2026-11-21",
-  "updated": "2026-11-21"
+  "updated": "2026-11-26",
+  "before_after": {
+    "subject": "A man carrying a pizza box at a rooftop party"
+  }
 }

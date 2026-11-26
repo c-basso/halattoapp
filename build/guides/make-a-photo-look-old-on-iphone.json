@@ -1,6 +1,7 @@
 {
   "priority": 4,
   "keyword": "how to make a photo look old on iphone",
+  "ct": "old",
   "keywords": "make photo look old, make photo look vintage iphone, old photo effect, aged photo filter, vintage photo effect, faded photo effect, make photo look old and scratched, old photo filter",
   "title": "How to Make a Photo Look Old on iPhone (Faded, Aged Print)",
   "description": "Make a photo look old on iPhone: fade, yellowing, dust, stains, creases and light leaks that make a new picture look like a print kept in a shoebox for years.",
@@ -129,5 +130,10 @@
     "90s-photo-filter-on-iphone"
   ],
   "published": "2026-11-21",
-  "updated": "2026-11-21"
+  "updated": "2026-11-26",
+  "before_after": {
+    "subject": "Two people walking past ornate buildings on a sunny street",
+    "caption": "The same photo before and after the SX Fold look in Halatto, a 70s folding instant camera. The Aging tool adds fade, yellowing, dust and creases on top of a look.",
+    "caption_with_extras": "The same photo before and after the SX Fold look with Aging on top (the Shoebox preset), both added in Halatto."
+  }
 }

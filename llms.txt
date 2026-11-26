@@ -22,7 +22,7 @@
 - On the App Store since November 2026
 - Website locales: 0 language-specific pages
 - Public website: https://halatto.app/
-- Last website build date: 2026-11-24
+- Last website build date: 2026-11-26
 
 ## Main sections
 - [Home](https://halatto.app/): Product overview, the 14 looks, screenshots, how it works, FAQ, and App Store link
@@ -82,4 +82,4 @@ No. Halatto is published for iPhone on the Apple App Store only.
 - Privacy: https://halatto.app/privacy.html
 - Terms: https://halatto.app/terms.html
 
-Last updated: 2026-11-24
+Last updated: 2026-11-26

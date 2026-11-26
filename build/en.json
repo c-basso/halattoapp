@@ -251,7 +251,8 @@
           }
         ]
       }
-    ]
+    ],
+    "photo_alt": "the same photo with this look"
   },
   "tools": {
     "eyebrow": "Screenshots",
@@ -416,7 +417,15 @@
       "related": "Related guides",
       "all_guides": "All guides",
       "disclaimer": "Halatto is an independent app. It is not affiliated with Apple, Kodak, Fujifilm, Polaroid, Olympus, CineStill or any camera or film brand; brand names are used only to describe a style.",
-      "figure": "In Halatto"
+      "figure": "In Halatto",
+      "ba_before": "Before",
+      "ba_after": "After · {look}",
+      "ba_caption": "The same photo before and after the {look} look in Halatto. Nothing else was edited.",
+      "ba_alt_before": "{subject}: the original photo",
+      "ba_alt_after": "{subject} with the {look} look applied in Halatto",
+      "top_cta_note": "Free to try. No account, nothing uploaded.",
+      "ba_alt_after_edit": "{subject}, edited in Halatto: {look}",
+      "ba_thumb_alt": "Before and after: {look}"
     },
     "default_cta": {
       "title": "Do it in Halatto",
@@ -629,5 +638,17 @@
         ]
       }
     }
+  },
+  "reveal": {
+    "eyebrow": "Before / after",
+    "title": "One photo, before and after",
+    "text": "Drag the line. On the left is the photo as the camera took it. On the right is the same photo with the Dream 120 look: a soft plastic lens, glowing highlights and a pink light leak. Nothing else was edited.",
+    "note": "Free to try. No account, nothing uploaded.",
+    "slider_label": "Move the divider between the original photo and the Dream 120 look",
+    "subject": "Four friends laughing outdoors on a sunny day"
+  },
+  "sticky": {
+    "text": "Vintage photo filter. Free to try.",
+    "button": "Get"
   }
 }
