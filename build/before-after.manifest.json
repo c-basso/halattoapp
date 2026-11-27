@@ -262,6 +262,23 @@
       "thumb": "/img/before-after/make-iphone-photos-look-like-film-without-an-app-thumb.webp?v=b42e88aa",
       "thumb_width": 404,
       "thumb_height": 250
+    },
+    "huji-filter-for-photos-already-taken": {
+      "look": "snap400",
+      "look_name": "Snap 400",
+      "extras": [],
+      "photo": "px-15738656",
+      "credit": "Photo by Loverice  Lah on Pexels · https://www.pexels.com/photo/laughing-women-holding-hands-15738656/",
+      "rights": "stock",
+      "width": 640,
+      "height": 800,
+      "before": "/img/before-after/huji-filter-for-photos-already-taken-before.webp?v=b15d4312",
+      "before_2x": "/img/before-after/huji-filter-for-photos-already-taken-before@2x.webp?v=02371087",
+      "after": "/img/before-after/huji-filter-for-photos-already-taken-after.webp?v=a5ac2f20",
+      "after_2x": "/img/before-after/huji-filter-for-photos-already-taken-after@2x.webp?v=6672464e",
+      "thumb": "/img/before-after/huji-filter-for-photos-already-taken-thumb.webp?v=54ff884d",
+      "thumb_width": 404,
+      "thumb_height": 250
     }
   },
   "looks": {

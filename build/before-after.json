@@ -86,6 +86,10 @@
     "make-iphone-photos-look-like-film-without-an-app": {
       "look": "tunnel35",
       "photo": "px-29483983"
+    },
+    "huji-filter-for-photos-already-taken": {
+      "look": "snap400",
+      "photo": "px-15738656"
     }
   }
 }

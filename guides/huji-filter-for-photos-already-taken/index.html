@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover"
+    />
+    <title>Huji-Style Filter for Photos You Already Took on iPhone</title>
+    <meta
+      name="description"
+      content="Want the Huji-style 1998 disposable look on photos already in your camera roll? What Huji Cam's import does, and how to get the look in an editor on iPhone."
+    />
+    <!-- App Store Smart App Banner -->
+    <meta name="apple-itunes-app" content="app-id=6758913511, affiliate-data=pt=118672082&amp;ct=web_en_g-huji_banner" />
+    <!-- Core SEO -->
+    <meta name="keywords" content="huji filter for photos already taken, huji filter on existing photos, huji cam import photos, huji style filter iphone, 1998 disposable camera filter, huji cam alternative for camera roll" />
+    <meta name="author" content="c-basso" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow" />
+    <meta name="bingbot" content="index, follow" />
+    <link rel="canonical" href="https://halatto.app/guides/huji-filter-for-photos-already-taken/" />
+    <link
+      rel="alternate"
+      type="text/plain"
+      href="/llms.txt"
+      title="LLM / AI summary of this site"
+    />
+
+    <!-- Alternate Language Links -->
+    
+    <link rel="alternate" hreflang="en" href="https://halatto.app/guides/huji-filter-for-photos-already-taken/" />
+    
+    <link rel="alternate" hreflang="x-default" href="https://halatto.app/guides/huji-filter-for-photos-already-taken/" />
+
+    <!-- PWA & Theming -->
+    <meta name="theme-color" content="#17120F" />
+    <meta name="msapplication-TileColor" content="#17120F" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Huji-style filter for photos you already took" />
+    <meta property="og:description" content="Want the Huji-style 1998 disposable look on photos already in your camera roll? What Huji Cam's import does, and how to get the look in an editor on iPhone." />
+    <meta property="og:image" content="https://halatto.app/site_preview.png" />
+    <meta property="og:image:alt" content="Halatto app: “Your photos, shot on film.” next to a retro camera ejecting a print with an orange date stamp" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:logo" content="https://halatto.app/img/logo.webp" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://halatto.app/guides/huji-filter-for-photos-already-taken/" />
+    <meta property="og:site_name" content="Halatto" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://halatto.app/guides/huji-filter-for-photos-already-taken/" />
+    <meta name="twitter:title" content="Huji-style filter for photos you already took" />
+    <meta name="twitter:description" content="Want the Huji-style 1998 disposable look on photos already in your camera roll? What Huji Cam's import does, and how to get the look in an editor on iPhone." />
+    <meta name="twitter:image" content="https://halatto.app/site_preview.png" />
+    <meta name="twitter:image:alt" content="Halatto app: “Your photos, shot on film.” next to a retro camera ejecting a print with an orange date stamp" />
+    <meta name="twitter:site" content="@c__basso" />
+    <meta name="twitter:creator" content="@c__basso" />
+    <meta name="twitter:image:width" content="1200" />
+    <meta name="twitter:image:height" content="630" />
+
+    <link rel="preconnect" href="https://apps.apple.com" />
+    <link rel="dns-prefetch" href="https://apps.apple.com" />
+    <link rel="preload" href="/fonts/michroma-latin.woff" as="font" type="font/woff" crossorigin />
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href="/img/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
+    <link rel="mask-icon" href="/img/favicon.svg" color="#17120F" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/img/web-app-manifest-192x192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/img/web-app-manifest-512x512.png" />
+    <!-- Application Name -->
+    <meta name="application-name" content="Halatto – Vintage Photo Filter" />
+
+    <link
+      rel="stylesheet"
+      href="/style.css?v=1795793239278"
+    />
+    <script>document.documentElement.classList.add('js');</script>
+    <!-- dev-links: on localhost / LAN dev servers, point absolute site links at the local copy (no effect in production) -->
+    <script>
+      (function () {
+        var h = location.hostname;
+        var isDev = h === 'localhost' || h === '127.0.0.1' || h === '[::1]' || h === '0.0.0.0' ||
+          /\.(local|localhost|test)$/.test(h) || /^(10|192\.168|172\.(1[6-9]|2\d|3[01]))\./.test(h);
+        if (!isDev) return;
+        var SITE = 'https://halatto.app';
+        var sel = 'a[href^="' + SITE + '"]';
+        function fix(root) {
+          root.querySelectorAll(sel).forEach(function (a) {
+            a.setAttribute('href', a.getAttribute('href').slice(SITE.length) || '/');
+          });
+        }
+        document.addEventListener('DOMContentLoaded', function () { fix(document); });
+        document.addEventListener('click', function (e) {
+          var a = e.target.closest && e.target.closest(sel);
+          if (a) a.setAttribute('href', a.getAttribute('href').slice(SITE.length) || '/');
+        }, true);
+      })();
+    </script>
+
+  </head>
+  <body class="page-guide">
+      <header class="site-header">
+        <a class="brand" href="https://halatto.app/">
+          <img class="brand-icon" src="/img/logo.webp" alt="" width="40" height="40" loading="eager" decoding="async" />
+          <span class="brand-name">HALATTO</span>
+        </a>
+        <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+          <a href="https://halatto.app/#looks">Looks</a>
+          <a href="https://halatto.app/#screenshots">Screenshots</a>
+          <a href="https://halatto.app/#how-it-works">How it works</a>
+          <a href="https://halatto.app/guides/">Guides</a>
+          <a href="https://halatto.app/#faq">FAQ</a>
+          <a class="nav-store" href="https://apps.apple.com/app/apple-store/id6758913511?pt=118672082&amp;ct=web_en_g-huji_nav&amp;mt=8" target="_blank" rel="noopener noreferrer">Download on the App Store</a>
+        </nav>
+        <a class="header-cta" href="https://apps.apple.com/app/apple-store/id6758913511?pt=118672082&amp;ct=web_en_g-huji_header&amp;mt=8" target="_blank" rel="noopener noreferrer" aria-label="Download Halatto, the vintage photo filter, on the App Store">
+          <svg width="14" height="17" viewBox="14 8 14 26" aria-hidden="true"><path fill="currentColor" d="M24.99671,19.88935a5.14625,5.14625,0,0,1,2.45058-4.31771,5.26776,5.26776,0,0,0-4.15039-2.24376c-1.74624-.1833-3.43913,1.04492-4.329,1.04492-.90707,0-2.27713-1.02672-3.75247-.99637a5.52735,5.52735,0,0,0-4.65137,2.8367c-2.01111,3.482-.511,8.59939,1.41551,11.414.96388,1.37823,2.09037,2.91774,3.56438,2.86315,1.4424-.05983,1.98111-.91977,3.7222-.91977,1.72494,0,2.23035.91977,3.73427.88506,1.54777-.02512,2.52292-1.38435,3.453-2.77563a11.39931,11.39931,0,0,0,1.579-3.21589A4.97284,4.97284,0,0,1,24.99671,19.88935Z"/><path fill="currentColor" d="M22.15611,11.47681a5.06687,5.06687,0,0,0,1.159-3.62989,5.15524,5.15524,0,0,0-3.33555,1.72582,4.82131,4.82131,0,0,0-1.18934,3.4955A4.26259,4.26259,0,0,0,22.15611,11.47681Z"/></svg>
+          <span>Get the app</span>
+        </a>
+        <button type="button" class="nav-toggle" aria-controls="site-nav" aria-expanded="false" aria-label="Menu">
+          <span class="nav-toggle-bars" aria-hidden="true"></span>
+        </button>
+      </header>
+
+
+    <main id="main" class="guide-layout">
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="https://halatto.app/">Home</a></li>
+          <li><a href="https://halatto.app/guides/">Guides</a></li>
+          <li aria-current="page">Huji-style filter for photos already taken</li>
+        </ol>
+      </nav>
+
+      <article class="guide-article">
+        <header class="guide-header">
+          <p class="guide-tag">Alternatives</p>
+          <h1>Huji-style filter for photos you already took</h1>
+          <p class="guide-meta">
+            By Vladimir Ivakhnenko · Updated <time datetime="2026-11-27">November 27, 2026</time>, 5 min read
+          </p>
+          <div class="quick-answer">
+            <p class="quick-answer-label">Quick answer</p>
+            <p>Huji Cam is a camera app: you shoot in it and get one 1998 disposable-camera look with light streaks and a date. It can also process photos from your library, as a paid extra. If you want that kind of look on photos you already took with more control, open them in an editor such as Halatto: pick Snap Gold or Snap 400, add a light leak and the orange date stamp, and put the same look on a whole set at once.</p>
+          </div>
+          
+          <figure class="ba">
+            <div class="ba-pair">
+              <div class="ba-item">
+                <img src="/img/before-after/huji-filter-for-photos-already-taken-before.webp?v=b15d4312" srcset="/img/before-after/huji-filter-for-photos-already-taken-before.webp?v=b15d4312 640w, /img/before-after/huji-filter-for-photos-already-taken-before@2x.webp?v=02371087 1280w" sizes="(max-width: 960px) 46vw, 340px" alt="Two friends laughing in a field: the original photo" width="640" height="800" decoding="async" />
+                <span class="ba-label">Before</span>
+              </div>
+              <div class="ba-item">
+                <img src="/img/before-after/huji-filter-for-photos-already-taken-after.webp?v=a5ac2f20" srcset="/img/before-after/huji-filter-for-photos-already-taken-after.webp?v=a5ac2f20 640w, /img/before-after/huji-filter-for-photos-already-taken-after@2x.webp?v=6672464e 1280w" sizes="(max-width: 960px) 46vw, 340px" alt="Two friends laughing in a field with the Snap 400 look applied in Halatto" width="640" height="800" fetchpriority="high" decoding="async" />
+                <span class="ba-label ba-label-after">After · Snap 400</span>
+              </div>
+            </div>
+            <figcaption>The same photo before and after the Snap 400 look in Halatto. Nothing else was edited.</figcaption>
+          </figure>
+          
+          <div class="guide-top-cta">
+              <a
+                class="store-button"
+                href="https://apps.apple.com/app/apple-store/id6758913511?pt=118672082&amp;ct=web_en_g-huji_top&amp;mt=8"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Download Halatto, the vintage photo filter, on the App Store"
+              >
+                <svg
+                  class="store-button-icon"
+                  width="20"
+                  height="24"
+                  viewBox="14 8 14 26"
+                  aria-hidden="true"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M24.99671,19.88935a5.14625,5.14625,0,0,1,2.45058-4.31771,5.26776,5.26776,0,0,0-4.15039-2.24376c-1.74624-.1833-3.43913,1.04492-4.329,1.04492-.90707,0-2.27713-1.02672-3.75247-.99637a5.52735,5.52735,0,0,0-4.65137,2.8367c-2.01111,3.482-.511,8.59939,1.41551,11.414.96388,1.37823,2.09037,2.91774,3.56438,2.86315,1.4424-.05983,1.98111-.91977,3.7222-.91977,1.72494,0,2.23035.91977,3.73427.88506,1.54777-.02512,2.52292-1.38435,3.453-2.77563a11.39931,11.39931,0,0,0,1.579-3.21589A4.97284,4.97284,0,0,1,24.99671,19.88935Z"
+                  />
+                  <path
+                    fill="currentColor"
+                    d="M22.15611,11.47681a5.06687,5.06687,0,0,0,1.159-3.62989,5.15524,5.15524,0,0,0-3.33555,1.72582,4.82131,4.82131,0,0,0-1.18934,3.4955A4.26259,4.26259,0,0,0,22.15611,11.47681Z"
+                  />
+                </svg>
+                <span>Download on the App Store</span>
+              </a>
+
+            <p>Free to try. No account, nothing uploaded.</p>
+          </div>
+        </header>
+
+        <div class="guide-body">
+          
+          <p>The usual story: you took the photos with the normal iPhone camera, and only later wanted them to look like a late-90s disposable. A camera app is built for the moment of shooting, so the question becomes what to do with the camera roll.</p>
+          
+          <p>Here is what Huji Cam does with existing photos, and how to get a similar look in an editor. We make Halatto, so read our part with that in mind.</p>
+          
+
+          
+
+          
+          <section class="guide-section" id="what-the-huji-look-is-made-of">
+            <h2>What the Huji look is made of</h2>
+            
+            
+            
+            
+            <ul>
+              <li>Warm, saturated color like a summer disposable.</li><li>Visible grain and a slightly soft plastic lens.</li><li>Random streaks of colored light across the frame.</li><li>A date in the corner, in the style of a 90s camera back.</li>
+            </ul>
+            
+            
+            
+            
+          </section>
+          
+          <section class="guide-section" id="can-huji-cam-edit-photos-you-already-took">
+            <h2>Can Huji Cam edit photos you already took?</h2>
+            
+            <p>Yes, with a condition. Huji Cam is camera-first: its main screen is a small viewfinder and you take new pictures in it. Importing photos from your library is part of its in-app purchase, not the free app.</p>
+            
+            <p>An imported photo gets the same single look as a new shot, including the light effect and the date. If that one look is what you want, the import is the shortest way.</p>
+            
+            
+            
+            
+            <p class="guide-note">Checked against the Huji Cam App Store listing in November 2026. Apps change; look at the current listing before you pay.</p>
+            
+          </section>
+          
+          <section class="guide-section" id="when-an-editor-fits-better">
+            <h2>When an editor fits better</h2>
+            
+            
+            
+            
+            <ul>
+              <li>You want to choose the camera: a disposable, a 35mm compact, an instant, a toy camera or a Y2K digicam.</li><li>You want to set how strong the look is, and how much grain and film age it has.</li><li>You want to decide where the light leak goes and what color it is, or leave it out.</li><li>You want the date stamp to show the day the photo was taken.</li><li>You want one look on a whole trip or party at once.</li>
+            </ul>
+            
+            
+            
+            
+          </section>
+          
+          <section class="guide-section" id="the-closest-looks-in-halatto">
+            <h2>The closest looks in Halatto</h2>
+            
+            
+            
+            <div class="table-wrap">
+              <table class="scoreboard">
+                <thead>
+                  <tr><th scope="col">You want</th><th scope="col">Pick in Halatto</th></tr>
+                </thead>
+                <tbody>
+                  
+                  <tr><td>Warm summer disposable</td><td>Snap Gold: golden, saturated, coarser grain</td></tr>
+                  
+                  <tr><td>Party disposable with flare</td><td>Snap 400: soft plastic lens, rainbow flare, greenish shadows</td></tr>
+                  
+                  <tr><td>Streaks of light</td><td>Light Leak: Edge or Burn, in soft red or orange</td></tr>
+                  
+                  <tr><td>The date in the corner</td><td>Date stamp: orange, from the day the photo was taken</td></tr>
+                  
+                  <tr><td>A harsher, flashed look</td><td>Retro flash on top of either Snap look</td></tr>
+                  
+                </tbody>
+              </table>
+            </div>
+            
+            
+            <p class="guide-note">These are Halatto's own looks. They are in the same family as a 90s disposable, not a copy of another app's filter.</p>
+            
+          </section>
+          
+
+          
+          <section class="guide-section guide-steps" id="steps">
+            <h2>Step by step: the 90s disposable look on a photo you already took</h2>
+            <p>About a minute in Halatto.</p>
+            <ol class="steps steps-vertical">
+              
+              <li id="step-1">
+                <span class="step-n">1</span>
+                <div>
+                  <h3>Open the photo</h3>
+                  <p>Open Halatto and pick a photo from your library, or in Photos tap Share and choose Halatto.</p>
+                </div>
+              </li>
+              
+              <li id="step-2">
+                <span class="step-n">2</span>
+                <div>
+                  <h3>Pick Snap Gold or Snap 400</h3>
+                  <p>Swipe the Looks strip and compare with the Before/After divider. Snap Gold suits daylight, Snap 400 suits evenings and parties.</p>
+                </div>
+              </li>
+              
+              <li id="step-3">
+                <span class="step-n">3</span>
+                <div>
+                  <h3>Add a light leak</h3>
+                  <p>Open Light Leak, choose Edge or Burn and a soft red or orange preset, then set Amount and Position.</p>
+                </div>
+              </li>
+              
+              <li id="step-4">
+                <span class="step-n">4</span>
+                <div>
+                  <h3>Stamp the date</h3>
+                  <p>Open Date stamp and choose a corner. The orange date is taken from the day the photo was shot.</p>
+                </div>
+              </li>
+              
+              <li id="step-5">
+                <span class="step-n">5</span>
+                <div>
+                  <h3>Do the whole set</h3>
+                  <p>Save the edit as a recipe, then use Develop the Roll to put it on the rest of the photos.</p>
+                </div>
+              </li>
+              
+            </ol>
+            <div class="inline-cta">
+              <img src="/img/app-icon.webp" alt="" width="64" height="64" loading="lazy" decoding="async" />
+              <div class="inline-cta-copy">
+                <p class="inline-cta-title">Do it in Halatto</p>
+                <p>Free to try. Open a photo, pick a camera.</p>
+              </div>
+              <a
+                class="store-button"
+                href="https://apps.apple.com/app/apple-store/id6758913511?pt=118672082&amp;ct=web_en_g-huji_steps&amp;mt=8"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Download Halatto, the vintage photo filter, on the App Store"
+              >
+                <svg
+                  class="store-button-icon"
+                  width="20"
+                  height="24"
+                  viewBox="14 8 14 26"
+                  aria-hidden="true"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M24.99671,19.88935a5.14625,5.14625,0,0,1,2.45058-4.31771,5.26776,5.26776,0,0,0-4.15039-2.24376c-1.74624-.1833-3.43913,1.04492-4.329,1.04492-.90707,0-2.27713-1.02672-3.75247-.99637a5.52735,5.52735,0,0,0-4.65137,2.8367c-2.01111,3.482-.511,8.59939,1.41551,11.414.96388,1.37823,2.09037,2.91774,3.56438,2.86315,1.4424-.05983,1.98111-.91977,3.7222-.91977,1.72494,0,2.23035.91977,3.73427.88506,1.54777-.02512,2.52292-1.38435,3.453-2.77563a11.39931,11.39931,0,0,0,1.579-3.21589A4.97284,4.97284,0,0,1,24.99671,19.88935Z"
+                  />
+                  <path
+                    fill="currentColor"
+                    d="M22.15611,11.47681a5.06687,5.06687,0,0,0,1.159-3.62989,5.15524,5.15524,0,0,0-3.33555,1.72582,4.82131,4.82131,0,0,0-1.18934,3.4955A4.26259,4.26259,0,0,0,22.15611,11.47681Z"
+                  />
+                </svg>
+                <span>Download on the App Store</span>
+              </a>
+
+            </div>
+          </section>
+          
+
+          
+          <section class="guide-section">
+            <h2>Tips</h2>
+            <ul class="tips">
+              <li>Keep the leak at the edge of the frame; a streak across a face reads as a mistake.</li><li>Daylight photos take a disposable look best. For night shots, add the Retro flash.</li><li>Using both kinds of app is normal: a camera app for the night out, an editor for the camera roll.</li>
+            </ul>
+          </section>
+          
+
+          
+          <section class="guide-section guide-faq">
+            <h2>Questions people also ask</h2>
+            <div class="faq-list faq-list-single">
+              
+              <article class="faq-item">
+                <h3 class="faq-q">Can I use the Huji filter on photos I already took?</h3>
+                <p class="faq-a">Huji Cam can process photos from your library, but importing is part of its in-app purchase. To get a similar 90s disposable look with more control, open the photo in an editor such as Halatto and use Snap Gold or Snap 400 with a light leak and the date stamp.</p>
+              </article>
+              
+              <article class="faq-item">
+                <h3 class="faq-q">Is there a free way to get this look on existing photos?</h3>
+                <p class="faq-a">Halatto is free to try: every look and effect works up to a daily limit, and a subscription or lifetime purchase removes the limit.</p>
+              </article>
+              
+              <article class="faq-item">
+                <h3 class="faq-q">Can I put the look on many photos at once?</h3>
+                <p class="faq-a">Yes. In Halatto, save the edit as a recipe and use Develop the Roll to apply it to a whole set.</p>
+              </article>
+              
+              <article class="faq-item">
+                <h3 class="faq-q">Is Halatto affiliated with Huji Cam?</h3>
+                <p class="faq-a">No. Halatto is an independent app. Huji Cam is named here only to describe the kind of look people search for.</p>
+              </article>
+              
+            </div>
+          </section>
+          
+
+          <p class="guide-disclaimer">Halatto is an independent app. It is not affiliated with Apple, Kodak, Fujifilm, Polaroid, Olympus, CineStill or any camera or film brand; brand names are used only to describe a style.</p>
+        </div>
+      </article>
+
+      <aside class="guide-aside">
+        <div class="aside-stack">
+          <div class="app-card">
+            <div class="app-card-head">
+              <img src="/img/app-icon.webp" alt="Halatto app icon: a silver retro camera" width="56" height="56" loading="lazy" decoding="async" />
+              <div>
+                <p class="app-card-name">Halatto</p>
+                <p class="app-card-sub">Vintage Photo Filter for iPhone</p>
+              </div>
+            </div>
+            
+              <a
+                class="store-button"
+                href="https://apps.apple.com/app/apple-store/id6758913511?pt=118672082&amp;ct=web_en_g-huji_aside&amp;mt=8"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Download Halatto, the vintage photo filter, on the App Store"
+              >
+                <svg
+                  class="store-button-icon"
+                  width="20"
+                  height="24"
+                  viewBox="14 8 14 26"
+                  aria-hidden="true"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M24.99671,19.88935a5.14625,5.14625,0,0,1,2.45058-4.31771,5.26776,5.26776,0,0,0-4.15039-2.24376c-1.74624-.1833-3.43913,1.04492-4.329,1.04492-.90707,0-2.27713-1.02672-3.75247-.99637a5.52735,5.52735,0,0,0-4.65137,2.8367c-2.01111,3.482-.511,8.59939,1.41551,11.414.96388,1.37823,2.09037,2.91774,3.56438,2.86315,1.4424-.05983,1.98111-.91977,3.7222-.91977,1.72494,0,2.23035.91977,3.73427.88506,1.54777-.02512,2.52292-1.38435,3.453-2.77563a11.39931,11.39931,0,0,0,1.579-3.21589A4.97284,4.97284,0,0,1,24.99671,19.88935Z"
+                  />
+                  <path
+                    fill="currentColor"
+                    d="M22.15611,11.47681a5.06687,5.06687,0,0,0,1.159-3.62989,5.15524,5.15524,0,0,0-3.33555,1.72582,4.82131,4.82131,0,0,0-1.18934,3.4955A4.26259,4.26259,0,0,0,22.15611,11.47681Z"
+                  />
+                </svg>
+                <span>Download on the App Store</span>
+              </a>
+
+            <p class="app-card-note"><strong>Free to try.</strong> An optional subscription or lifetime unlock removes the daily limit.</p>
+            <figure class="app-card-qr">
+              <span class="qr-tile"><img src="/img/app-store-qr.png" alt="QR code linking to Halatto on the App Store" width="56" height="56" loading="lazy" decoding="async" /></span>
+              <figcaption>Scan with iPhone</figcaption>
+            </figure>
+          </div>
+          
+          <nav class="related" aria-label="Related guides">
+            <p class="related-title">Related guides</p>
+            <ul>
+              
+              <li><a href="https://halatto.app/guides/disposable-camera-filter-on-iphone/"><span class="related-tag">Disposable</span>Disposable camera filter on iPhone</a></li>
+              
+              <li><a href="https://halatto.app/guides/apps-like-dazz-cam-for-iphone/"><span class="related-tag">Alternatives</span>Apps like Dazz Cam for iPhone</a></li>
+              
+              <li><a href="https://halatto.app/guides/add-date-stamp-to-photo-on-iphone/"><span class="related-tag">Date stamp</span>Add the orange date stamp</a></li>
+              
+            </ul>
+            <a class="pill-link" href="https://halatto.app/guides/">All guides</a>
+          </nav>
+          
+        </div>
+      </aside>
+    </main>
+
+      <footer class="site-footer">
+        <div class="footer-inner">
+          <div class="footer-brand">
+            <a class="footer-logo" href="https://halatto.app/">
+              <img src="/img/logo.webp" alt="" width="44" height="44" loading="lazy" decoding="async" />
+              <span>Halatto</span>
+            </a>
+            <p class="footer-tagline">A vintage photo filter for iPhone: film, disposable, instant, toy camera and Y2K digicam looks with grain, light leaks and a date stamp.</p>
+            <a class="footer-store" href="https://apps.apple.com/app/apple-store/id6758913511?pt=118672082&amp;ct=web_en_g-huji_footer&amp;mt=8" target="_blank" rel="noopener noreferrer" aria-label="Download Halatto, the vintage photo filter, on the App Store">
+              <svg width="15" height="18" viewBox="14 8 14 26" aria-hidden="true"><path fill="currentColor" d="M24.99671,19.88935a5.14625,5.14625,0,0,1,2.45058-4.31771,5.26776,5.26776,0,0,0-4.15039-2.24376c-1.74624-.1833-3.43913,1.04492-4.329,1.04492-.90707,0-2.27713-1.02672-3.75247-.99637a5.52735,5.52735,0,0,0-4.65137,2.8367c-2.01111,3.482-.511,8.59939,1.41551,11.414.96388,1.37823,2.09037,2.91774,3.56438,2.86315,1.4424-.05983,1.98111-.91977,3.7222-.91977,1.72494,0,2.23035.91977,3.73427.88506,1.54777-.02512,2.52292-1.38435,3.453-2.77563a11.39931,11.39931,0,0,0,1.579-3.21589A4.97284,4.97284,0,0,1,24.99671,19.88935Z"/><path fill="currentColor" d="M22.15611,11.47681a5.06687,5.06687,0,0,0,1.159-3.62989,5.15524,5.15524,0,0,0-3.33555,1.72582,4.82131,4.82131,0,0,0-1.18934,3.4955A4.26259,4.26259,0,0,0,22.15611,11.47681Z"/></svg>
+              <span>Download on the App Store</span>
+            </a>
+          </div>
+
+          <nav class="footer-col" aria-label="App">
+            <p class="footer-col-title">App</p>
+            <ul>
+              <li><a href="https://halatto.app/#looks">Looks</a></li>
+              <li><a href="https://halatto.app/#screenshots">Screenshots</a></li>
+              <li><a href="https://halatto.app/#how-it-works">How it works</a></li>
+              <li><a href="https://halatto.app/#faq">FAQ</a></li>
+              <li><a href="https://apps.apple.com/app/apple-store/id6758913511?pt=118672082&amp;ct=web_en_g-huji_footer-nav&amp;mt=8" target="_blank" rel="noopener noreferrer">App Store listing</a></li>
+            </ul>
+          </nav>
+
+          
+          <nav class="footer-col footer-col-guides" aria-label="Popular guides">
+            <p class="footer-col-title">Popular guides</p>
+            <ul>
+              
+              <li><a href="https://halatto.app/guides/make-photos-look-like-film-on-iphone/">Make iPhone photos look like film</a></li>
+              
+              <li><a href="https://halatto.app/guides/disposable-camera-filter-on-iphone/">Disposable camera filter on iPhone</a></li>
+              
+              <li><a href="https://halatto.app/guides/digicam-filter-y2k-photos-on-iphone/">Digital camera filter (Y2K digicam)</a></li>
+              
+              <li><a href="https://halatto.app/guides/make-a-photo-look-old-on-iphone/">Make a photo look old</a></li>
+              
+              <li><a href="https://halatto.app/guides/add-date-stamp-to-photo-on-iphone/">Add the orange date stamp</a></li>
+              
+              <li><a href="https://halatto.app/guides/instant-photo-effect-on-iphone/">Polaroid-style instant photo look</a></li>
+              
+              <li><a class="footer-all" href="https://halatto.app/guides/">All guides</a></li>
+            </ul>
+          </nav>
+          
+
+          <nav class="footer-col" aria-label="About">
+            <p class="footer-col-title">About</p>
+            <ul>
+              <li><a href="/privacy.html">Privacy Policy</a></li>
+              <li><a href="/terms.html">Terms of Use</a></li>
+              <li><a href="https://apps.apple.com/developer/id1239180595" target="_blank" rel="noopener noreferrer">More apps by c-basso</a></li>
+              <li><a href="mailto:c-basso@ya.ru">Contact</a></li>
+            </ul>
+            
+            <!-- Icons are generic glyphs in img/social/*.svg, drawn through a CSS mask in the text colour. -->
+            <ul class="footer-social" aria-label="Halatto on social media">
+              
+              <li><a href="https://www.instagram.com/halatto.app" target="_blank" rel="noopener noreferrer me"><span class="footer-social-icon" style="--icon: url('/img/social/camera.svg')" aria-hidden="true"></span>Instagram</a></li>
+              
+              <li><a href="https://www.tiktok.com/@halatto" target="_blank" rel="noopener noreferrer me"><span class="footer-social-icon" style="--icon: url('/img/social/play.svg')" aria-hidden="true"></span>TikTok</a></li>
+              
+              <li><a href="https://www.pinterest.com/halattoapp/" target="_blank" rel="noopener noreferrer me"><span class="footer-social-icon" style="--icon: url('/img/social/pin.svg')" aria-hidden="true"></span>Pinterest</a></li>
+              
+            </ul>
+            
+          </nav>
+
+          
+        </div>
+        <div class="footer-bottom">
+          <p>© 2026 c-basso, makers of Halatto</p>
+          <p>Updated <time datetime="2026-11-26">November 26, 2026</time></p>
+        </div>
+      </footer>
+
+    <!-- Small screens: a bar that follows the reader while no App Store button is on screen (site.js). -->
+    <div class="sticky-cta" data-sticky-cta hidden>
+      <img src="/img/app-icon.webp" alt="" width="40" height="40" loading="lazy" decoding="async" />
+      <p><strong>Halatto</strong><span>Vintage photo filter. Free to try.</span></p>
+      <a class="sticky-cta-button" href="https://apps.apple.com/app/apple-store/id6758913511?pt=118672082&amp;ct=web_en_g-huji_sticky&amp;mt=8" target="_blank" rel="noopener noreferrer" aria-label="Download Halatto, the vintage photo filter, on the App Store">Get</a>
+    </div>
+
+
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"Article","headline":"Huji-style filter for photos you already took","description":"Want the Huji-style 1998 disposable look on photos already in your camera roll? What Huji Cam's import does, and how to get the look in an editor on iPhone.","image":["https://halatto.app/img/before-after/huji-filter-for-photos-already-taken-after@2x.webp?v=6672464e","https://halatto.app/img/screenshots/1.webp"],"author":{"@type":"Person","name":"Vladimir Ivakhnenko","url":"https://apps.apple.com/developer/id1239180595"},"publisher":{"@type":"Organization","name":"c-basso","url":"https://halatto.app/","logo":{"@type":"ImageObject","url":"https://halatto.app/img/logo.webp"}},"datePublished":"2026-11-27","dateModified":"2026-11-27","mainEntityOfPage":"https://halatto.app/guides/huji-filter-for-photos-already-taken/","inLanguage":"en","about":{"@type":"MobileApplication","name":"Halatto","url":"https://halatto.app/","operatingSystem":"iOS"}}
+    </script>
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"HowTo","name":"Step by step: the 90s disposable look on a photo you already took","description":"About a minute in Halatto.","image":"https://halatto.app/img/screenshots/1.webp","totalTime":"PT1M","inLanguage":"en","tool":[{"@type":"HowToTool","name":"Halatto"}],"step":[{"@type":"HowToStep","position":1,"name":"Open the photo","text":"Open Halatto and pick a photo from your library, or in Photos tap Share and choose Halatto.","url":"https://halatto.app/guides/huji-filter-for-photos-already-taken/#step-1"},{"@type":"HowToStep","position":2,"name":"Pick Snap Gold or Snap 400","text":"Swipe the Looks strip and compare with the Before/After divider. Snap Gold suits daylight, Snap 400 suits evenings and parties.","url":"https://halatto.app/guides/huji-filter-for-photos-already-taken/#step-2"},{"@type":"HowToStep","position":3,"name":"Add a light leak","text":"Open Light Leak, choose Edge or Burn and a soft red or orange preset, then set Amount and Position.","url":"https://halatto.app/guides/huji-filter-for-photos-already-taken/#step-3"},{"@type":"HowToStep","position":4,"name":"Stamp the date","text":"Open Date stamp and choose a corner. The orange date is taken from the day the photo was shot.","url":"https://halatto.app/guides/huji-filter-for-photos-already-taken/#step-4"},{"@type":"HowToStep","position":5,"name":"Do the whole set","text":"Save the edit as a recipe, then use Develop the Roll to put it on the rest of the photos.","url":"https://halatto.app/guides/huji-filter-for-photos-already-taken/#step-5"}]}
+    </script>
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"FAQPage","inLanguage":"en","mainEntity":[{"@type":"Question","name":"Can I use the Huji filter on photos I already took?","acceptedAnswer":{"@type":"Answer","text":"Huji Cam can process photos from your library, but importing is part of its in-app purchase. To get a similar 90s disposable look with more control, open the photo in an editor such as Halatto and use Snap Gold or Snap 400 with a light leak and the date stamp."}},{"@type":"Question","name":"Is there a free way to get this look on existing photos?","acceptedAnswer":{"@type":"Answer","text":"Halatto is free to try: every look and effect works up to a daily limit, and a subscription or lifetime purchase removes the limit."}},{"@type":"Question","name":"Can I put the look on many photos at once?","acceptedAnswer":{"@type":"Answer","text":"Yes. In Halatto, save the edit as a recipe and use Develop the Roll to apply it to a whole set."}},{"@type":"Question","name":"Is Halatto affiliated with Huji Cam?","acceptedAnswer":{"@type":"Answer","text":"No. Halatto is an independent app. Huji Cam is named here only to describe the kind of look people search for."}}]}
+    </script>
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"WebPage","name":"Huji-Style Filter for Photos You Already Took on iPhone","url":"https://halatto.app/guides/huji-filter-for-photos-already-taken/","description":"Want the Huji-style 1998 disposable look on photos already in your camera roll? What Huji Cam's import does, and how to get the look in an editor on iPhone.","dateModified":"2026-11-27","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Halatto","url":"https://halatto.app/"}}
+    </script>
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://halatto.app/"},{"@type":"ListItem","position":2,"name":"Guides","item":"https://halatto.app/guides/"},{"@type":"ListItem","position":3,"name":"Huji-style filter for photos you already took","item":"https://halatto.app/guides/huji-filter-for-photos-already-taken/"}]}
+    </script>
+
+    <script src="/site.js?v=1795793239278" defer></script>
+<!-- Analytics: paste the counter snippet for halatto.app here. Empty = no analytics. -->
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function(m,e,t,r,i,k,a){
+        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=114454776', 'ym');
+
+    window.HALATTO_YM = 114454776; // site.js sends the appstore_click goal to this counter
+    ym(114454776, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/114454776" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+  </body>
+</html>

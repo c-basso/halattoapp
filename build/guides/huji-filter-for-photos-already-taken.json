@@ -1,0 +1,148 @@
+{
+  "priority": 12,
+  "keyword": "huji filter for photos already taken",
+  "ct": "huji",
+  "keywords": "huji filter for photos already taken, huji filter on existing photos, huji cam import photos, huji style filter iphone, 1998 disposable camera filter, huji cam alternative for camera roll",
+  "title": "Huji-Style Filter for Photos You Already Took on iPhone",
+  "description": "Want the Huji-style 1998 disposable look on photos already in your camera roll? What Huji Cam's import does, and how to get the look in an editor on iPhone.",
+  "h1": "Huji-style filter for photos you already took",
+  "eyebrow": "Alternatives",
+  "card_title": "Huji-style filter for photos already taken",
+  "card_summary": "The 1998 disposable look on your camera roll: what Huji Cam's import does and the editor route.",
+  "quick_answer": "Huji Cam is a camera app: you shoot in it and get one 1998 disposable-camera look with light streaks and a date. It can also process photos from your library, as a paid extra. If you want that kind of look on photos you already took with more control, open them in an editor such as Halatto: pick Snap Gold or Snap 400, add a light leak and the orange date stamp, and put the same look on a whole set at once.",
+  "intro": [
+    "The usual story: you took the photos with the normal iPhone camera, and only later wanted them to look like a late-90s disposable. A camera app is built for the moment of shooting, so the question becomes what to do with the camera roll.",
+    "Here is what Huji Cam does with existing photos, and how to get a similar look in an editor. We make Halatto, so read our part with that in mind."
+  ],
+  "screenshot": {
+    "src": "/img/screenshots/1.webp",
+    "alt": "Halatto Looks strip under a photo of two friends with a before and after divider, Snap Gold look selected",
+    "caption": "Snap Gold on a photo from the library, with the Before/After divider."
+  },
+  "sections": [
+    {
+      "heading": "What the Huji look is made of",
+      "list": [
+        "Warm, saturated color like a summer disposable.",
+        "Visible grain and a slightly soft plastic lens.",
+        "Random streaks of colored light across the frame.",
+        "A date in the corner, in the style of a 90s camera back."
+      ],
+      "ordered": false
+    },
+    {
+      "heading": "Can Huji Cam edit photos you already took?",
+      "paragraphs": [
+        "Yes, with a condition. Huji Cam is camera-first: its main screen is a small viewfinder and you take new pictures in it. Importing photos from your library is part of its in-app purchase, not the free app.",
+        "An imported photo gets the same single look as a new shot, including the light effect and the date. If that one look is what you want, the import is the shortest way."
+      ],
+      "note": "Checked against the Huji Cam App Store listing in November 2026. Apps change; look at the current listing before you pay."
+    },
+    {
+      "heading": "When an editor fits better",
+      "list": [
+        "You want to choose the camera: a disposable, a 35mm compact, an instant, a toy camera or a Y2K digicam.",
+        "You want to set how strong the look is, and how much grain and film age it has.",
+        "You want to decide where the light leak goes and what color it is, or leave it out.",
+        "You want the date stamp to show the day the photo was taken.",
+        "You want one look on a whole trip or party at once."
+      ],
+      "ordered": false
+    },
+    {
+      "heading": "The closest looks in Halatto",
+      "table": {
+        "head": [
+          "You want",
+          "Pick in Halatto"
+        ],
+        "rows": [
+          [
+            "Warm summer disposable",
+            "Snap Gold: golden, saturated, coarser grain"
+          ],
+          [
+            "Party disposable with flare",
+            "Snap 400: soft plastic lens, rainbow flare, greenish shadows"
+          ],
+          [
+            "Streaks of light",
+            "Light Leak: Edge or Burn, in soft red or orange"
+          ],
+          [
+            "The date in the corner",
+            "Date stamp: orange, from the day the photo was taken"
+          ],
+          [
+            "A harsher, flashed look",
+            "Retro flash on top of either Snap look"
+          ]
+        ]
+      },
+      "note": "These are Halatto's own looks. They are in the same family as a 90s disposable, not a copy of another app's filter."
+    }
+  ],
+  "steps": {
+    "heading": "Step by step: the 90s disposable look on a photo you already took",
+    "intro": "About a minute in Halatto.",
+    "total_time": "PT1M",
+    "items": [
+      {
+        "name": "Open the photo",
+        "text": "Open Halatto and pick a photo from your library, or in Photos tap Share and choose Halatto."
+      },
+      {
+        "name": "Pick Snap Gold or Snap 400",
+        "text": "Swipe the Looks strip and compare with the Before/After divider. Snap Gold suits daylight, Snap 400 suits evenings and parties."
+      },
+      {
+        "name": "Add a light leak",
+        "text": "Open Light Leak, choose Edge or Burn and a soft red or orange preset, then set Amount and Position."
+      },
+      {
+        "name": "Stamp the date",
+        "text": "Open Date stamp and choose a corner. The orange date is taken from the day the photo was shot."
+      },
+      {
+        "name": "Do the whole set",
+        "text": "Save the edit as a recipe, then use Develop the Roll to put it on the rest of the photos."
+      }
+    ]
+  },
+  "tips": {
+    "heading": "Tips",
+    "items": [
+      "Keep the leak at the edge of the frame; a streak across a face reads as a mistake.",
+      "Daylight photos take a disposable look best. For night shots, add the Retro flash.",
+      "Using both kinds of app is normal: a camera app for the night out, an editor for the camera roll."
+    ]
+  },
+  "faq": [
+    {
+      "question": "Can I use the Huji filter on photos I already took?",
+      "answer": "Huji Cam can process photos from your library, but importing is part of its in-app purchase. To get a similar 90s disposable look with more control, open the photo in an editor such as Halatto and use Snap Gold or Snap 400 with a light leak and the date stamp."
+    },
+    {
+      "question": "Is there a free way to get this look on existing photos?",
+      "answer": "Halatto is free to try: every look and effect works up to a daily limit, and a subscription or lifetime purchase removes the limit."
+    },
+    {
+      "question": "Can I put the look on many photos at once?",
+      "answer": "Yes. In Halatto, save the edit as a recipe and use Develop the Roll to apply it to a whole set."
+    },
+    {
+      "question": "Is Halatto affiliated with Huji Cam?",
+      "answer": "No. Halatto is an independent app. Huji Cam is named here only to describe the kind of look people search for."
+    }
+  ],
+  "related": [
+    "disposable-camera-filter-on-iphone",
+    "apps-like-dazz-cam-for-iphone",
+    "add-date-stamp-to-photo-on-iphone"
+  ],
+  "published": "2026-11-27",
+  "updated": "2026-11-27",
+  "before_after": {
+    "subject": "Two friends laughing in a field"
+  }
+}

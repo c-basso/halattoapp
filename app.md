@@ -135,7 +135,7 @@ Screenshot captions (headline / subline) in store order:
 
 ## Competitive landscape (Nov 2026)
 
-Camera-first apps (shoot with a filter): Huji Cam, Dazz Cam, NOMO CAM, 1998 Cam, Dispo, KAPI, CoreCam, Retrica, a long tail of new "Y2K digicam" and "disposable camera" apps. Editor-first apps: VSCO, RNI Films, Dehancer, Lightroom presets, single-purpose grain and date-stamp apps (Grain+, GrainLab, DateStamper, Timestamper).
+Huji Cam can import library photos as part of its in-app purchase (App Store listing, checked 2026-11-27): never write that camera-first apps cannot edit existing photos, say it is a paid extra in some and missing in others. Camera-first apps (shoot with a filter): Huji Cam, Dazz Cam, NOMO CAM, 1998 Cam, Dispo, KAPI, CoreCam, Retrica, a long tail of new "Y2K digicam" and "disposable camera" apps. Editor-first apps: VSCO, RNI Films, Dehancer, Lightroom presets, single-purpose grain and date-stamp apps (Grain+, GrainLab, DateStamper, Timestamper).
 
 Halatto's angle: an **editor for photos you already have** (most competitors are cameras), whole-camera simulation rather than a color LUT, aging + light leaks + date stamp + flash in one place, batch "Develop the Roll", recipes, before/after video, on-device with no account. Use that angle in every page.
 
@@ -179,6 +179,7 @@ Selection rule: keep phrases where the searcher wants to **do something to a pho
 | 13 | night-film-halation-glow-on-iphone | halation effect | 800T look, cinematic night photo filter, red glow around lights | Medium, enthusiast | Tungsten 800 look |
 | 14 | apps-like-dazz-cam-for-iphone | apps like dazz cam for iphone | dazz cam alternative, apps like dazz cam free | Medium, rising (Trends: "what is dazz cam" +250%) | Alternative-seekers; we win on "photos you already took" |
 | 15 | make-iphone-photos-look-like-film-without-an-app | make iphone photos look like film without app | film look iphone free, photos app film settings | Medium (Google autocomplete) | Honest free method, then grain/leaks/date need an editor |
+| 16 | huji-filter-for-photos-already-taken | huji filter for photos already taken | huji filter on existing photos, huji cam import photos | Low volume, proven (first Search Console click, 2026-11-27) | Camera app whose library import is a paid extra; we win on choice of looks, control and batch |
 
 ## Supporting phrases to use naturally in copy
 
@@ -189,4 +190,4 @@ film camera app, analog filter, retro filter, vintage camera app, old film look,
 - Title (30): `Vintage Photo Filter – Halatto` (keep).
 - Subtitle (30): `Film Grain & Old Camera Editor` (keep; covers film, grain, old camera, editor).
 - Keyword field (100): `disposable,digicam,y2k,retro,instant,analog,90s,ccd,date,stamp,light,leak,cam,aesthetic,35mm,lomo` (97 chars; no words that are already in the title/subtitle; no trademarks).
-- Do not put "Polaroid", "Kodak", "Fuji", "CineStill", "Huji" or "Dazz" in metadata. The website may mention competitor app names only in the comparison guides (best-vintage-camera-apps-for-iphone, apps-like-dazz-cam-for-iphone), factually and without claiming affiliation.
+- Do not put "Polaroid", "Kodak", "Fuji", "CineStill", "Huji" or "Dazz" in metadata. The website may mention competitor app names only in the comparison guides (best-vintage-camera-apps-for-iphone, apps-like-dazz-cam-for-iphone, huji-filter-for-photos-already-taken), factually and without claiming affiliation.

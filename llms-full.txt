@@ -139,6 +139,10 @@ Guide: https://halatto.app/guides/apply-the-same-filter-to-multiple-photos-on-ip
 Pick by how you work. If you want to shoot with the look on and enjoy a disposable-style ritual, a camera-first app like Huji Cam, Dazz Cam or Dispo fits. If you want deep film color grading, VSCO or RNI Films. If you want to turn photos you already took into film or old-camera shots, with aging, light leaks, a date stamp and batch editing, use an editor like Halatto.
 Guide: https://halatto.app/guides/best-vintage-camera-apps-for-iphone/
 
+### Huji-style filter for photos you already took
+Huji Cam is a camera app: you shoot in it and get one 1998 disposable-camera look with light streaks and a date. It can also process photos from your library, as a paid extra. If you want that kind of look on photos you already took with more control, open them in an editor such as Halatto: pick Snap Gold or Snap 400, add a light leak and the orange date stamp, and put the same look on a whole set at once.
+Guide: https://halatto.app/guides/huji-filter-for-photos-already-taken/
+
 ### How to make a before and after photo video on iPhone
 After you edit a photo in Halatto, open Export and choose the video option: a divider sweeps across the photo from the original to the film look. Pick Original, 9:16 (Stories, Reels, TikTok), 4:5 (feed) or 1:1, and tap Share video. Doing the same in a video editor means exporting two images and animating a mask by hand.
 Guide: https://halatto.app/guides/make-a-before-and-after-photo-video-on-iphone/
