@@ -142,6 +142,7 @@ const GUIDE_HUBS = GUIDE_LANGUAGES.map((lang) => ({
 
 const ADDITIONAL_URLS = [
     `${SITE_URL}llms.txt`,
+    `${SITE_URL}llms-full.txt`,
     ...GUIDE_HUBS.map(({ url }) => url),
     ...GUIDE_URLS.map(({ url }) => url)
 ];

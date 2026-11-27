@@ -31,6 +31,15 @@ function getLastmodForUrl(loc) {
   return fs.statSync(pagePath).mtime.toISOString().slice(0, 10);
 }
 
+/** Date of the last commit that touched `filePath` (file mtime changes on every checkout); mtime when git has none. */
+function lastCommitDate(filePath) {
+  try {
+    const out = require('child_process').execFileSync('git', ['log', '-1', '--format=%cs', '--', filePath], { cwd: path.dirname(filePath), encoding: 'utf8' }).trim();
+    if (/^\d{4}-\d{2}-\d{2}$/.test(out)) return out;
+  } catch { /* not a git checkout */ }
+  return fs.statSync(filePath).mtime.toISOString().slice(0, 10);
+}
+
 /**
  * Guide hubs and guide pages. Each one carries hreflang links to its versions in other languages
  * (paired through `en_slug` in the localized guide JSON); x-default is the English version.
@@ -85,6 +94,17 @@ function guideUrls() {
     }
     lines.push(`    <xhtml:link rel="alternate" hreflang="x-default" href="${xDefault}" />`);
     lines.push(`    <priority>${priority}</priority>`);
+    lines.push('  </url>');
+    lines.push('');
+  }
+  // Legal pages: plain HTML files, no language versions.
+  for (const file of ['privacy.html', 'terms.html']) {
+    const filePath = path.join(__dirname, '..', file);
+    if (!fs.existsSync(filePath)) continue;
+    lines.push('  <url>');
+    lines.push(`    <loc>${SITE_URL}${file}</loc>`);
+    lines.push(`    <lastmod>${lastCommitDate(filePath)}</lastmod>`);
+    lines.push('    <priority>0.3</priority>');
     lines.push('  </url>');
     lines.push('');
   }

@@ -20,7 +20,7 @@
           <p class="guide-tag">{{guide.eyebrow}}</p>
           <h1>{{guide.h1}}</h1>
           <p class="guide-meta">
-            {{guides.labels.updated}} <time datetime="{{guide.updated_iso}}">{{guide.updated_label}}</time>, {{guides.labels.reading_time}}
+            {{#if guides.author.name}}{{guides.labels.by}} {{guides.author.name}} · {{/if}}{{guides.labels.updated}} <time datetime="{{guide.updated_iso}}">{{guide.updated_label}}</time>, {{guides.labels.reading_time}}
           </p>
           <div class="quick-answer">
             <p class="quick-answer-label">{{guides.labels.quick_answer}}</p>

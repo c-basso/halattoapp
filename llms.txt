@@ -2,37 +2,17 @@
 
 > Vintage camera filter for iPhone: make photos you already took look shot on film, a disposable, instant, 90s or digital camera, with grain and a date stamp.
 
-## Entity snapshot
-- Name: Halatto (App Store title: "Vintage Photo Filter – Halatto", subtitle "Film Grain & Old Camera Editor")
-- Category: iOS app, App Store categories Graphics & Design and Utilities (vintage photo filter / film photo editor)
-- Primary use case: make a photo you already have look like it was shot on film or an old camera (35mm, disposable, instant, toy camera, 90s point-and-shoot, Y2K digicam)
-- Looks (14): Tungsten 800, Titan 38, Mju 35 (35mm); Snap 400, Snap Gold (disposable); SX Fold, Square 600, Mini Instant (instant); Tunnel 35, Toy 120, Dream 120 (toy camera); Silver IX, Cyber Blue, Digi 2MP (Y2K digicam)
-- Tools: strength, grain and film age per look; Aging (fade, sunlight, yellowing, unevenness, dust, stains, creases); Light Leak (Edge, Window, Burn); Flash (Retro, Digital, Tanning); orange Date stamp from the day the photo was taken; crop, color and light
-- Batch: save an edit as a recipe; Develop the Roll puts one look on many photos at once
-- Extras: before-and-after video export (Original, 9:16, 4:5, 1:1); built-in camera with the look applied live; reopen edits later; open photos from the Photos share sheet
-- Processing: on the iPhone, no account, nothing uploaded
-- App Store listing: https://apps.apple.com/app/id6758913511
-- App Store id: 6758913511
-- Publisher: Vladimir Ivakhnenko (c-basso)
+Halatto (App Store name "Vintage Photo Filter – Halatto") is an iPhone photo editor for photos already in the library. Each of its 14 looks simulates a whole old camera: film or sensor color, grain or noise, lens softness, vignette, flare and light leaks. Aging, flash, a frame and an orange date stamp go on top. Photos are edited on the iPhone, with no account and nothing uploaded. Free to try with a daily limit; iPhone only, iOS 18.6 or later.
 
-## By the numbers
-- Requires iOS 18.6 or later (iPhone only); 89.3 MB download
-- App localized in 31 languages
-- Price: free to download; every look and effect works up to a daily limit; a subscription or lifetime in-app purchase removes the limit
-- On the App Store since November 2026
-- Website locales: 0 language-specific pages
-- Public website: https://halatto.app/
-- Last website build date: 2026-11-26
+## Product
 
-## Main sections
-- [Home](https://halatto.app/): Product overview, the 14 looks, screenshots, how it works, FAQ, and App Store link
-- [FAQ](https://halatto.app/#faq): Direct answers to common product questions
-- [Guides](https://halatto.app/guides/): Step-by-step how-to articles, one per use case
-- [Privacy policy](https://halatto.app/privacy.html): Data and privacy details
-- [Terms of service](https://halatto.app/terms.html): Legal terms
+- [Home](https://halatto.app/): Product overview, the 14 camera looks, a before/after example, screenshots and how it works
+- [App Store listing](https://apps.apple.com/app/apple-store/id6758913511?pt=118672082&ct=web_en_llms_index&mt=8): Download Halatto; price, requirements and languages
+- [Full product facts](https://halatto.app/llms-full.txt): Every look and tool, pricing, requirements and all questions with answers in one file
 
-## How-to guides (English)
-- [All guides](https://halatto.app/guides/)
+## Guides
+
+- [All guides](https://halatto.app/guides/): Step-by-step how-to articles, each with a before/after example
 - [How to make your iPhone photos look like film](https://halatto.app/guides/make-photos-look-like-film-on-iphone/): Make iPhone photos look like film: what a film look really is (color, grain, lens, light), the free Photos-app method, and a one-tap way with old-camera looks.
 - [Disposable camera filter for iPhone photos you already took](https://halatto.app/guides/disposable-camera-filter-on-iphone/): Get the disposable camera look on iPhone photos you already took: warm color, grain, a soft plastic lens, harsh flash and the orange date. Steps inside.
 - [Digital camera filter: the old Y2K digicam look on iPhone](https://halatto.app/guides/digicam-filter-y2k-photos-on-iphone/): Get the old digital camera look on iPhone photos: CCD color, sensor noise, cool whites and a hard flash of a 2000s digicam. Three looks, flash and steps.
@@ -49,37 +29,27 @@
 - [Apps like Dazz Cam for iPhone, for photos you already took](https://halatto.app/guides/apps-like-dazz-cam-for-iphone/): Looking for apps like Dazz Cam on iPhone? How camera-first apps differ from editors, which fits photos you already took, and how to get the old-camera look.
 - [How to make iPhone photos look like film without an app](https://halatto.app/guides/make-iphone-photos-look-like-film-without-an-app/): Make iPhone photos look like film in the built-in Photos app: slider settings for warm film, disposable and faded-print looks, plus what Photos cannot do.
 
-## Language pages
-- [en](https://halatto.app/)
+## Frequently asked questions
 
-## LLM-ready Q&A facts
-### What is Halatto?
-Halatto is an iPhone photo editor (App Store name "Vintage Photo Filter – Halatto") that makes existing photos look like they were shot on film or an old camera. Each of its 14 looks simulates a whole camera: film or sensor color, grain or noise, and lens softness, vignette, flare and light leaks.
+- [How do I make my iPhone photos look like film?](https://halatto.app/guides/make-photos-look-like-film-on-iphone/): Open the photo in Halatto, pick a film look such as Titan 38 or Tungsten 800, and raise grain and film age a little. Film color, grain and the softness of an old lens are what make a photo read as film; a color filter alone does not.
+- [Is there a disposable camera filter for photos I already took?](https://halatto.app/guides/disposable-camera-filter-on-iphone/): Yes. Many disposable camera apps only work when you shoot in them. In Halatto you open any photo from your library and choose Snap 400 or Snap Gold, then add the flash and the orange date stamp.
+- [How do I get the Y2K digicam look on iPhone?](https://halatto.app/guides/digicam-filter-y2k-photos-on-iphone/): Pick one of the three digicam looks (Silver IX, Cyber Blue or Digi 2MP) and add the Digital flash. They add CCD color, sensor noise, cool whites and the hard flash of a 2000s compact camera.
+- [How do I add a date stamp to a photo on iPhone?](https://halatto.app/guides/add-date-stamp-to-photo-on-iphone/): The Photos app cannot print a date on a picture. In Halatto open the photo, tap Date stamp and choose a corner: the orange date is taken from the day the photo was shot, and you can change its color, size and direction.
+- [How can I make a photo look old?](https://halatto.app/guides/make-a-photo-look-old-on-iphone/): Use Aging: start with the Shoebox or Faded print preset, then raise Fade and Yellowing and add dust, stains or creases. A warm film look and a light leak finish the effect.
+- [Can I get a Polaroid-style instant photo look?](https://halatto.app/guides/instant-photo-effect-on-iphone/): Yes. Halatto has three instant looks: SX Fold for the classic folding-camera color, Square 600 for the boxy instant look and Mini Instant for credit-card prints. Halatto is not affiliated with Polaroid or Fujifilm.
+- [How do I add film grain to a photo on iPhone?](https://halatto.app/guides/add-film-grain-to-a-photo-on-iphone/): Every Halatto look has its own grain, and you can set the amount after you pick it. Grain looks most natural with a little fade and a softer lens, which the film looks add for you.
+- [How do I put the same filter on many photos at once?](https://halatto.app/guides/apply-the-same-filter-to-multiple-photos-on-iphone/): Save your edit as a recipe, then use Develop the Roll: select the photos and tap Develop all to put the same camera on every one, so a trip looks like one roll of film.
+- [Does Halatto upload my photos?](https://halatto.app/guides/best-vintage-camera-apps-for-iphone/#privacy): No. Photos are edited on your iPhone, there is no account, and nothing is uploaded to a server.
+- [Is Halatto free, and which devices does it run on?](https://halatto.app/#faq): It is free to download, and every look and effect works up to a daily limit. A subscription or a lifetime purchase removes the limit. It requires iOS 18.6 or later on iPhone; there is no Android version.
+- [Is there an Android version?](https://halatto.app/#faq): No. Halatto is published for iPhone on the Apple App Store only.
 
-### Does it upload my photos?
-No. Photos are edited on the iPhone, with no account, and nothing is uploaded.
+## Policies
 
-### Can it add a date stamp?
-Yes. The orange, film-camera style date is taken from the day the photo was shot; corner, direction, color and size are adjustable.
+- [Privacy policy](https://halatto.app/privacy.html): Data and privacy details
+- [Terms of use](https://halatto.app/terms.html): Legal terms
 
-### Can it edit many photos at once?
-Yes. Save an edit as a recipe, or use Develop the Roll to put one look on a whole set of photos at once.
+## Optional
 
-### Does it work on photos already in my library?
-Yes, it is built for them. A built-in camera can also shoot new photos with the look applied live.
-
-### Is it free?
-Free to download. Every look, filter and effect works up to a daily limit; a subscription or lifetime purchase removes the limit.
-
-### Where can users download it?
-From the Apple App Store: https://apps.apple.com/app/id6758913511.
-
-### Is there an Android version?
-No. Halatto is published for iPhone on the Apple App Store only.
-
-## Contact and policies
-- Website: https://halatto.app/
-- Privacy: https://halatto.app/privacy.html
-- Terms: https://halatto.app/terms.html
-
-Last updated: 2026-11-26
+- [Halatto on Instagram](https://www.instagram.com/halatto.app): Photos edited with Halatto
+- [Halatto on TikTok](https://www.tiktok.com/@halatto): Photos edited with Halatto
+- [Halatto on Pinterest](https://www.pinterest.com/halattoapp/): Photos edited with Halatto

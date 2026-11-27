@@ -32,6 +32,7 @@ const ROOT_DIR = path.join(__dirname, '..');
 const TEMPLATE_PATH = path.join(__dirname, 'template.html');
 const URLS_PATH = path.join(ROOT_DIR, 'urls.txt');
 const LLMS_PATH = path.join(ROOT_DIR, 'llms.txt');
+const LLMS_FULL_PATH = path.join(ROOT_DIR, 'llms-full.txt');
 const STYLE_CSS_PATH = path.join(ROOT_DIR, 'style.css');
 const WEBMANIFEST_PATH = path.join(ROOT_DIR, 'site.webmanifest');
 
@@ -332,110 +333,157 @@ function absoluteSiteUrl(maybe) {
     return `${SITE_URL.replace(/\/?$/, '/')}${value.replace(/^\//, '')}`;
 }
 
+/**
+ * llms.txt follows the llmstxt.org shape: H1, a blockquote summary, a short paragraph, then H2 sections that are
+ * lists of links ("Optional" = links an agent may skip). The dense product facts live in llms-full.txt, which
+ * llms.txt links to. Both are generated here from en.json, the guides and constants: edit those, not the files.
+ * App Store links carry their own campaign (`web_en_llms_index`, `web_en_llms_full`), so installs that come from
+ * AI answers show up in App Store Connect → Campaigns.
+ */
 function writeLlmsFile(defaultLocaleData, guides = [], localizedGuides = {}) {
     const appName = defaultLocaleData.header?.app_name || DEFAULT_SITE_NAME;
     const description = stripHtml(defaultLocaleData.meta?.description) || 'iPhone vintage photo filter that makes photos look shot on film or an old camera.';
-    const lastUpdated = BUILD_DATE_ISO;
     const privacyUrl = absoluteSiteUrl(FOOTER_PRIVACY_URL);
     const termsUrl = absoluteSiteUrl(FOOTER_TERMS_URL);
-    const localesCount = Math.max(0, LANGUAGES.length - 1);
+    const fullUrl = `${SITE_URL}llms-full.txt`;
     const rating = SOFTWARE_APPLICATION_AGGREGATE_RATING;
+    const bySlug = new Map(guides.map((guide) => [guide.slug, guide]));
+    const social = Array.isArray(defaultLocaleData.footer?.social) ? defaultLocaleData.footer.social : [];
 
-    const guideLines = guides.length
-        ? [
-            '## How-to guides (English)',
-            `- [All guides](${GUIDES_HUB_URL})`,
-            ...guides.map((guide) => `- [${stripHtml(guide.h1)}](${guideUrlForSlug(guide.slug)}): ${stripHtml(guide.description)}`),
-            ''
-        ]
-        : [];
+    // Site FAQ, each question linked to the page that answers it in full (its guide, else the FAQ on the homepage).
+    const faqs = (defaultLocaleData.seo?.faq || []).map((faq) => {
+        const [slug, anchor] = String(faq.guide || '').split('#');
+        const url = slug && bySlug.has(slug) ? guideUrlForSlug(slug) + (anchor ? `#${anchor}` : '') : `${SITE_URL}#faq`;
+        return { question: stripHtml(faq.question), answer: stripHtml(faq.answer), url };
+    });
 
-    const localizedGuideLines = Object.entries(localizedGuides).flatMap(([lang, list]) =>
+    const localizedGuideSections = (render) => Object.entries(localizedGuides).flatMap(([lang, list]) =>
         list.length
             ? [
-                `## How-to guides (${LANGUAGE_NAMES[lang] || lang})`,
-                `- [${LANGUAGE_NAMES[lang] || lang} guides hub](${guideHubUrl(lang)})`,
-                ...list.map((guide) => `- [${stripHtml(guide.h1)}](${guideUrlForSlug(guide.slug, lang)}): ${stripHtml(guide.description)}`),
+                `## Guides (${LANGUAGE_NAMES[lang] || lang})`,
+                '',
+                `- [${LANGUAGE_NAMES[lang] || lang} guides](${guideHubUrl(lang)}): All guides in this language`,
+                ...list.map((guide) => render(guide, lang)),
                 ''
             ]
             : []
     );
+    const guideLink = (guide, lang = DEFAULT_LANGUAGE) =>
+        `- [${stripHtml(guide.h1)}](${guideUrlForSlug(guide.slug, lang)}): ${stripHtml(guide.description)}`;
 
-    const lines = [
+    const index = [
         `# ${appName}`,
         '',
         `> ${description}`,
         '',
-        '## Entity snapshot',
-        `- Name: ${appName} (App Store title: "Vintage Photo Filter – Halatto", subtitle "Film Grain & Old Camera Editor")`,
-        '- Category: iOS app, App Store categories Graphics & Design and Utilities (vintage photo filter / film photo editor)',
-        '- Primary use case: make a photo you already have look like it was shot on film or an old camera (35mm, disposable, instant, toy camera, 90s point-and-shoot, Y2K digicam)',
-        '- Looks (14): Tungsten 800, Titan 38, Mju 35 (35mm); Snap 400, Snap Gold (disposable); SX Fold, Square 600, Mini Instant (instant); Tunnel 35, Toy 120, Dream 120 (toy camera); Silver IX, Cyber Blue, Digi 2MP (Y2K digicam)',
-        '- Tools: strength, grain and film age per look; Aging (fade, sunlight, yellowing, unevenness, dust, stains, creases); Light Leak (Edge, Window, Burn); Flash (Retro, Digital, Tanning); orange Date stamp from the day the photo was taken; crop, color and light',
-        '- Batch: save an edit as a recipe; Develop the Roll puts one look on many photos at once',
-        '- Extras: before-and-after video export (Original, 9:16, 4:5, 1:1); built-in camera with the look applied live; reopen edits later; open photos from the Photos share sheet',
-        '- Processing: on the iPhone, no account, nothing uploaded',
-        `- App Store listing: ${APP_STORE_URL}`,
-        `- App Store id: ${APP_ID}`,
-        '- Publisher: Vladimir Ivakhnenko (c-basso)',
+        `${appName} (App Store name "Vintage Photo Filter – Halatto") is an iPhone photo editor for photos already in the library. Each of its 14 looks simulates a whole old camera: film or sensor color, grain or noise, lens softness, vignette, flare and light leaks. Aging, flash, a frame and an orange date stamp go on top. Photos are edited on the iPhone, with no account and nothing uploaded. Free to try with a daily limit; iPhone only, iOS 18.6 or later.`,
         '',
-        '## By the numbers',
-        ...(rating ? [`- App Store rating: ${rating.ratingValue} out of 5 from ${rating.ratingCount} ratings`] : []),
-        '- Requires iOS 18.6 or later (iPhone only); 89.3 MB download',
-        '- App localized in 31 languages',
-        '- Price: free to download; every look and effect works up to a daily limit; a subscription or lifetime in-app purchase removes the limit',
-        '- On the App Store since November 2026',
-        `- Website locales: ${localesCount} language-specific pages`,
-        `- Public website: ${SITE_URL}`,
-        `- Last website build date: ${lastUpdated}`,
+        '## Product',
         '',
-        '## Main sections',
-        `- [Home](${SITE_URL}): Product overview, the 14 looks, screenshots, how it works, FAQ, and App Store link`,
-        `- [FAQ](${SITE_URL}#faq): Direct answers to common product questions`,
-        ...(guides.length ? [`- [Guides](${GUIDES_HUB_URL}): Step-by-step how-to articles, one per use case`] : []),
+        `- [Home](${SITE_URL}): Product overview, the 14 camera looks, a before/after example, screenshots and how it works`,
+        `- [App Store listing](${campaignUrl(DEFAULT_LANGUAGE, 'llms', 'index')}): Download ${appName}; price, requirements and languages`,
+        `- [Full product facts](${fullUrl}): Every look and tool, pricing, requirements and all questions with answers in one file`,
+        '',
+        ...(guides.length
+            ? [
+                '## Guides',
+                '',
+                `- [All guides](${GUIDES_HUB_URL}): Step-by-step how-to articles, each with a before/after example`,
+                ...guides.map((guide) => guideLink(guide)),
+                ''
+            ]
+            : []),
+        ...localizedGuideSections(guideLink),
+        '## Frequently asked questions',
+        '',
+        ...faqs.map((faq) => `- [${faq.question}](${faq.url}): ${faq.answer}`),
+        `- [Is there an Android version?](${SITE_URL}#faq): No. ${appName} is published for iPhone on the Apple App Store only.`,
+        '',
+        '## Policies',
+        '',
         `- [Privacy policy](${privacyUrl}): Data and privacy details`,
-        `- [Terms of service](${termsUrl}): Legal terms`,
+        `- [Terms of use](${termsUrl}): Legal terms`,
         '',
-        ...guideLines,
-        ...localizedGuideLines,
-        '## Language pages',
-        ...ALTERNATE_LANGUAGE_LINKS.map(({ hreflang, url }) => `- [${hreflang}](${url})`),
-        '',
-        '## LLM-ready Q&A facts',
-        `### What is ${appName}?`,
-        `${appName} is an iPhone photo editor (App Store name "Vintage Photo Filter – Halatto") that makes existing photos look like they were shot on film or an old camera. Each of its 14 looks simulates a whole camera: film or sensor color, grain or noise, and lens softness, vignette, flare and light leaks.`,
-        '',
-        '### Does it upload my photos?',
-        'No. Photos are edited on the iPhone, with no account, and nothing is uploaded.',
-        '',
-        '### Can it add a date stamp?',
-        'Yes. The orange, film-camera style date is taken from the day the photo was shot; corner, direction, color and size are adjustable.',
-        '',
-        '### Can it edit many photos at once?',
-        'Yes. Save an edit as a recipe, or use Develop the Roll to put one look on a whole set of photos at once.',
-        '',
-        '### Does it work on photos already in my library?',
-        'Yes, it is built for them. A built-in camera can also shoot new photos with the look applied live.',
-        '',
-        '### Is it free?',
-        'Free to download. Every look, filter and effect works up to a daily limit; a subscription or lifetime purchase removes the limit.',
-        '',
-        '### Where can users download it?',
-        `From the Apple App Store: ${APP_STORE_URL}.`,
-        '',
-        '### Is there an Android version?',
-        'No. Halatto is published for iPhone on the Apple App Store only.',
-        '',
-        '## Contact and policies',
-        `- Website: ${SITE_URL}`,
-        `- Privacy: ${privacyUrl}`,
-        `- Terms: ${termsUrl}`,
-        '',
-        `Last updated: ${lastUpdated}`
+        ...(social.length
+            ? ['## Optional', '', ...social.map((link) => `- [${appName} on ${link.name}](${link.url}): Photos edited with ${appName}`), '']
+            : [])
     ];
 
-    fs.writeFileSync(LLMS_PATH, `${lines.join('\n')}\n`, 'utf8');
-    console.log('✅ Successfully built llms.txt file');
+    const full = [
+        `# ${appName}: full product facts`,
+        '',
+        `> ${description}`,
+        '',
+        `Companion to [llms.txt](${SITE_URL}llms.txt). Last updated: ${BUILD_DATE_ISO}.`,
+        '',
+        '## Product',
+        '',
+        `- Name: ${appName} (App Store title "Vintage Photo Filter – Halatto", subtitle "Film Grain & Old Camera Editor")`,
+        '- Category: iOS app, App Store categories Graphics & Design and Utilities (vintage photo filter / film photo editor)',
+        '- Primary use case: make a photo you already have look like it was shot on film or an old camera (35mm, disposable, instant, toy camera, 90s point-and-shoot, Y2K digicam)',
+        '- Processing: on the iPhone, no account, nothing uploaded',
+        '- Publisher: Vladimir Ivakhnenko (c-basso)',
+        `- Website: ${SITE_URL}`,
+        `- App Store: ${campaignUrl(DEFAULT_LANGUAGE, 'llms', 'full')} (App Store id ${APP_ID})`,
+        ...social.map((link) => `- ${link.name}: ${link.url}`),
+        '',
+        '## Looks',
+        '',
+        '14 looks in 5 groups. Each recreates a kind of camera, its film or sensor and its lens, not only a color grade.',
+        '',
+        ...(defaultLocaleData.looks?.groups || []).flatMap((group) => [
+            `- ${stripHtml(group.name)}: ${(group.items || []).map((item) => `${stripHtml(item.name)} (${stripHtml(item.text).replace(/\.$/, '')})`).join('; ')}`
+        ]),
+        '',
+        '## Tools',
+        '',
+        '- Per look: strength, grain and film age',
+        '- Aging: fade, sunlight, yellowing, unevenness, dust, stains and creases; presets such as Shoebox and Faded print',
+        '- Light Leak: Edge, Window or Burn, in soft red, orange or golden',
+        '- Flash: Retro, Digital or Tanning, with intensity',
+        '- Date stamp: the orange film-camera date from the day the photo was taken; corner, direction, color and size',
+        '- Frame: puts the photo on a card, including instant cards (Instant, Mini, Wide)',
+        '- Crop, color and light adjustments',
+        '- Save as Recipe: keep an edit and apply it to other photos; Develop the Roll puts one look on many photos at once',
+        '- Before-and-after video export in Original, 9:16, 4:5 or 1:1',
+        '- Built-in camera with the look applied live; reopen an edit later; open a photo from the Photos share sheet',
+        '',
+        '## Pricing and availability',
+        '',
+        ...(rating ? [`- App Store rating: ${rating.ratingValue} out of 5 from ${rating.ratingCount} ratings`] : []),
+        '- Free to download; every look and effect works up to a daily limit; a subscription or lifetime in-app purchase removes the limit',
+        '- iPhone only; requires iOS 18.6 or later; 89.3 MB download',
+        '- No Android version',
+        '- App localized in 31 languages',
+        '- On the App Store since November 2026',
+        '',
+        '## Questions and answers',
+        '',
+        ...faqs.flatMap((faq) => [`### ${faq.question}`, faq.answer, `More: ${faq.url}`, '']),
+        '### Is there an Android version?',
+        `No. ${appName} is published for iPhone on the Apple App Store only.`,
+        '',
+        ...(guides.length
+            ? [
+                '## Guides',
+                '',
+                ...guides.flatMap((guide) => [
+                    `### ${stripHtml(guide.h1)}`,
+                    stripHtml(guide.quick_answer),
+                    `Guide: ${guideUrlForSlug(guide.slug)}`,
+                    ''
+                ])
+            ]
+            : []),
+        '## Policies',
+        '',
+        `- Privacy: ${privacyUrl}`,
+        `- Terms: ${termsUrl}`
+    ];
+
+    fs.writeFileSync(LLMS_PATH, `${index.join('\n').replace(/\n+$/, '')}\n`, 'utf8');
+    fs.writeFileSync(LLMS_FULL_PATH, `${full.join('\n').replace(/\n+$/, '')}\n`, 'utf8');
+    console.log('✅ Successfully built llms.txt and llms-full.txt');
     console.log(`📁 Output saved to: ${LLMS_PATH}`);
     console.log();
 }
@@ -1078,10 +1126,16 @@ function attachGuideCards(data, guidesByLang, lang) {
         if (slug && bySlug.has(slug)) {
             faq.learn_more_url = guideUrlForSlug(slug, lang) + (anchor ? `#${anchor}` : '');
             faq.learn_more_title = bySlug.get(slug).h1;
+            // The link text names its destination ("Guide: Disposable camera filter on iPhone"), not "Learn more".
+            const linked = bySlug.get(slug);
+            faq.learn_more_text = fillLabel(data.faq_section?.learn_more_guide || 'Guide: {title}', { title: linked.card_title || linked.h1 });
         } else if (slug) {
             console.warn(`Warning [${lang}]: FAQ links to unknown guide "${slug}"`);
         }
         // Otherwise an explicit `learn_more_url` / `learn_more_title` in the locale JSON is kept as-is.
+        if (faq.learn_more_url && !faq.learn_more_text) {
+            faq.learn_more_text = faq.learn_more_title || data.faq_section?.learn_more_label;
+        }
     }
 }
 
@@ -1151,6 +1205,12 @@ function guideLabels(siteData) {
     return siteData.guides?.labels || {};
 }
 
+/** Guide author from en.json `guides.author` ({ name, url }); null when it is not set. */
+function guideAuthor(siteData) {
+    const author = siteData.guides?.author;
+    return author?.name ? { '@type': 'Person', name: author.name, ...(author.url ? { url: author.url } : {}) } : null;
+}
+
 function buildGuideStructuredData(guide, siteData, lang) {
     const url = guideUrlForSlug(guide.slug, lang);
     const homeUrl = siteData.nav?.home_url || SITE_URL;
@@ -1172,7 +1232,8 @@ function buildGuideStructuredData(guide, siteData, lang) {
             headline: stripHtml(guide.h1),
             description: stripHtml(guide.description),
             image: articleImages,
-            author: publisher,
+            // The person who writes and tests the guides (visible in the byline); the organisation is the publisher.
+            author: guideAuthor(siteData) || publisher,
             publisher,
             datePublished: guide.published || guideUpdatedIso(guide),
             dateModified: guideUpdatedIso(guide),

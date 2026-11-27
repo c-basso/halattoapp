@@ -425,17 +425,23 @@
       "ba_alt_after": "{subject} with the {look} look applied in Halatto",
       "top_cta_note": "Free to try. No account, nothing uploaded.",
       "ba_alt_after_edit": "{subject}, edited in Halatto: {look}",
-      "ba_thumb_alt": "Before and after: {look}"
+      "ba_thumb_alt": "Before and after: {look}",
+      "by": "By"
     },
     "default_cta": {
       "title": "Do it in Halatto",
       "text": "Free to try. Open a photo, pick a camera."
+    },
+    "author": {
+      "name": "Vladimir Ivakhnenko",
+      "url": "https://apps.apple.com/developer/id1239180595"
     }
   },
   "faq_section": {
     "eyebrow": "FAQ",
     "intro": "Short answers first. Each one links to a full step-by-step guide.",
-    "learn_more_label": "Learn more"
+    "learn_more_label": "Learn more",
+    "learn_more_guide": "Guide: {title}"
   },
   "cta": {
     "eyebrow": "Get the app",
@@ -492,7 +498,7 @@
       },
       {
         "question": "Is there a disposable camera filter for photos I already took?",
-        "answer": "Yes. Most disposable camera apps only work when you shoot in them. In Halatto you open any photo from your library and choose Snap 400 or Snap Gold, then add the flash and the orange date stamp.",
+        "answer": "Yes. Many disposable camera apps only work when you shoot in them. In Halatto you open any photo from your library and choose Snap 400 or Snap Gold, then add the flash and the orange date stamp.",
         "guide": "disposable-camera-filter-on-iphone"
       },
       {
@@ -534,7 +540,7 @@
         "question": "Is Halatto free, and which devices does it run on?",
         "answer": "It is free to download, and every look and effect works up to a daily limit. A subscription or a lifetime purchase removes the limit. It requires iOS 18.6 or later on iPhone; there is no Android version.",
         "learn_more_url": "__APP_STORE_URL__",
-        "learn_more_title": "Halatto on the App Store: price, devices and screenshots"
+        "learn_more_title": "Halatto on the App Store: price and requirements"
       }
     ],
     "structured_data": {
